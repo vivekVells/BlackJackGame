@@ -1,0 +1,5 @@
+1. Why is the correlation matrix only half-filled in? Why is it lower-triangular?
+	- Because lower-triangular filled will be the same as upper-triangular value. 
+
+2. What are your general conclusions about M, instructions, and LOC?
+	- As per the statistics studies, all M, instructions and LOC are strongly correlated. 
