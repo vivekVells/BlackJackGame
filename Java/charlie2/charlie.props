@@ -7,3 +7,4 @@ charlie.shoe charlie.card.Shoe01
 #charlie.bot.huey charlie.bot.server.Huey
 #charlie.bot.dewey charlie.bot.server.Dewey
 charlie.advisor mycharlie.plugin.HumanAdvisor
+charlie.trap charlie.client.Trap
