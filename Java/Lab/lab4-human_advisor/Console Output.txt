@@ -1,0 +1,1796 @@
+ant -f C:\\Users\\maristuser\\Downloads\\BlackJackGame-master\\Java\\charlie2 -Djavac.includes=charlie/GameFrame.java -Dnb.internal.action.name=run.single -Drun.class=charlie.GameFrame run-single
+init:
+Deleting: C:\Users\maristuser\Downloads\BlackJackGame-master\Java\charlie2\build\built-jar.properties
+deps-jar:
+Updating property file: C:\Users\maristuser\Downloads\BlackJackGame-master\Java\charlie2\build\built-jar.properties
+Compiling 1 source file to C:\Users\maristuser\Downloads\BlackJackGame-master\Java\charlie2\build\classes
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+compile-single:
+run-single:
+client started
+advisor plugin detected: mycharlie.plugin.HumanAdvisor
+loaded advisor successfully
+init done
+sent login request
+received ticket BB20B45FD4D95138
+login successful
+Courier waiting for connection on port 8001
+Arriver sending Arrival to 127.0.0.1:1235
+Arriver sent successfully Arrival to 127.0.0.1:1235
+Arriver sent arrival message
+Courier accepted connection on port 8001
+Courier received message Ready
+Courier invoking listener for Ready
+received Ready from LBESCRIP-46/10.128.150.80
+connected to courier with bankroll = 1000.0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 52
+starting hand: LBESCRIP-46:YOU:4A7B39841EE51E8E
+starting hand: LBESCRIP-46:DEALER:146A5B26E82B382C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S2 values = 2/2 hid = LBESCRIP-46:YOU:4A7B39841EE51E8E
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HK values = 0/0 hid = LBESCRIP-46:DEALER:146A5B26E82B382C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S6 values = 8/8 hid = LBESCRIP-46:YOU:4A7B39841EE51E8E
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C10 values = 10/10 hid = LBESCRIP-46:DEALER:146A5B26E82B382C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:4A7B39841EE51E8E
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DK values = 18/18 hid = LBESCRIP-46:YOU:4A7B39841EE51E8E
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:146A5B26E82B382C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 20/20 hid = LBESCRIP-46:DEALER:146A5B26E82B382C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:4A7B39841EE51E8E amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 47
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 47
+starting hand: LBESCRIP-46:YOU:3428BF6F6B95D1F8
+starting hand: LBESCRIP-46:DEALER:1A81E000FCD09731
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S3 values = 3/3 hid = LBESCRIP-46:YOU:3428BF6F6B95D1F8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HQ values = 0/0 hid = LBESCRIP-46:DEALER:1A81E000FCD09731
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HJ values = 13/13 hid = LBESCRIP-46:YOU:3428BF6F6B95D1F8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H4 values = 4/4 hid = LBESCRIP-46:DEALER:1A81E000FCD09731
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:3428BF6F6B95D1F8
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D9 values = 22/22 hid = LBESCRIP-46:YOU:3428BF6F6B95D1F8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:3428BF6F6B95D1F8 amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:1A81E000FCD09731
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 14/14 hid = LBESCRIP-46:DEALER:1A81E000FCD09731
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 42
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 42
+starting hand: LBESCRIP-46:YOU:5CD2789BBE28F0A4
+starting hand: LBESCRIP-46:DEALER:1AC3B106D414FEE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C6 values = 6/6 hid = LBESCRIP-46:YOU:5CD2789BBE28F0A4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S4 values = 0/0 hid = LBESCRIP-46:DEALER:1AC3B106D414FEE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CJ values = 16/16 hid = LBESCRIP-46:YOU:5CD2789BBE28F0A4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C4 values = 4/4 hid = LBESCRIP-46:DEALER:1AC3B106D414FEE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:5CD2789BBE28F0A4
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:1AC3B106D414FEE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 8/8 hid = LBESCRIP-46:DEALER:1AC3B106D414FEE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H5 values = 13/13 hid = LBESCRIP-46:DEALER:1AC3B106D414FEE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 22/22 hid = LBESCRIP-46:DEALER:1AC3B106D414FEE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = LBESCRIP-46:YOU:5CD2789BBE28F0A4 amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 36
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 36
+starting hand: LBESCRIP-46:YOU:640C16C199B4A91
+starting hand: LBESCRIP-46:DEALER:1CBB25ADF48B1D72
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C2 values = 2/2 hid = LBESCRIP-46:YOU:640C16C199B4A91
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CA values = 0/0 hid = LBESCRIP-46:DEALER:1CBB25ADF48B1D72
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D2 values = 4/4 hid = LBESCRIP-46:YOU:640C16C199B4A91
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H9 values = 9/9 hid = LBESCRIP-46:DEALER:1CBB25ADF48B1D72
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:640C16C199B4A91
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SQ values = 14/14 hid = LBESCRIP-46:YOU:640C16C199B4A91
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DA values = 15/15 hid = LBESCRIP-46:YOU:640C16C199B4A91
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:1CBB25ADF48B1D72
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 10/20 hid = LBESCRIP-46:DEALER:1CBB25ADF48B1D72
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:640C16C199B4A91 amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 30
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 30
+starting hand: LBESCRIP-46:YOU:DD834AF160592A0
+starting hand: LBESCRIP-46:DEALER:228FAA1D69714875
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C8 values = 8/8 hid = LBESCRIP-46:YOU:DD834AF160592A0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H7 values = 0/0 hid = LBESCRIP-46:DEALER:228FAA1D69714875
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C5 values = 13/13 hid = LBESCRIP-46:YOU:DD834AF160592A0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D10 values = 10/10 hid = LBESCRIP-46:DEALER:228FAA1D69714875
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:DD834AF160592A0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D4 values = 17/17 hid = LBESCRIP-46:YOU:DD834AF160592A0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:228FAA1D69714875
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 17/17 hid = LBESCRIP-46:DEALER:228FAA1D69714875
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Push
+Courier invoking listener for Push
+received outcome = Push
+PUSH for hid = LBESCRIP-46:YOU:DD834AF160592A0 amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 25
+num hands = 2 wins = 0 loses = 0 pushes = 1
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 25
+starting hand: LBESCRIP-46:YOU:6869D86D5E81AE09
+starting hand: LBESCRIP-46:DEALER:336D9F26854DD6B9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H3 values = 3/3 hid = LBESCRIP-46:YOU:6869D86D5E81AE09
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SK values = 0/0 hid = LBESCRIP-46:DEALER:336D9F26854DD6B9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DJ values = 13/13 hid = LBESCRIP-46:YOU:6869D86D5E81AE09
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CQ values = 10/10 hid = LBESCRIP-46:DEALER:336D9F26854DD6B9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:6869D86D5E81AE09
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HA values = 14/14 hid = LBESCRIP-46:YOU:6869D86D5E81AE09
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D8 values = 22/22 hid = LBESCRIP-46:YOU:6869D86D5E81AE09
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:6869D86D5E81AE09 amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:336D9F26854DD6B9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 20/20 hid = LBESCRIP-46:DEALER:336D9F26854DD6B9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 19
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 19
+starting hand: LBESCRIP-46:YOU:2814FDB05551F160
+starting hand: LBESCRIP-46:DEALER:78070ABA0E625BC6
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C7 values = 7/7 hid = LBESCRIP-46:YOU:2814FDB05551F160
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H2 values = 0/0 hid = LBESCRIP-46:DEALER:78070ABA0E625BC6
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D5 values = 12/12 hid = LBESCRIP-46:YOU:2814FDB05551F160
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Shuffle
+Courier invoking listener for Shuffle
+received shuffle
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SA values = 1/11 hid = LBESCRIP-46:DEALER:78070ABA0E625BC6
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:2814FDB05551F160
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DQ values = 22/22 hid = LBESCRIP-46:YOU:2814FDB05551F160
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:2814FDB05551F160 amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:78070ABA0E625BC6
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 3/13 hid = LBESCRIP-46:DEALER:78070ABA0E625BC6
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 52
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 52
+starting hand: LBESCRIP-46:YOU:1A327B71214601FA
+starting hand: LBESCRIP-46:DEALER:552E6AFE7CB0D297
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DA values = 1/11 hid = LBESCRIP-46:YOU:1A327B71214601FA
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D2 values = 0/0 hid = LBESCRIP-46:DEALER:552E6AFE7CB0D297
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S5 values = 6/16 hid = LBESCRIP-46:YOU:1A327B71214601FA
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HJ values = 10/10 hid = LBESCRIP-46:DEALER:552E6AFE7CB0D297
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:1A327B71214601FA
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? P
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H4 values = 10/20 hid = LBESCRIP-46:YOU:1A327B71214601FA
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:552E6AFE7CB0D297
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 12/12 hid = LBESCRIP-46:DEALER:552E6AFE7CB0D297
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HQ values = 22/22 hid = LBESCRIP-46:DEALER:552E6AFE7CB0D297
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = LBESCRIP-46:YOU:1A327B71214601FA amt = 5.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 46
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 46
+starting hand: LBESCRIP-46:YOU:647432DF7A83472C
+starting hand: LBESCRIP-46:DEALER:2BE3DD5A191B85A1
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DJ values = 10/10 hid = LBESCRIP-46:YOU:647432DF7A83472C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D5 values = 0/0 hid = LBESCRIP-46:DEALER:2BE3DD5A191B85A1
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D3 values = 13/13 hid = LBESCRIP-46:YOU:647432DF7A83472C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C6 values = 6/6 hid = LBESCRIP-46:DEALER:2BE3DD5A191B85A1
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:647432DF7A83472C
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? D
+Courier sending DoubleDown to 127.0.0.1:8501
+Courier sent successfully DoubleDown to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C10 values = 23/23 hid = LBESCRIP-46:YOU:647432DF7A83472C
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:647432DF7A83472C amt = 110.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:2BE3DD5A191B85A1
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 11/11 hid = LBESCRIP-46:DEALER:2BE3DD5A191B85A1
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 41
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 41
+starting hand: LBESCRIP-46:YOU:7E3239803D1B1AA9
+starting hand: LBESCRIP-46:DEALER:771524A13AE5627B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D6 values = 6/6 hid = LBESCRIP-46:YOU:7E3239803D1B1AA9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C4 values = 0/0 hid = LBESCRIP-46:DEALER:771524A13AE5627B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D9 values = 15/15 hid = LBESCRIP-46:YOU:7E3239803D1B1AA9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SJ values = 10/10 hid = LBESCRIP-46:DEALER:771524A13AE5627B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:7E3239803D1B1AA9
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C2 values = 17/17 hid = LBESCRIP-46:YOU:7E3239803D1B1AA9
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 26/26 hid = LBESCRIP-46:YOU:7E3239803D1B1AA9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:7E3239803D1B1AA9 amt = 55.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:771524A13AE5627B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 14/14 hid = LBESCRIP-46:DEALER:771524A13AE5627B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 35
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 35
+starting hand: LBESCRIP-46:YOU:46BF68B51FA6ABD0
+starting hand: LBESCRIP-46:DEALER:45E9A5609E8AAA67
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C9 values = 9/9 hid = LBESCRIP-46:YOU:46BF68B51FA6ABD0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CJ values = 0/0 hid = LBESCRIP-46:DEALER:45E9A5609E8AAA67
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SA values = 10/20 hid = LBESCRIP-46:YOU:46BF68B51FA6ABD0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D4 values = 4/4 hid = LBESCRIP-46:DEALER:45E9A5609E8AAA67
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:46BF68B51FA6ABD0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:45E9A5609E8AAA67
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 14/14 hid = LBESCRIP-46:DEALER:45E9A5609E8AAA67
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DK values = 24/24 hid = LBESCRIP-46:DEALER:45E9A5609E8AAA67
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = LBESCRIP-46:YOU:46BF68B51FA6ABD0 amt = 55.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 30
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 30
+starting hand: LBESCRIP-46:YOU:4D321E8118729E8D
+starting hand: LBESCRIP-46:DEALER:4115C33354DBD18F
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DQ values = 10/10 hid = LBESCRIP-46:YOU:4D321E8118729E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SK values = 0/0 hid = LBESCRIP-46:DEALER:4115C33354DBD18F
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HA values = 11/21 hid = LBESCRIP-46:YOU:4D321E8118729E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Blackjack
+Courier invoking listener for Blackjack
+received outcome = Blackjack
+BJ for hid = LBESCRIP-46:YOU:4D321E8118729E8D amt = 382.5
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 10/10 hid = LBESCRIP-46:DEALER:4115C33354DBD18F
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:4115C33354DBD18F
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 20/20 hid = LBESCRIP-46:DEALER:4115C33354DBD18F
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 26
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 26
+starting hand: LBESCRIP-46:YOU:7FD8CB375E6A2523
+starting hand: LBESCRIP-46:DEALER:D63B3189D0F3210
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C8 values = 8/8 hid = LBESCRIP-46:YOU:7FD8CB375E6A2523
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H5 values = 0/0 hid = LBESCRIP-46:DEALER:D63B3189D0F3210
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S4 values = 12/12 hid = LBESCRIP-46:YOU:7FD8CB375E6A2523
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H8 values = 8/8 hid = LBESCRIP-46:DEALER:D63B3189D0F3210
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:7FD8CB375E6A2523
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S6 values = 18/18 hid = LBESCRIP-46:YOU:7FD8CB375E6A2523
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:D63B3189D0F3210
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 13/13 hid = LBESCRIP-46:DEALER:D63B3189D0F3210
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H10 values = 23/23 hid = LBESCRIP-46:DEALER:D63B3189D0F3210
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = LBESCRIP-46:YOU:7FD8CB375E6A2523 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 20
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 20
+starting hand: LBESCRIP-46:YOU:BBF43BE9DBC624E
+starting hand: LBESCRIP-46:DEALER:19290B6B3AE0FD12
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H6 values = 6/6 hid = LBESCRIP-46:YOU:BBF43BE9DBC624E
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SQ values = 0/0 hid = LBESCRIP-46:DEALER:19290B6B3AE0FD12
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Shuffle
+Courier invoking listener for Shuffle
+received shuffle
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H9 values = 15/15 hid = LBESCRIP-46:YOU:BBF43BE9DBC624E
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CA values = 1/11 hid = LBESCRIP-46:DEALER:19290B6B3AE0FD12
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:19290B6B3AE0FD12
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 11/21 hid = LBESCRIP-46:DEALER:19290B6B3AE0FD12
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:BBF43BE9DBC624E amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 52
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 52
+starting hand: LBESCRIP-46:YOU:7450B7AA307115E9
+starting hand: LBESCRIP-46:DEALER:21B4A3460C3DBD24
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S2 values = 2/2 hid = LBESCRIP-46:YOU:7450B7AA307115E9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H7 values = 0/0 hid = LBESCRIP-46:DEALER:21B4A3460C3DBD24
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S4 values = 6/6 hid = LBESCRIP-46:YOU:7450B7AA307115E9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CA values = 1/11 hid = LBESCRIP-46:DEALER:21B4A3460C3DBD24
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:7450B7AA307115E9
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H8 values = 14/14 hid = LBESCRIP-46:YOU:7450B7AA307115E9
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H6 values = 20/20 hid = LBESCRIP-46:YOU:7450B7AA307115E9
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:21B4A3460C3DBD24
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 8/18 hid = LBESCRIP-46:DEALER:21B4A3460C3DBD24
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = LBESCRIP-46:YOU:7450B7AA307115E9 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 46
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 46
+starting hand: LBESCRIP-46:YOU:2B8E6FE055AC44E4
+starting hand: LBESCRIP-46:DEALER:5A925269C697AAE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H5 values = 5/5 hid = LBESCRIP-46:YOU:2B8E6FE055AC44E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D5 values = 0/0 hid = LBESCRIP-46:DEALER:5A925269C697AAE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S8 values = 13/13 hid = LBESCRIP-46:YOU:2B8E6FE055AC44E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C5 values = 5/5 hid = LBESCRIP-46:DEALER:5A925269C697AAE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:2B8E6FE055AC44E4
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? D
+Courier sending DoubleDown to 127.0.0.1:8501
+Courier sent successfully DoubleDown to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DK values = 23/23 hid = LBESCRIP-46:YOU:2B8E6FE055AC44E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:2B8E6FE055AC44E4 amt = 510.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:5A925269C697AAE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 10/10 hid = LBESCRIP-46:DEALER:5A925269C697AAE8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 41
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 41
+starting hand: LBESCRIP-46:YOU:76FCDAAFC03C151D
+starting hand: LBESCRIP-46:DEALER:1AE2B86428E73559
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DQ values = 10/10 hid = LBESCRIP-46:YOU:76FCDAAFC03C151D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H9 values = 0/0 hid = LBESCRIP-46:DEALER:1AE2B86428E73559
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C8 values = 18/18 hid = LBESCRIP-46:YOU:76FCDAAFC03C151D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CQ values = 10/10 hid = LBESCRIP-46:DEALER:1AE2B86428E73559
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:76FCDAAFC03C151D
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:1AE2B86428E73559
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 19/19 hid = LBESCRIP-46:DEALER:1AE2B86428E73559
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:76FCDAAFC03C151D amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 37
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 37
+starting hand: LBESCRIP-46:YOU:164EA2E0ED32A269
+starting hand: LBESCRIP-46:DEALER:2EC816388F0ABFF7
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S3 values = 3/3 hid = LBESCRIP-46:YOU:164EA2E0ED32A269
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D10 values = 0/0 hid = LBESCRIP-46:DEALER:2EC816388F0ABFF7
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D4 values = 7/7 hid = LBESCRIP-46:YOU:164EA2E0ED32A269
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C7 values = 7/7 hid = LBESCRIP-46:DEALER:2EC816388F0ABFF7
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:164EA2E0ED32A269
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D2 values = 9/9 hid = LBESCRIP-46:YOU:164EA2E0ED32A269
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C4 values = 13/13 hid = LBESCRIP-46:YOU:164EA2E0ED32A269
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 22/22 hid = LBESCRIP-46:YOU:164EA2E0ED32A269
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:164EA2E0ED32A269 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:2EC816388F0ABFF7
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 17/17 hid = LBESCRIP-46:DEALER:2EC816388F0ABFF7
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 30
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 30
+starting hand: LBESCRIP-46:YOU:47831E2ED0925472
+starting hand: LBESCRIP-46:DEALER:7C58DF3EFC625A90
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D6 values = 6/6 hid = LBESCRIP-46:YOU:47831E2ED0925472
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HQ values = 0/0 hid = LBESCRIP-46:DEALER:7C58DF3EFC625A90
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HA values = 7/17 hid = LBESCRIP-46:YOU:47831E2ED0925472
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D9 values = 9/9 hid = LBESCRIP-46:DEALER:7C58DF3EFC625A90
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:47831E2ED0925472
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:7C58DF3EFC625A90
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 19/19 hid = LBESCRIP-46:DEALER:7C58DF3EFC625A90
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:47831E2ED0925472 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 26
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 26
+starting hand: LBESCRIP-46:YOU:3C414D8DFFC57587
+starting hand: LBESCRIP-46:DEALER:168B56BC2A6F742
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S5 values = 5/5 hid = LBESCRIP-46:YOU:3C414D8DFFC57587
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C3 values = 0/0 hid = LBESCRIP-46:DEALER:168B56BC2A6F742
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H3 values = 8/8 hid = LBESCRIP-46:YOU:3C414D8DFFC57587
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SJ values = 10/10 hid = LBESCRIP-46:DEALER:168B56BC2A6F742
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:3C414D8DFFC57587
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CJ values = 18/18 hid = LBESCRIP-46:YOU:3C414D8DFFC57587
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:168B56BC2A6F742
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 13/13 hid = LBESCRIP-46:DEALER:168B56BC2A6F742
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D7 values = 20/20 hid = LBESCRIP-46:DEALER:168B56BC2A6F742
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:3C414D8DFFC57587 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 20
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 20
+starting hand: LBESCRIP-46:YOU:393C13310C3B8E62
+starting hand: LBESCRIP-46:DEALER:56EF11C105399B52
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DJ values = 10/10 hid = LBESCRIP-46:YOU:393C13310C3B8E62
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H2 values = 0/0 hid = LBESCRIP-46:DEALER:56EF11C105399B52
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C10 values = 20/20 hid = LBESCRIP-46:YOU:393C13310C3B8E62
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H4 values = 4/4 hid = LBESCRIP-46:DEALER:56EF11C105399B52
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:393C13310C3B8E62
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:56EF11C105399B52
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 6/6 hid = LBESCRIP-46:DEALER:56EF11C105399B52
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S10 values = 16/16 hid = LBESCRIP-46:DEALER:56EF11C105399B52
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Shuffle
+Courier invoking listener for Shuffle
+received shuffle
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D3 values = 19/19 hid = LBESCRIP-46:DEALER:56EF11C105399B52
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = LBESCRIP-46:YOU:393C13310C3B8E62 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 52
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 52
+starting hand: LBESCRIP-46:YOU:654208F3602FC857
+starting hand: LBESCRIP-46:DEALER:6531EC696748570A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C6 values = 6/6 hid = LBESCRIP-46:YOU:654208F3602FC857
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D10 values = 0/0 hid = LBESCRIP-46:DEALER:6531EC696748570A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S6 values = 12/12 hid = LBESCRIP-46:YOU:654208F3602FC857
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SK values = 10/10 hid = LBESCRIP-46:DEALER:6531EC696748570A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:654208F3602FC857
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 22/22 hid = LBESCRIP-46:YOU:654208F3602FC857
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:654208F3602FC857 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:6531EC696748570A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 20/20 hid = LBESCRIP-46:DEALER:6531EC696748570A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 47
+num hands = 2 wins = 0 loses = 1 pushes = 0
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 47
+starting hand: LBESCRIP-46:YOU:34869F577DDBE7A
+starting hand: LBESCRIP-46:DEALER:7BBEE9B45BC4FB5B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C2 values = 2/2 hid = LBESCRIP-46:YOU:34869F577DDBE7A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S2 values = 0/0 hid = LBESCRIP-46:DEALER:7BBEE9B45BC4FB5B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HJ values = 12/12 hid = LBESCRIP-46:YOU:34869F577DDBE7A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D7 values = 7/7 hid = LBESCRIP-46:DEALER:7BBEE9B45BC4FB5B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:34869F577DDBE7A
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D3 values = 15/15 hid = LBESCRIP-46:YOU:34869F577DDBE7A
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H7 values = 22/22 hid = LBESCRIP-46:YOU:34869F577DDBE7A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Bust
+Courier invoking listener for Bust
+received outcome = Bust
+BUST for hid = LBESCRIP-46:YOU:34869F577DDBE7A amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:7BBEE9B45BC4FB5B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 9/9 hid = LBESCRIP-46:DEALER:7BBEE9B45BC4FB5B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 41
+num hands = 2 wins = 0 loses = 1 pushes = 0
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 41
+starting hand: LBESCRIP-46:YOU:1B2D8B6DE61BBC6
+starting hand: LBESCRIP-46:DEALER:7EBF182AED60EF3D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D5 values = 5/5 hid = LBESCRIP-46:YOU:1B2D8B6DE61BBC6
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H4 values = 0/0 hid = LBESCRIP-46:DEALER:7EBF182AED60EF3D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SA values = 6/16 hid = LBESCRIP-46:YOU:1B2D8B6DE61BBC6
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H5 values = 5/5 hid = LBESCRIP-46:DEALER:7EBF182AED60EF3D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:1B2D8B6DE61BBC6
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:7EBF182AED60EF3D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 9/9 hid = LBESCRIP-46:DEALER:7EBF182AED60EF3D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C8 values = 17/17 hid = LBESCRIP-46:DEALER:7EBF182AED60EF3D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:1B2D8B6DE61BBC6 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 36
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 36
+starting hand: LBESCRIP-46:YOU:2CA510C15A0DCD28
+starting hand: LBESCRIP-46:DEALER:47A0A6CDDC6526E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SQ values = 10/10 hid = LBESCRIP-46:YOU:2CA510C15A0DCD28
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H3 values = 0/0 hid = LBESCRIP-46:DEALER:47A0A6CDDC6526E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H10 values = 20/20 hid = LBESCRIP-46:YOU:2CA510C15A0DCD28
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C9 values = 9/9 hid = LBESCRIP-46:DEALER:47A0A6CDDC6526E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:2CA510C15A0DCD28
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:47A0A6CDDC6526E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 12/12 hid = LBESCRIP-46:DEALER:47A0A6CDDC6526E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S5 values = 17/17 hid = LBESCRIP-46:DEALER:47A0A6CDDC6526E4
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = LBESCRIP-46:YOU:2CA510C15A0DCD28 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 31
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 31
+starting hand: LBESCRIP-46:YOU:7742C0F4D5092644
+starting hand: LBESCRIP-46:DEALER:77B991C03B50E4DB
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 9/9 hid = LBESCRIP-46:YOU:7742C0F4D5092644
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HA values = 0/0 hid = LBESCRIP-46:DEALER:77B991C03B50E4DB
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H9 values = 18/18 hid = LBESCRIP-46:YOU:7742C0F4D5092644
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D8 values = 8/8 hid = LBESCRIP-46:DEALER:77B991C03B50E4DB
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:YOU:7742C0F4D5092644
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = LBESCRIP-46:DEALER:77B991C03B50E4DB
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 9/19 hid = LBESCRIP-46:DEALER:77B991C03B50E4DB
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Loose
+Courier invoking listener for Loose
+received outcome = Loose
+LOOSE for hid = LBESCRIP-46:YOU:7742C0F4D5092644 amt = 255.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 27
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+BUILD SUCCESSFUL (total time: 15 minutes 15 seconds)
