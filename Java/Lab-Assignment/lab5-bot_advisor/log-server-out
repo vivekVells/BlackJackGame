@@ -1,0 +1,381 @@
+ant -f "D:\\thiswill be the github folder\\BlackJackGame\\Java\\charlie2" -Djavac.includes=charlie/server/GameServer.java -Dnb.internal.action.name=run.single -Drun.class=charlie.server.GameServer run-single
+init:
+deps-jar:
+Updating property file: D:\thiswill be the github folder\BlackJackGame\Java\charlie2\build\built-jar.properties
+Compiling 1 source file to D:\thiswill be the github folder\BlackJackGame\Java\charlie2\build\classes
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+compile-single:
+run-single:
+game server started
+house started
+House waiting for connection on port 1235
+got login
+validated ticket BB20B45FD4D95138 login successful!
+ServerAuthenticator sent ticket to client
+House accepted connection on port 1235
+House received message Arrival
+House invoking listener for Arrival
+validated ticket = BB20B45FD4D95138
+arrival from LBESCRIP-36/10.128.151.177
+using scenario = 'charlie.card.Shoe01'
+shuffling burn index = 39
+shoe = charlie.card.Shoe01: D3 HA C5 H10 SA D10 SJ C10 C8 H9 H7 C9 H4 S8 C6 
+RealPlayer sending Ready to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer sent successfully Ready to 10.128.151.177:8001
+House waiting for connection on port 1235
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:5554CACF03C7126E
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 10.128.151.177:8001
+RealPlayer sent successfully GameStart to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 0
+index = 1 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = D3
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 1
+index = 2 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 2
+index = 3 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = C5
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 3
+index = 4 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending Loose to 10.128.151.177:8001
+RealPlayer sent successfully Loose to 10.128.151.177:8001
+RealPlayer sending GameOver to 10.128.151.177:8001
+RealPlayer sent successfully GameOver to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:1E37D1E7F4E1603A
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 10.128.151.177:8001
+RealPlayer sent successfully GameStart to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 4
+index = 5 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = SA
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 5
+index = 6 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 6
+index = 7 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = SJ
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending Blackjack to 10.128.151.177:8001
+RealPlayer sent successfully Blackjack to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 7
+index = 8 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+going to next hand
+active player = LBESCRIP-36/10.128.151.177
+going to next hand
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending GameOver to 10.128.151.177:8001
+RealPlayer sent successfully GameOver to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:1905D102E5D5560
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 10.128.151.177:8001
+RealPlayer sent successfully GameStart to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 8
+index = 9 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = C8
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 9
+index = 10 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 10
+index = 11 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = H7
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 11
+index = 12 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+going to next hand
+active player = LBESCRIP-36/10.128.151.177
+sending turn LBESCRIP-36:YOU:1905D102E5D5560 to LBESCRIP-36/10.128.151.177
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 39 index = 12
+index = 13 burnIndex = 39 shuffle needed = false
+hit hid = LBESCRIP-36:YOU:1905D102E5D5560 with H4
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for LBESCRIP-36:YOU:1905D102E5D5560
+going to next hand
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending Win to 10.128.151.177:8001
+RealPlayer sent successfully Win to 10.128.151.177:8001
+RealPlayer sending GameOver to 10.128.151.177:8001
+RealPlayer sent successfully GameOver to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:2467EA18A8C72B9
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 10.128.151.177:8001
+RealPlayer sent successfully GameStart to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 13
+index = 14 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = S8
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 14
+index = 15 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 15
+index = 16 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = DJ
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 16
+index = 17 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+going to next hand
+active player = LBESCRIP-36/10.128.151.177
+sending turn LBESCRIP-36:YOU:2467EA18A8C72B9 to LBESCRIP-36/10.128.151.177
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 39 index = 17
+index = 18 burnIndex = 39 shuffle needed = false
+hit hid = LBESCRIP-36:YOU:2467EA18A8C72B9 with D7
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending Bust to 10.128.151.177:8001
+RealPlayer sent successfully Bust to 10.128.151.177:8001
+going to next hand
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending GameOver to 10.128.151.177:8001
+RealPlayer sent successfully GameOver to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:334B54457321FEF1
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 10.128.151.177:8001
+RealPlayer sent successfully GameStart to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 18
+index = 19 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = DK
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 19
+index = 20 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 20
+index = 21 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = D6
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 21
+index = 22 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+going to next hand
+active player = LBESCRIP-36/10.128.151.177
+sending turn LBESCRIP-36:YOU:334B54457321FEF1 to LBESCRIP-36/10.128.151.177
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 39 index = 22
+index = 23 burnIndex = 39 shuffle needed = false
+hit hid = LBESCRIP-36:YOU:334B54457321FEF1 with C4
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for LBESCRIP-36:YOU:334B54457321FEF1
+going to next hand
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending Win to 10.128.151.177:8001
+RealPlayer sent successfully Win to 10.128.151.177:8001
+RealPlayer sending GameOver to 10.128.151.177:8001
+RealPlayer sent successfully GameOver to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:75C2D3FBF17D38C9
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 10.128.151.177:8001
+RealPlayer sent successfully GameStart to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 23
+index = 24 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = H8
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 24
+index = 25 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 25
+index = 26 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = H5
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 26
+index = 27 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+going to next hand
+active player = LBESCRIP-36/10.128.151.177
+sending turn LBESCRIP-36:YOU:75C2D3FBF17D38C9 to LBESCRIP-36/10.128.151.177
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message DoubleDown
+RealPlayer invoking listener for DoubleDown
+RealPlayer received request = DoubleDown
+got double down amt = 10.0 hid = LBESCRIP-36:YOU:75C2D3FBF17D38C9
+cards size = 52 burn index = 39 index = 27
+index = 28 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+going to next hand
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 28
+index = 29 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+RealPlayer sending Push to 10.128.151.177:8001
+RealPlayer sent successfully Push to 10.128.151.177:8001
+RealPlayer sending GameOver to 10.128.151.177:8001
+RealPlayer sent successfully GameOver to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:3CA8BD39D81AB4C1
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 10.128.151.177:8001
+RealPlayer sent successfully GameStart to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 29
+index = 30 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = D4
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 30
+index = 31 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 31
+index = 32 burnIndex = 39 shuffle needed = false
+dealing to LBESCRIP-36/10.128.151.177 card 1 = CA
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+cards size = 52 burn index = 39 index = 32
+index = 33 burnIndex = 39 shuffle needed = false
+RealPlayer sending Deal to 10.128.151.177:8001
+RealPlayer sent successfully Deal to 10.128.151.177:8001
+going to next hand
+active player = LBESCRIP-36/10.128.151.177
+sending turn LBESCRIP-36:YOU:3CA8BD39D81AB4C1 to LBESCRIP-36/10.128.151.177
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for LBESCRIP-36:YOU:3CA8BD39D81AB4C1
+going to next hand
+RealPlayer sending Play to 10.128.151.177:8001
+RealPlayer sent successfully Play to 10.128.151.177:8001

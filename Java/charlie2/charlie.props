@@ -7,3 +7,6 @@ charlie.shoe charlie.card.Shoe01
 #charlie.bot.huey charlie.bot.server.Huey
 #charlie.bot.dewey charlie.bot.server.Dewey
 charlie.trap charlie.client.Trap
+
+# to implement advisor feature using bot
+charlie.advisor charlie.plugin.SimpleAdvisor
