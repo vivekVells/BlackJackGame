@@ -1,0 +1,613 @@
+18:01:36 INFO  AWT-EventQueue-0 0 GameFrame:93 - client started
+18:01:36 INFO  AWT-EventQueue-0 235 GameFrame:157 - advisor plugin detected: charlie.plugin.SimpleAdvisor
+18:01:36 INFO  AWT-EventQueue-0 235 GameFrame:163 - loaded advisor successfully
+18:01:36 INFO  AWT-EventQueue-0 235 GameFrame:99 - init done
+18:01:39 INFO  AWT-EventQueue-0 3015 Actor:63 - sent login request
+18:01:39 INFO  AWT-EventQueue-0 3062 Actor:70 - received ticket BB20B45FD4D95138
+18:01:39 INFO  AWT-EventQueue-0 3062 GameFrame:221 - login successful
+18:01:39 INFO  AWT-EventQueue-0 3062 Actor:185 - Courier monitor installed successfully: Trap
+18:01:39 INFO  Thread-5 3062 Actor:185 - Courier waiting for connection on port 8001
+18:01:39 INFO  AWT-EventQueue-0 3078 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+18:01:39 INFO  AWT-EventQueue-0 3078 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+18:01:39 INFO  AWT-EventQueue-0 3078 Actor:185 - Arriver sent arrival message
+18:01:39 INFO  Thread-5 3109 Actor:185 - Courier accepted connection on port 8001
+18:01:39 INFO  Thread-5 3109 Actor:185 - Courier received message Ready
+18:01:39 INFO  Thread-5 3109 Actor:185 - Courier invoking listener for Ready
+18:01:39 INFO  Thread-5 3109 Actor:232 - received Ready from LBESCRIP-36/10.128.151.177
+18:01:39 INFO  Thread-5 3109 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:39 INFO  Thread-5 3109 Actor:185 - Courier waiting for connection on port 8001
+18:01:39 INFO  AWT-EventQueue-0 3109 GameFrame:240 - connected to courier with bankroll = 1000.0
+18:01:50 INFO  Thread-8 13648 ATable:206 - side bet = 0
+18:01:50 INFO  Thread-8 13658 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:01:50 INFO  Thread-8 13658 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:01:50 INFO  Thread-5 13668 Actor:185 - Courier accepted connection on port 8001
+18:01:50 INFO  Thread-5 13672 Actor:185 - Courier received message GameStart
+18:01:50 INFO  Thread-5 13672 Actor:185 - Courier invoking listener for GameStart
+18:01:50 INFO  Thread-5 13672 Actor:244 - receive starting shoe size = 52
+18:01:50 INFO  Thread-5 13672 Actor:247 - starting hand: LBESCRIP-36:YOU:5554CACF03C7126E
+18:01:50 INFO  Thread-5 13672 Actor:247 - starting hand: LBESCRIP-36:DEALER:C3D9218407B1DC
+18:01:50 INFO  Thread-5 13672 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:50 INFO  Thread-5 13672 Actor:185 - Courier waiting for connection on port 8001
+18:01:51 INFO  Thread-5 14688 Actor:185 - Courier accepted connection on port 8001
+18:01:51 INFO  Thread-5 14688 Actor:185 - Courier received message Deal
+18:01:51 INFO  Thread-5 14688 Actor:185 - Courier invoking listener for Deal
+18:01:51 INFO  Thread-5 14688 Actor:266 - received card = D3 values = 3/3 hid = LBESCRIP-36:YOU:5554CACF03C7126E
+18:01:51 INFO  Thread-5 14688 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:51 INFO  Thread-5 14698 Actor:185 - Courier waiting for connection on port 8001
+18:01:52 INFO  Thread-5 15447 Actor:185 - Courier accepted connection on port 8001
+18:01:52 INFO  Thread-5 15447 Actor:185 - Courier received message Deal
+18:01:52 INFO  Thread-5 15447 Actor:185 - Courier invoking listener for Deal
+18:01:52 INFO  Thread-5 15447 Actor:266 - received card = HA values = 0/0 hid = LBESCRIP-36:DEALER:C3D9218407B1DC
+18:01:52 INFO  Thread-5 15447 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:52 INFO  Thread-5 15447 Actor:185 - Courier waiting for connection on port 8001
+18:01:52 INFO  Thread-5 16208 Actor:185 - Courier accepted connection on port 8001
+18:01:52 INFO  Thread-5 16208 Actor:185 - Courier received message Deal
+18:01:52 INFO  Thread-5 16208 Actor:185 - Courier invoking listener for Deal
+18:01:52 INFO  Thread-5 16208 Actor:266 - received card = C5 values = 8/8 hid = LBESCRIP-36:YOU:5554CACF03C7126E
+18:01:52 INFO  Thread-5 16208 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:52 INFO  Thread-5 16208 Actor:185 - Courier waiting for connection on port 8001
+18:01:53 INFO  Thread-5 16968 Actor:185 - Courier accepted connection on port 8001
+18:01:53 INFO  Thread-5 16971 Actor:185 - Courier received message Deal
+18:01:53 INFO  Thread-5 16971 Actor:185 - Courier invoking listener for Deal
+18:01:53 INFO  Thread-5 16971 Actor:266 - received card = H10 values = 10/10 hid = LBESCRIP-36:DEALER:C3D9218407B1DC
+18:01:53 INFO  Thread-5 16981 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:53 INFO  Thread-5 16981 Actor:185 - Courier waiting for connection on port 8001
+18:01:53 INFO  Thread-5 16981 Actor:185 - Courier accepted connection on port 8001
+18:01:53 INFO  Thread-5 16981 Actor:185 - Courier received message Play
+18:01:53 INFO  Thread-5 16981 Actor:185 - Courier invoking listener for Play
+18:01:53 INFO  Thread-5 16981 Actor:276 - got turn = LBESCRIP-36:DEALER:C3D9218407B1DC
+18:01:53 INFO  Thread-5 16988 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:53 INFO  Thread-5 16988 Actor:185 - Courier waiting for connection on port 8001
+18:01:53 INFO  Thread-5 16988 Actor:185 - Courier accepted connection on port 8001
+18:01:53 INFO  Thread-5 16988 Actor:185 - Courier received message Deal
+18:01:53 INFO  Thread-5 16988 Actor:185 - Courier invoking listener for Deal
+18:01:53 INFO  Thread-5 16988 Actor:266 - received card = null values = 11/21 hid = LBESCRIP-36:DEALER:C3D9218407B1DC
+18:01:53 INFO  Thread-5 16988 Trap:82 - Wins: 0 | Lose: 0 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 0 | Bankroll: 1000.0
+18:01:53 INFO  Thread-5 16988 Actor:185 - Courier waiting for connection on port 8001
+18:01:53 INFO  Thread-5 16992 Actor:185 - Courier accepted connection on port 8001
+18:01:53 INFO  Thread-5 16998 Actor:185 - Courier received message Loose
+18:01:53 INFO  Thread-5 16998 Actor:185 - Courier invoking listener for Loose
+18:01:53 INFO  Thread-5 16998 Actor:207 - received outcome = Loose
+18:01:53 INFO  Thread-5 16998 ATable:537 - LOOSE for hid = LBESCRIP-36:YOU:5554CACF03C7126E amt = 5.0
+18:01:53 INFO  Thread-5 16998 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:01:53 INFO  Thread-5 16998 Actor:185 - Courier waiting for connection on port 8001
+18:01:53 INFO  Thread-5 16998 Actor:185 - Courier accepted connection on port 8001
+18:01:53 INFO  Thread-5 17008 Actor:185 - Courier received message GameOver
+18:01:53 INFO  Thread-5 17008 Actor:185 - Courier invoking listener for GameOver
+18:01:53 INFO  Thread-5 17008 Actor:287 - received ending shoe size = 48
+18:01:53 INFO  Thread-5 17008 ATable:681 - num hands = 2 wins = 0 loses = 1 pushes = 0
+18:01:55 INFO  Thread-5 18767 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:01:55 INFO  Thread-5 18767 Actor:185 - Courier waiting for connection on port 8001
+18:02:00 INFO  Thread-13 23578 ATable:206 - side bet = 0
+18:02:00 INFO  Thread-13 23578 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:02:00 INFO  Thread-13 23578 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:02:00 INFO  Thread-5 23588 Actor:185 - Courier accepted connection on port 8001
+18:02:00 INFO  Thread-5 23588 Actor:185 - Courier received message GameStart
+18:02:00 INFO  Thread-5 23588 Actor:185 - Courier invoking listener for GameStart
+18:02:00 INFO  Thread-5 23588 Actor:244 - receive starting shoe size = 48
+18:02:00 INFO  Thread-5 23588 Actor:247 - starting hand: LBESCRIP-36:YOU:1E37D1E7F4E1603A
+18:02:00 INFO  Thread-5 23588 Actor:247 - starting hand: LBESCRIP-36:DEALER:28AC8BBA22BCFDEA
+18:02:00 INFO  Thread-5 23588 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:00 INFO  Thread-5 23592 Actor:185 - Courier waiting for connection on port 8001
+18:02:01 INFO  Thread-5 24628 Actor:185 - Courier accepted connection on port 8001
+18:02:01 INFO  Thread-5 24628 Actor:185 - Courier received message Deal
+18:02:01 INFO  Thread-5 24628 Actor:185 - Courier invoking listener for Deal
+18:02:01 INFO  Thread-5 24628 Actor:266 - received card = SA values = 1/11 hid = LBESCRIP-36:YOU:1E37D1E7F4E1603A
+18:02:01 INFO  Thread-5 24628 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:01 INFO  Thread-5 24628 Actor:185 - Courier waiting for connection on port 8001
+18:02:02 INFO  Thread-5 25392 Actor:185 - Courier accepted connection on port 8001
+18:02:02 INFO  Thread-5 25392 Actor:185 - Courier received message Deal
+18:02:02 INFO  Thread-5 25392 Actor:185 - Courier invoking listener for Deal
+18:02:02 INFO  Thread-5 25392 Actor:266 - received card = D10 values = 0/0 hid = LBESCRIP-36:DEALER:28AC8BBA22BCFDEA
+18:02:02 INFO  Thread-5 25392 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:02 INFO  Thread-5 25392 Actor:185 - Courier waiting for connection on port 8001
+18:02:02 INFO  Thread-5 26158 Actor:185 - Courier accepted connection on port 8001
+18:02:02 INFO  Thread-5 26158 Actor:185 - Courier received message Deal
+18:02:02 INFO  Thread-5 26158 Actor:185 - Courier invoking listener for Deal
+18:02:02 INFO  Thread-5 26158 Actor:266 - received card = SJ values = 11/21 hid = LBESCRIP-36:YOU:1E37D1E7F4E1603A
+18:02:02 INFO  Thread-5 26158 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 0 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:02 INFO  Thread-5 26158 Actor:185 - Courier waiting for connection on port 8001
+18:02:02 INFO  Thread-5 26158 Actor:185 - Courier accepted connection on port 8001
+18:02:02 INFO  Thread-5 26158 Actor:185 - Courier received message Blackjack
+18:02:02 INFO  Thread-5 26158 Actor:185 - Courier invoking listener for Blackjack
+18:02:02 INFO  Thread-5 26158 Actor:207 - received outcome = Blackjack
+18:02:02 INFO  Thread-5 26158 ATable:585 - BJ for hid = LBESCRIP-36:YOU:1E37D1E7F4E1603A amt = 7.5
+18:02:03 INFO  Thread-5 26918 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier waiting for connection on port 8001
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier accepted connection on port 8001
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier received message Deal
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier invoking listener for Deal
+18:02:03 INFO  Thread-5 26918 Actor:266 - received card = C10 values = 10/10 hid = LBESCRIP-36:DEALER:28AC8BBA22BCFDEA
+18:02:03 INFO  Thread-5 26918 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier waiting for connection on port 8001
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier accepted connection on port 8001
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier received message Play
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier invoking listener for Play
+18:02:03 INFO  Thread-5 26918 Actor:276 - got turn = LBESCRIP-36:DEALER:28AC8BBA22BCFDEA
+18:02:03 INFO  Thread-5 26918 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier waiting for connection on port 8001
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier accepted connection on port 8001
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier received message Deal
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier invoking listener for Deal
+18:02:03 INFO  Thread-5 26918 Actor:266 - received card = null values = 20/20 hid = LBESCRIP-36:DEALER:28AC8BBA22BCFDEA
+18:02:03 INFO  Thread-5 26918 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:03 INFO  Thread-5 26918 Actor:185 - Courier waiting for connection on port 8001
+18:02:03 INFO  Thread-5 26928 Actor:185 - Courier accepted connection on port 8001
+18:02:03 INFO  Thread-5 26928 Actor:185 - Courier received message GameOver
+18:02:03 INFO  Thread-5 26928 Actor:185 - Courier invoking listener for GameOver
+18:02:03 INFO  Thread-5 26928 Actor:287 - received ending shoe size = 44
+18:02:03 INFO  Thread-5 26928 ATable:681 - num hands = 2 wins = 1 loses = 0 pushes = 0
+18:02:05 INFO  Thread-5 28428 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:05 INFO  Thread-5 28428 Actor:185 - Courier waiting for connection on port 8001
+18:02:05 INFO  Thread-18 28742 ATable:206 - side bet = 0
+18:02:05 INFO  Thread-18 28742 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:02:05 INFO  Thread-18 28742 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:02:05 INFO  Thread-5 28748 Actor:185 - Courier accepted connection on port 8001
+18:02:05 INFO  Thread-5 28748 Actor:185 - Courier received message GameStart
+18:02:05 INFO  Thread-5 28748 Actor:185 - Courier invoking listener for GameStart
+18:02:05 INFO  Thread-5 28748 Actor:244 - receive starting shoe size = 44
+18:02:05 INFO  Thread-5 28748 Actor:247 - starting hand: LBESCRIP-36:YOU:1905D102E5D5560
+18:02:05 INFO  Thread-5 28748 Actor:247 - starting hand: LBESCRIP-36:DEALER:F096B3239ECF425
+18:02:05 INFO  Thread-5 28748 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:05 INFO  Thread-5 28748 Actor:185 - Courier waiting for connection on port 8001
+18:02:06 INFO  Thread-5 29768 Actor:185 - Courier accepted connection on port 8001
+18:02:06 INFO  Thread-5 29768 Actor:185 - Courier received message Deal
+18:02:06 INFO  Thread-5 29768 Actor:185 - Courier invoking listener for Deal
+18:02:06 INFO  Thread-5 29768 Actor:266 - received card = C8 values = 8/8 hid = LBESCRIP-36:YOU:1905D102E5D5560
+18:02:06 INFO  Thread-5 29768 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:06 INFO  Thread-5 29768 Actor:185 - Courier waiting for connection on port 8001
+18:02:07 INFO  Thread-5 30528 Actor:185 - Courier accepted connection on port 8001
+18:02:07 INFO  Thread-5 30528 Actor:185 - Courier received message Deal
+18:02:07 INFO  Thread-5 30528 Actor:185 - Courier invoking listener for Deal
+18:02:07 INFO  Thread-5 30528 Actor:266 - received card = H9 values = 0/0 hid = LBESCRIP-36:DEALER:F096B3239ECF425
+18:02:07 INFO  Thread-5 30528 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:07 INFO  Thread-5 30528 Actor:185 - Courier waiting for connection on port 8001
+18:02:08 INFO  Thread-5 31278 Actor:185 - Courier accepted connection on port 8001
+18:02:08 INFO  Thread-5 31278 Actor:185 - Courier received message Deal
+18:02:08 INFO  Thread-5 31278 Actor:185 - Courier invoking listener for Deal
+18:02:08 INFO  Thread-5 31278 Actor:266 - received card = H7 values = 15/15 hid = LBESCRIP-36:YOU:1905D102E5D5560
+18:02:08 INFO  Thread-5 31278 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:08 INFO  Thread-5 31278 Actor:185 - Courier waiting for connection on port 8001
+18:02:08 INFO  Thread-5 32038 Actor:185 - Courier accepted connection on port 8001
+18:02:08 INFO  Thread-5 32038 Actor:185 - Courier received message Deal
+18:02:08 INFO  Thread-5 32038 Actor:185 - Courier invoking listener for Deal
+18:02:08 INFO  Thread-5 32038 Actor:266 - received card = C9 values = 9/9 hid = LBESCRIP-36:DEALER:F096B3239ECF425
+18:02:08 INFO  Thread-5 32038 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:08 INFO  Thread-5 32038 Actor:185 - Courier waiting for connection on port 8001
+18:02:08 INFO  Thread-5 32038 Actor:185 - Courier accepted connection on port 8001
+18:02:08 INFO  Thread-5 32038 Actor:185 - Courier received message Play
+18:02:08 INFO  Thread-5 32038 Actor:185 - Courier invoking listener for Play
+18:02:08 INFO  Thread-5 32038 Actor:276 - got turn = LBESCRIP-36:YOU:1905D102E5D5560
+18:02:09 INFO  Thread-5 32749 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:09 INFO  Thread-5 32749 Actor:185 - Courier waiting for connection on port 8001
+18:02:25 INFO  AWT-EventQueue-0 48659 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+18:02:25 INFO  AWT-EventQueue-0 48668 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+18:02:25 INFO  Thread-5 48668 Actor:185 - Courier accepted connection on port 8001
+18:02:25 INFO  Thread-5 48668 Actor:185 - Courier received message Deal
+18:02:25 INFO  Thread-5 48668 Actor:185 - Courier invoking listener for Deal
+18:02:25 INFO  Thread-5 48668 Actor:266 - received card = H4 values = 19/19 hid = LBESCRIP-36:YOU:1905D102E5D5560
+18:02:25 INFO  Thread-5 48668 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:25 INFO  Thread-5 48668 Actor:185 - Courier waiting for connection on port 8001
+18:02:32 INFO  AWT-EventQueue-0 55790 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+18:02:32 INFO  AWT-EventQueue-0 55790 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier accepted connection on port 8001
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier received message Play
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier invoking listener for Play
+18:02:32 INFO  Thread-5 55798 Actor:276 - got turn = LBESCRIP-36:DEALER:F096B3239ECF425
+18:02:32 INFO  Thread-5 55798 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier waiting for connection on port 8001
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier accepted connection on port 8001
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier received message Deal
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier invoking listener for Deal
+18:02:32 INFO  Thread-5 55798 Actor:266 - received card = null values = 18/18 hid = LBESCRIP-36:DEALER:F096B3239ECF425
+18:02:32 INFO  Thread-5 55798 Trap:82 - Wins: 0 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 1 | Bankroll: 995.0
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier waiting for connection on port 8001
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier accepted connection on port 8001
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier received message Win
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier invoking listener for Win
+18:02:32 INFO  Thread-5 55798 Actor:207 - received outcome = Win
+18:02:32 INFO  Thread-5 55798 ATable:511 - WIN for hid = LBESCRIP-36:YOU:1905D102E5D5560 amt = 5.0
+18:02:32 INFO  Thread-5 55798 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier waiting for connection on port 8001
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier accepted connection on port 8001
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier received message GameOver
+18:02:32 INFO  Thread-5 55798 Actor:185 - Courier invoking listener for GameOver
+18:02:32 INFO  Thread-5 55798 Actor:287 - received ending shoe size = 39
+18:02:32 INFO  Thread-5 55798 ATable:681 - num hands = 2 wins = 1 loses = 0 pushes = 0
+18:02:33 INFO  Thread-5 56849 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:33 INFO  Thread-5 56849 Actor:185 - Courier waiting for connection on port 8001
+18:02:37 INFO  Thread-25 60350 ATable:206 - side bet = 0
+18:02:37 INFO  Thread-25 60350 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:02:37 INFO  Thread-25 60350 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:02:37 INFO  Thread-5 60359 Actor:185 - Courier accepted connection on port 8001
+18:02:37 INFO  Thread-5 60359 Actor:185 - Courier received message GameStart
+18:02:37 INFO  Thread-5 60359 Actor:185 - Courier invoking listener for GameStart
+18:02:37 INFO  Thread-5 60359 Actor:244 - receive starting shoe size = 39
+18:02:37 INFO  Thread-5 60359 Actor:247 - starting hand: LBESCRIP-36:YOU:2467EA18A8C72B9
+18:02:37 INFO  Thread-5 60359 Actor:247 - starting hand: LBESCRIP-36:DEALER:77F6CF3D30634C03
+18:02:37 INFO  Thread-5 60359 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:37 INFO  Thread-5 60359 Actor:185 - Courier waiting for connection on port 8001
+18:02:38 INFO  Thread-5 61369 Actor:185 - Courier accepted connection on port 8001
+18:02:38 INFO  Thread-5 61369 Actor:185 - Courier received message Deal
+18:02:38 INFO  Thread-5 61369 Actor:185 - Courier invoking listener for Deal
+18:02:38 INFO  Thread-5 61369 Actor:266 - received card = S8 values = 8/8 hid = LBESCRIP-36:YOU:2467EA18A8C72B9
+18:02:38 INFO  Thread-5 61369 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:38 INFO  Thread-5 61369 Actor:185 - Courier waiting for connection on port 8001
+18:02:38 INFO  Thread-5 62119 Actor:185 - Courier accepted connection on port 8001
+18:02:38 INFO  Thread-5 62119 Actor:185 - Courier received message Deal
+18:02:38 INFO  Thread-5 62119 Actor:185 - Courier invoking listener for Deal
+18:02:38 INFO  Thread-5 62119 Actor:266 - received card = C6 values = 0/0 hid = LBESCRIP-36:DEALER:77F6CF3D30634C03
+18:02:38 INFO  Thread-5 62119 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:38 INFO  Thread-5 62119 Actor:185 - Courier waiting for connection on port 8001
+18:02:39 INFO  Thread-5 62879 Actor:185 - Courier accepted connection on port 8001
+18:02:39 INFO  Thread-5 62879 Actor:185 - Courier received message Deal
+18:02:39 INFO  Thread-5 62879 Actor:185 - Courier invoking listener for Deal
+18:02:39 INFO  Thread-5 62879 Actor:266 - received card = DJ values = 18/18 hid = LBESCRIP-36:YOU:2467EA18A8C72B9
+18:02:39 INFO  Thread-5 62879 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:39 INFO  Thread-5 62879 Actor:185 - Courier waiting for connection on port 8001
+18:02:40 INFO  Thread-5 63639 Actor:185 - Courier accepted connection on port 8001
+18:02:40 INFO  Thread-5 63639 Actor:185 - Courier received message Deal
+18:02:40 INFO  Thread-5 63639 Actor:185 - Courier invoking listener for Deal
+18:02:40 INFO  Thread-5 63639 Actor:266 - received card = D9 values = 9/9 hid = LBESCRIP-36:DEALER:77F6CF3D30634C03
+18:02:40 INFO  Thread-5 63639 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:40 INFO  Thread-5 63639 Actor:185 - Courier waiting for connection on port 8001
+18:02:40 INFO  Thread-5 63639 Actor:185 - Courier accepted connection on port 8001
+18:02:40 INFO  Thread-5 63639 Actor:185 - Courier received message Play
+18:02:40 INFO  Thread-5 63639 Actor:185 - Courier invoking listener for Play
+18:02:40 INFO  Thread-5 63639 Actor:276 - got turn = LBESCRIP-36:YOU:2467EA18A8C72B9
+18:02:41 INFO  Thread-5 64349 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:02:41 INFO  Thread-5 64349 Actor:185 - Courier waiting for connection on port 8001
+18:03:01 INFO  AWT-EventQueue-0 85009 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+18:03:01 INFO  AWT-EventQueue-0 85009 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+18:03:01 INFO  Thread-5 85009 Actor:185 - Courier accepted connection on port 8001
+18:03:01 INFO  Thread-5 85009 Actor:185 - Courier received message Deal
+18:03:01 INFO  Thread-5 85009 Actor:185 - Courier invoking listener for Deal
+18:03:01 INFO  Thread-5 85009 Actor:266 - received card = D7 values = 25/25 hid = LBESCRIP-36:YOU:2467EA18A8C72B9
+18:03:01 INFO  Thread-5 85023 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 0 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 995.0
+18:03:01 INFO  Thread-5 85023 Actor:185 - Courier waiting for connection on port 8001
+18:03:01 INFO  Thread-5 85023 Actor:185 - Courier accepted connection on port 8001
+18:03:01 INFO  Thread-5 85023 Actor:185 - Courier received message Bust
+18:03:01 INFO  Thread-5 85023 Actor:185 - Courier invoking listener for Bust
+18:03:01 INFO  Thread-5 85023 Actor:207 - received outcome = Bust
+18:03:01 INFO  Thread-5 85023 ATable:482 - BUST for hid = LBESCRIP-36:YOU:2467EA18A8C72B9 amt = 5.0
+18:03:02 INFO  Thread-5 85440 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:02 INFO  Thread-5 85440 Actor:185 - Courier waiting for connection on port 8001
+18:03:02 INFO  Thread-5 85440 Actor:185 - Courier accepted connection on port 8001
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier received message Play
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier invoking listener for Play
+18:03:02 INFO  Thread-5 85444 Actor:276 - got turn = LBESCRIP-36:DEALER:77F6CF3D30634C03
+18:03:02 INFO  Thread-5 85444 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier waiting for connection on port 8001
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier accepted connection on port 8001
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier received message Deal
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier invoking listener for Deal
+18:03:02 INFO  Thread-5 85444 Actor:266 - received card = null values = 15/15 hid = LBESCRIP-36:DEALER:77F6CF3D30634C03
+18:03:02 INFO  Thread-5 85444 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier waiting for connection on port 8001
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier accepted connection on port 8001
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier received message GameOver
+18:03:02 INFO  Thread-5 85444 Actor:185 - Courier invoking listener for GameOver
+18:03:02 INFO  Thread-5 85444 Actor:287 - received ending shoe size = 34
+18:03:02 INFO  Thread-5 85444 ATable:681 - num hands = 2 wins = 0 loses = 1 pushes = 0
+18:03:03 INFO  Thread-5 87160 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:03 INFO  Thread-5 87160 Actor:185 - Courier waiting for connection on port 8001
+18:03:04 INFO  Thread-31 87299 ATable:206 - side bet = 0
+18:03:04 INFO  Thread-31 87299 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:03:04 INFO  Thread-31 87299 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:03:04 INFO  Thread-5 87309 Actor:185 - Courier accepted connection on port 8001
+18:03:04 INFO  Thread-5 87309 Actor:185 - Courier received message GameStart
+18:03:04 INFO  Thread-5 87309 Actor:185 - Courier invoking listener for GameStart
+18:03:04 INFO  Thread-5 87309 Actor:244 - receive starting shoe size = 34
+18:03:04 INFO  Thread-5 87309 Actor:247 - starting hand: LBESCRIP-36:YOU:334B54457321FEF1
+18:03:04 INFO  Thread-5 87309 Actor:247 - starting hand: LBESCRIP-36:DEALER:1399A50D9538CBB3
+18:03:04 INFO  Thread-5 87309 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:04 INFO  Thread-5 87309 Actor:185 - Courier waiting for connection on port 8001
+18:03:05 INFO  Thread-5 88339 Actor:185 - Courier accepted connection on port 8001
+18:03:05 INFO  Thread-5 88339 Actor:185 - Courier received message Deal
+18:03:05 INFO  Thread-5 88339 Actor:185 - Courier invoking listener for Deal
+18:03:05 INFO  Thread-5 88339 Actor:266 - received card = DK values = 10/10 hid = LBESCRIP-36:YOU:334B54457321FEF1
+18:03:05 INFO  Thread-5 88339 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:05 INFO  Thread-5 88339 Actor:185 - Courier waiting for connection on port 8001
+18:03:05 INFO  Thread-5 89090 Actor:185 - Courier accepted connection on port 8001
+18:03:05 INFO  Thread-5 89090 Actor:185 - Courier received message Deal
+18:03:05 INFO  Thread-5 89090 Actor:185 - Courier invoking listener for Deal
+18:03:05 INFO  Thread-5 89090 Actor:266 - received card = D8 values = 0/0 hid = LBESCRIP-36:DEALER:1399A50D9538CBB3
+18:03:05 INFO  Thread-5 89090 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:05 INFO  Thread-5 89090 Actor:185 - Courier waiting for connection on port 8001
+18:03:06 INFO  Thread-5 89850 Actor:185 - Courier accepted connection on port 8001
+18:03:06 INFO  Thread-5 89850 Actor:185 - Courier received message Deal
+18:03:06 INFO  Thread-5 89850 Actor:185 - Courier invoking listener for Deal
+18:03:06 INFO  Thread-5 89850 Actor:266 - received card = D6 values = 16/16 hid = LBESCRIP-36:YOU:334B54457321FEF1
+18:03:06 INFO  Thread-5 89850 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:06 INFO  Thread-5 89850 Actor:185 - Courier waiting for connection on port 8001
+18:03:07 INFO  Thread-5 90610 Actor:185 - Courier accepted connection on port 8001
+18:03:07 INFO  Thread-5 90610 Actor:185 - Courier received message Deal
+18:03:07 INFO  Thread-5 90610 Actor:185 - Courier invoking listener for Deal
+18:03:07 INFO  Thread-5 90610 Actor:266 - received card = HK values = 10/10 hid = LBESCRIP-36:DEALER:1399A50D9538CBB3
+18:03:07 INFO  Thread-5 90610 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:07 INFO  Thread-5 90610 Actor:185 - Courier waiting for connection on port 8001
+18:03:07 INFO  Thread-5 90610 Actor:185 - Courier accepted connection on port 8001
+18:03:07 INFO  Thread-5 90610 Actor:185 - Courier received message Play
+18:03:07 INFO  Thread-5 90610 Actor:185 - Courier invoking listener for Play
+18:03:07 INFO  Thread-5 90610 Actor:276 - got turn = LBESCRIP-36:YOU:334B54457321FEF1
+18:03:08 INFO  Thread-5 91320 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:08 INFO  Thread-5 91320 Actor:185 - Courier waiting for connection on port 8001
+18:03:09 INFO  AWT-EventQueue-0 93234 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+18:03:09 INFO  AWT-EventQueue-0 93235 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+18:03:09 INFO  Thread-5 93239 Actor:185 - Courier accepted connection on port 8001
+18:03:09 INFO  Thread-5 93241 Actor:185 - Courier received message Deal
+18:03:09 INFO  Thread-5 93241 Actor:185 - Courier invoking listener for Deal
+18:03:09 INFO  Thread-5 93241 Actor:266 - received card = C4 values = 20/20 hid = LBESCRIP-36:YOU:334B54457321FEF1
+18:03:09 INFO  Thread-5 93247 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:09 INFO  Thread-5 93247 Actor:185 - Courier waiting for connection on port 8001
+18:03:20 INFO  AWT-EventQueue-0 103710 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+18:03:20 INFO  AWT-EventQueue-0 103710 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+18:03:20 INFO  Thread-5 103710 Actor:185 - Courier accepted connection on port 8001
+18:03:20 INFO  Thread-5 103710 Actor:185 - Courier received message Play
+18:03:20 INFO  Thread-5 103710 Actor:185 - Courier invoking listener for Play
+18:03:20 INFO  Thread-5 103710 Actor:276 - got turn = LBESCRIP-36:DEALER:1399A50D9538CBB3
+18:03:20 INFO  Thread-5 103710 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:20 INFO  Thread-5 103710 Actor:185 - Courier waiting for connection on port 8001
+18:03:20 INFO  Thread-5 103710 Actor:185 - Courier accepted connection on port 8001
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier received message Deal
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier invoking listener for Deal
+18:03:20 INFO  Thread-5 103720 Actor:266 - received card = null values = 18/18 hid = LBESCRIP-36:DEALER:1399A50D9538CBB3
+18:03:20 INFO  Thread-5 103720 Trap:82 - Wins: 1 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 2 | Bankroll: 990.0
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier waiting for connection on port 8001
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier accepted connection on port 8001
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier received message Win
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier invoking listener for Win
+18:03:20 INFO  Thread-5 103720 Actor:207 - received outcome = Win
+18:03:20 INFO  Thread-5 103720 ATable:511 - WIN for hid = LBESCRIP-36:YOU:334B54457321FEF1 amt = 5.0
+18:03:20 INFO  Thread-5 103720 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier waiting for connection on port 8001
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier accepted connection on port 8001
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier received message GameOver
+18:03:20 INFO  Thread-5 103720 Actor:185 - Courier invoking listener for GameOver
+18:03:20 INFO  Thread-5 103720 Actor:287 - received ending shoe size = 29
+18:03:20 INFO  Thread-5 103720 ATable:681 - num hands = 2 wins = 1 loses = 0 pushes = 0
+18:03:21 INFO  Thread-5 104770 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:21 INFO  Thread-5 104770 Actor:185 - Courier waiting for connection on port 8001
+18:03:23 INFO  Thread-38 106882 ATable:206 - side bet = 0
+18:03:23 INFO  Thread-38 106882 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:03:23 INFO  Thread-38 106882 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:03:23 INFO  Thread-5 106882 Actor:185 - Courier accepted connection on port 8001
+18:03:23 INFO  Thread-5 106882 Actor:185 - Courier received message GameStart
+18:03:23 INFO  Thread-5 106882 Actor:185 - Courier invoking listener for GameStart
+18:03:23 INFO  Thread-5 106882 Actor:244 - receive starting shoe size = 29
+18:03:23 INFO  Thread-5 106882 Actor:247 - starting hand: LBESCRIP-36:YOU:75C2D3FBF17D38C9
+18:03:23 INFO  Thread-5 106882 Actor:247 - starting hand: LBESCRIP-36:DEALER:5BADA923FF112162
+18:03:23 INFO  Thread-5 106882 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:23 INFO  Thread-5 106882 Actor:185 - Courier waiting for connection on port 8001
+18:03:24 INFO  Thread-5 107900 Actor:185 - Courier accepted connection on port 8001
+18:03:24 INFO  Thread-5 107900 Actor:185 - Courier received message Deal
+18:03:24 INFO  Thread-5 107900 Actor:185 - Courier invoking listener for Deal
+18:03:24 INFO  Thread-5 107900 Actor:266 - received card = H8 values = 8/8 hid = LBESCRIP-36:YOU:75C2D3FBF17D38C9
+18:03:24 INFO  Thread-5 107900 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:24 INFO  Thread-5 107900 Actor:185 - Courier waiting for connection on port 8001
+18:03:25 INFO  Thread-5 108660 Actor:185 - Courier accepted connection on port 8001
+18:03:25 INFO  Thread-5 108660 Actor:185 - Courier received message Deal
+18:03:25 INFO  Thread-5 108660 Actor:185 - Courier invoking listener for Deal
+18:03:25 INFO  Thread-5 108660 Actor:266 - received card = DA values = 0/0 hid = LBESCRIP-36:DEALER:5BADA923FF112162
+18:03:25 INFO  Thread-5 108660 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:25 INFO  Thread-5 108660 Actor:185 - Courier waiting for connection on port 8001
+18:03:26 INFO  Thread-5 109430 Actor:185 - Courier accepted connection on port 8001
+18:03:26 INFO  Thread-5 109430 Actor:185 - Courier received message Deal
+18:03:26 INFO  Thread-5 109430 Actor:185 - Courier invoking listener for Deal
+18:03:26 INFO  Thread-5 109430 Actor:266 - received card = H5 values = 13/13 hid = LBESCRIP-36:YOU:75C2D3FBF17D38C9
+18:03:26 INFO  Thread-5 109430 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:26 INFO  Thread-5 109430 Actor:185 - Courier waiting for connection on port 8001
+18:03:26 INFO  Thread-5 110190 Actor:185 - Courier accepted connection on port 8001
+18:03:26 INFO  Thread-5 110190 Actor:185 - Courier received message Deal
+18:03:26 INFO  Thread-5 110190 Actor:185 - Courier invoking listener for Deal
+18:03:26 INFO  Thread-5 110190 Actor:266 - received card = H3 values = 3/3 hid = LBESCRIP-36:DEALER:5BADA923FF112162
+18:03:26 INFO  Thread-5 110190 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:26 INFO  Thread-5 110190 Actor:185 - Courier waiting for connection on port 8001
+18:03:26 INFO  Thread-5 110194 Actor:185 - Courier accepted connection on port 8001
+18:03:26 INFO  Thread-5 110194 Actor:185 - Courier received message Play
+18:03:26 INFO  Thread-5 110194 Actor:185 - Courier invoking listener for Play
+18:03:26 INFO  Thread-5 110194 Actor:276 - got turn = LBESCRIP-36:YOU:75C2D3FBF17D38C9
+18:03:27 INFO  Thread-5 110890 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:27 INFO  Thread-5 110890 Actor:185 - Courier waiting for connection on port 8001
+18:03:42 INFO  AWT-EventQueue-0 125630 Actor:185 - Courier sending DoubleDown to 127.0.0.1:8501
+18:03:42 INFO  AWT-EventQueue-0 125630 Actor:185 - Courier sent successfully DoubleDown to 127.0.0.1:8501
+18:03:42 INFO  Thread-5 125640 Actor:185 - Courier accepted connection on port 8001
+18:03:42 INFO  Thread-5 125640 Actor:185 - Courier received message Deal
+18:03:42 INFO  Thread-5 125644 Actor:185 - Courier invoking listener for Deal
+18:03:42 INFO  Thread-5 125644 Actor:266 - received card = D5 values = 18/18 hid = LBESCRIP-36:YOU:75C2D3FBF17D38C9
+18:03:42 INFO  Thread-5 125650 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier waiting for connection on port 8001
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier accepted connection on port 8001
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier received message Play
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier invoking listener for Play
+18:03:42 INFO  Thread-5 125650 Actor:276 - got turn = LBESCRIP-36:DEALER:5BADA923FF112162
+18:03:42 INFO  Thread-5 125650 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier waiting for connection on port 8001
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier accepted connection on port 8001
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier received message Deal
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier invoking listener for Deal
+18:03:42 INFO  Thread-5 125650 Actor:266 - received card = null values = 4/14 hid = LBESCRIP-36:DEALER:5BADA923FF112162
+18:03:42 INFO  Thread-5 125650 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:42 INFO  Thread-5 125650 Actor:185 - Courier waiting for connection on port 8001
+18:03:43 INFO  Thread-5 126400 Actor:185 - Courier accepted connection on port 8001
+18:03:43 INFO  Thread-5 126400 Actor:185 - Courier received message Deal
+18:03:43 INFO  Thread-5 126400 Actor:185 - Courier invoking listener for Deal
+18:03:43 INFO  Thread-5 126400 Actor:266 - received card = S4 values = 8/18 hid = LBESCRIP-36:DEALER:5BADA923FF112162
+18:03:43 INFO  Thread-5 126400 Trap:82 - Wins: 2 | Lose: 1 | Push: 0 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 3 | Bankroll: 990.0
+18:03:43 INFO  Thread-5 126400 Actor:185 - Courier waiting for connection on port 8001
+18:03:43 INFO  Thread-5 126400 Actor:185 - Courier accepted connection on port 8001
+18:03:43 INFO  Thread-5 126404 Actor:185 - Courier received message Push
+18:03:43 INFO  Thread-5 126404 Actor:185 - Courier invoking listener for Push
+18:03:43 INFO  Thread-5 126404 Actor:207 - received outcome = Push
+18:03:43 INFO  Thread-5 126404 ATable:563 - PUSH for hid = LBESCRIP-36:YOU:75C2D3FBF17D38C9 amt = 10.0
+18:03:43 INFO  Thread-5 126404 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:43 INFO  Thread-5 126404 Actor:185 - Courier waiting for connection on port 8001
+18:03:43 INFO  Thread-5 126404 Actor:185 - Courier accepted connection on port 8001
+18:03:43 INFO  Thread-5 126404 Actor:185 - Courier received message GameOver
+18:03:43 INFO  Thread-5 126404 Actor:185 - Courier invoking listener for GameOver
+18:03:43 INFO  Thread-5 126404 Actor:287 - received ending shoe size = 23
+18:03:43 INFO  Thread-5 126404 ATable:681 - num hands = 2 wins = 0 loses = 0 pushes = 1
+18:03:43 INFO  Thread-5 127130 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:43 INFO  Thread-5 127130 Actor:185 - Courier waiting for connection on port 8001
+18:03:45 INFO  Thread-45 129060 ATable:206 - side bet = 0
+18:03:45 INFO  Thread-45 129060 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:03:45 INFO  Thread-45 129060 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:03:45 INFO  Thread-5 129060 Actor:185 - Courier accepted connection on port 8001
+18:03:45 INFO  Thread-5 129060 Actor:185 - Courier received message GameStart
+18:03:45 INFO  Thread-5 129060 Actor:185 - Courier invoking listener for GameStart
+18:03:45 INFO  Thread-5 129064 Actor:244 - receive starting shoe size = 23
+18:03:45 INFO  Thread-5 129064 Actor:247 - starting hand: LBESCRIP-36:YOU:3CA8BD39D81AB4C1
+18:03:45 INFO  Thread-5 129064 Actor:247 - starting hand: LBESCRIP-36:DEALER:4D9EB82B7EDA43BF
+18:03:45 INFO  Thread-5 129064 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:45 INFO  Thread-5 129064 Actor:185 - Courier waiting for connection on port 8001
+18:03:46 INFO  Thread-5 130080 Actor:185 - Courier accepted connection on port 8001
+18:03:46 INFO  Thread-5 130080 Actor:185 - Courier received message Deal
+18:03:46 INFO  Thread-5 130080 Actor:185 - Courier invoking listener for Deal
+18:03:46 INFO  Thread-5 130080 Actor:266 - received card = D4 values = 4/4 hid = LBESCRIP-36:YOU:3CA8BD39D81AB4C1
+18:03:46 INFO  Thread-5 130080 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:46 INFO  Thread-5 130080 Actor:185 - Courier waiting for connection on port 8001
+18:03:47 INFO  Thread-5 130851 Actor:185 - Courier accepted connection on port 8001
+18:03:47 INFO  Thread-5 130851 Actor:185 - Courier received message Deal
+18:03:47 INFO  Thread-5 130851 Actor:185 - Courier invoking listener for Deal
+18:03:47 INFO  Thread-5 130851 Actor:266 - received card = D2 values = 0/0 hid = LBESCRIP-36:DEALER:4D9EB82B7EDA43BF
+18:03:47 INFO  Thread-5 130854 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:47 INFO  Thread-5 130854 Actor:185 - Courier waiting for connection on port 8001
+18:03:48 INFO  Thread-5 131610 Actor:185 - Courier accepted connection on port 8001
+18:03:48 INFO  Thread-5 131610 Actor:185 - Courier received message Deal
+18:03:48 INFO  Thread-5 131610 Actor:185 - Courier invoking listener for Deal
+18:03:48 INFO  Thread-5 131610 Actor:266 - received card = CA values = 5/15 hid = LBESCRIP-36:YOU:3CA8BD39D81AB4C1
+18:03:48 INFO  Thread-5 131610 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:48 INFO  Thread-5 131610 Actor:185 - Courier waiting for connection on port 8001
+18:03:49 INFO  Thread-5 132370 Actor:185 - Courier accepted connection on port 8001
+18:03:49 INFO  Thread-5 132370 Actor:185 - Courier received message Deal
+18:03:49 INFO  Thread-5 132370 Actor:185 - Courier invoking listener for Deal
+18:03:49 INFO  Thread-5 132370 Actor:266 - received card = H6 values = 6/6 hid = LBESCRIP-36:DEALER:4D9EB82B7EDA43BF
+18:03:49 INFO  Thread-5 132374 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:49 INFO  Thread-5 132374 Actor:185 - Courier waiting for connection on port 8001
+18:03:49 INFO  Thread-5 132374 Actor:185 - Courier accepted connection on port 8001
+18:03:49 INFO  Thread-5 132374 Actor:185 - Courier received message Play
+18:03:49 INFO  Thread-5 132374 Actor:185 - Courier invoking listener for Play
+18:03:49 INFO  Thread-5 132374 Actor:276 - got turn = LBESCRIP-36:YOU:3CA8BD39D81AB4C1
+18:03:49 INFO  Thread-5 133071 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:03:49 INFO  Thread-5 133071 Actor:185 - Courier waiting for connection on port 8001
+18:04:11 INFO  AWT-EventQueue-0 154431 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+18:04:11 INFO  AWT-EventQueue-0 154431 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+18:04:11 INFO  Thread-5 154431 Actor:185 - Courier accepted connection on port 8001
+18:04:11 INFO  Thread-5 154441 Actor:185 - Courier received message Play
+18:04:11 INFO  Thread-5 154441 Actor:185 - Courier invoking listener for Play
+18:04:11 INFO  Thread-5 154441 Actor:276 - got turn = LBESCRIP-36:DEALER:4D9EB82B7EDA43BF
+18:04:11 INFO  Thread-5 154441 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:04:11 INFO  Thread-5 154441 Actor:185 - Courier waiting for connection on port 8001
+18:04:11 INFO  Thread-5 154441 Actor:185 - Courier accepted connection on port 8001
+18:04:11 INFO  Thread-5 154441 Actor:185 - Courier received message Deal
+18:04:11 INFO  Thread-5 154441 Actor:185 - Courier invoking listener for Deal
+18:04:11 INFO  Thread-5 154441 Actor:266 - received card = null values = 8/8 hid = LBESCRIP-36:DEALER:4D9EB82B7EDA43BF
+18:04:11 INFO  Thread-5 154441 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:04:11 INFO  Thread-5 154441 Actor:185 - Courier waiting for connection on port 8001
+18:04:11 INFO  Thread-5 155191 Actor:185 - Courier accepted connection on port 8001
+18:04:11 INFO  Thread-5 155191 Actor:185 - Courier received message Deal
+18:04:11 INFO  Thread-5 155191 Actor:185 - Courier invoking listener for Deal
+18:04:11 INFO  Thread-5 155191 Actor:266 - received card = S5 values = 13/13 hid = LBESCRIP-36:DEALER:4D9EB82B7EDA43BF
+18:04:11 INFO  Thread-5 155191 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:04:11 INFO  Thread-5 155191 Actor:185 - Courier waiting for connection on port 8001
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier accepted connection on port 8001
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier received message Deal
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier invoking listener for Deal
+18:04:12 INFO  Thread-5 155951 Actor:266 - received card = HQ values = 23/23 hid = LBESCRIP-36:DEALER:4D9EB82B7EDA43BF
+18:04:12 INFO  Thread-5 155951 Trap:82 - Wins: 2 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 4 | Bankroll: 990.0
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier waiting for connection on port 8001
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier accepted connection on port 8001
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier received message Win
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier invoking listener for Win
+18:04:12 INFO  Thread-5 155951 Actor:207 - received outcome = Win
+18:04:12 INFO  Thread-5 155951 ATable:511 - WIN for hid = LBESCRIP-36:YOU:3CA8BD39D81AB4C1 amt = 5.0
+18:04:12 INFO  Thread-5 155951 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier waiting for connection on port 8001
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier accepted connection on port 8001
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier received message GameOver
+18:04:12 INFO  Thread-5 155951 Actor:185 - Courier invoking listener for GameOver
+18:04:12 INFO  Thread-5 155951 Actor:287 - received ending shoe size = 17
+18:04:12 INFO  Thread-5 155951 ATable:681 - num hands = 2 wins = 1 loses = 0 pushes = 0
+18:04:13 INFO  Thread-5 157011 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:13 INFO  Thread-5 157011 Actor:185 - Courier waiting for connection on port 8001
+18:04:15 INFO  Thread-53 158741 ATable:206 - side bet = 0
+18:04:15 INFO  Thread-53 158741 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:04:15 INFO  Thread-53 158741 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:04:15 INFO  Thread-5 158741 Actor:185 - Courier accepted connection on port 8001
+18:04:15 INFO  Thread-5 158741 Actor:185 - Courier received message GameStart
+18:04:15 INFO  Thread-5 158741 Actor:185 - Courier invoking listener for GameStart
+18:04:15 INFO  Thread-5 158741 Actor:244 - receive starting shoe size = 17
+18:04:15 INFO  Thread-5 158741 Actor:247 - starting hand: LBESCRIP-36:YOU:700260555A8E4AC0
+18:04:15 INFO  Thread-5 158741 Actor:247 - starting hand: LBESCRIP-36:DEALER:2B7F31C30406AAB7
+18:04:15 INFO  Thread-5 158741 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:15 INFO  Thread-5 158741 Actor:185 - Courier waiting for connection on port 8001
+18:04:16 INFO  Thread-5 159771 Actor:185 - Courier accepted connection on port 8001
+18:04:16 INFO  Thread-5 159771 Actor:185 - Courier received message Deal
+18:04:16 INFO  Thread-5 159771 Actor:185 - Courier invoking listener for Deal
+18:04:16 INFO  Thread-5 159771 Actor:266 - received card = HJ values = 10/10 hid = LBESCRIP-36:YOU:700260555A8E4AC0
+18:04:16 INFO  Thread-5 159771 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:16 INFO  Thread-5 159771 Actor:185 - Courier waiting for connection on port 8001
+18:04:17 INFO  Thread-5 160531 Actor:185 - Courier accepted connection on port 8001
+18:04:17 INFO  Thread-5 160531 Actor:185 - Courier received message Deal
+18:04:17 INFO  Thread-5 160531 Actor:185 - Courier invoking listener for Deal
+18:04:17 INFO  Thread-5 160531 Actor:266 - received card = H2 values = 0/0 hid = LBESCRIP-36:DEALER:2B7F31C30406AAB7
+18:04:17 INFO  Thread-5 160531 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:17 INFO  Thread-5 160531 Actor:185 - Courier waiting for connection on port 8001
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier accepted connection on port 8001
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier received message Deal
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier invoking listener for Deal
+18:04:18 INFO  Thread-5 161291 Actor:266 - received card = SK values = 20/20 hid = LBESCRIP-36:YOU:700260555A8E4AC0
+18:04:18 INFO  Thread-5 161291 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier waiting for connection on port 8001
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier accepted connection on port 8001
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier received message Shuffle
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier invoking listener for Shuffle
+18:04:18 INFO  Thread-5 161291 Actor:296 - received shuffle
+18:04:18 INFO  Thread-5 161291 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:18 INFO  Thread-5 161291 Actor:185 - Courier waiting for connection on port 8001
+18:04:18 INFO  Thread-5 162051 Actor:185 - Courier accepted connection on port 8001
+18:04:18 INFO  Thread-5 162051 Actor:185 - Courier received message Deal
+18:04:18 INFO  Thread-5 162051 Actor:185 - Courier invoking listener for Deal
+18:04:18 INFO  Thread-5 162051 Actor:266 - received card = CJ values = 10/10 hid = LBESCRIP-36:DEALER:2B7F31C30406AAB7
+18:04:18 INFO  Thread-5 162051 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:18 INFO  Thread-5 162051 Actor:185 - Courier waiting for connection on port 8001
+18:04:18 INFO  Thread-5 162051 Actor:185 - Courier accepted connection on port 8001
+18:04:18 INFO  Thread-5 162051 Actor:185 - Courier received message Play
+18:04:18 INFO  Thread-5 162051 Actor:185 - Courier invoking listener for Play
+18:04:18 INFO  Thread-5 162051 Actor:276 - got turn = LBESCRIP-36:YOU:700260555A8E4AC0
+18:04:19 INFO  Thread-5 162751 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:19 INFO  Thread-5 162751 Actor:185 - Courier waiting for connection on port 8001
+18:04:40 INFO  AWT-EventQueue-0 183962 Actor:185 - Courier sending DoubleDown to 127.0.0.1:8501
+18:04:40 INFO  AWT-EventQueue-0 183962 Actor:185 - Courier sent successfully DoubleDown to 127.0.0.1:8501
+18:04:40 INFO  Thread-5 183962 Actor:185 - Courier accepted connection on port 8001
+18:04:40 INFO  Thread-5 183971 Actor:185 - Courier received message Deal
+18:04:40 INFO  Thread-5 183971 Actor:185 - Courier invoking listener for Deal
+18:04:40 INFO  Thread-5 183971 Actor:266 - received card = SQ values = 30/30 hid = LBESCRIP-36:YOU:700260555A8E4AC0
+18:04:40 INFO  Thread-5 183975 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 1 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 990.0
+18:04:40 INFO  Thread-5 183975 Actor:185 - Courier waiting for connection on port 8001
+18:04:40 INFO  Thread-5 183975 Actor:185 - Courier accepted connection on port 8001
+18:04:40 INFO  Thread-5 183975 Actor:185 - Courier received message Bust
+18:04:40 INFO  Thread-5 183975 Actor:185 - Courier invoking listener for Bust
+18:04:40 INFO  Thread-5 183975 Actor:207 - received outcome = Bust
+18:04:40 INFO  Thread-5 183975 ATable:482 - BUST for hid = LBESCRIP-36:YOU:700260555A8E4AC0 amt = 10.0
+18:04:41 INFO  Thread-5 184381 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 2 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 980.0
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier waiting for connection on port 8001
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier accepted connection on port 8001
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier received message Play
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier invoking listener for Play
+18:04:41 INFO  Thread-5 184381 Actor:276 - got turn = LBESCRIP-36:DEALER:2B7F31C30406AAB7
+18:04:41 INFO  Thread-5 184381 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 2 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 980.0
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier waiting for connection on port 8001
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier accepted connection on port 8001
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier received message Deal
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier invoking listener for Deal
+18:04:41 INFO  Thread-5 184381 Actor:266 - received card = null values = 12/12 hid = LBESCRIP-36:DEALER:2B7F31C30406AAB7
+18:04:41 INFO  Thread-5 184381 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 2 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 980.0
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier waiting for connection on port 8001
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier accepted connection on port 8001
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier received message GameOver
+18:04:41 INFO  Thread-5 184381 Actor:185 - Courier invoking listener for GameOver
+18:04:41 INFO  Thread-5 184381 Actor:287 - received ending shoe size = 52
+18:04:41 INFO  Thread-5 184381 ATable:681 - num hands = 2 wins = 0 loses = 1 pushes = 0
+18:04:42 INFO  Thread-5 186142 Trap:82 - Wins: 3 | Lose: 1 | Push: 1 | Breaks: 2 | Blackjacks: 1 | Splits: 0 | Total Hands: 5 | Bankroll: 980.0
+18:04:42 INFO  Thread-5 186142 Actor:185 - Courier waiting for connection on port 8001
