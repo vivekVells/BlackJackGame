@@ -3,9 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/plz_donot_delete%20this/vivek/BlackJackGame/Java/charlie2/charlie.props</file>
-            <file>file:/D:/plz_donot_delete%20this/vivek/BlackJackGame/Java/charlie2/src/charlie/plugin/SimpleAdvisor.java</file>
-            <file>file:/D:/plz_donot_delete%20this/vivek/BlackJackGame/Java/charlie2/src/charlie/card/Hand.java</file>
+            <file>file:/D:/BlackJackGame/Java/charlie2/charlie.props</file>
+            <file>file:/D:/BlackJackGame/Java/charlie2/src/charlie/view/ATable.java</file>
+            <file>file:/D:/BlackJackGame/Java/charlie2/src/charlie/server/Ticket.java</file>
         </group>
     </open-files>
 </project-private>

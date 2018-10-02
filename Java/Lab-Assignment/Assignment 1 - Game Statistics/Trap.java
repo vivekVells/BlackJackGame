@@ -30,22 +30,25 @@ public class Trap implements ITrap {
   protected int youCharlies = 0;  
   protected int youSplits = 0;
   protected int youTotalHands = 0;
-  // protected int totalBankRoll = charlie.util.Constant.PLAYER_BANK_ROLL;
+  protected static Double totalBankRoll = charlie.util.Constant.PLAYER_BANKROLL;
           
   @Override 
   public void onReceive(Message message) { 
     if(message instanceof Win) { 
       Hid hid = ((Outcome) message).getHid(); 
-      if(hid.getSeat() == Seat.YOU) 
+      if(hid.getSeat() == Seat.YOU) {
         youWin++; 
-      
-      LOG.info("win count: " + youWin);
+        totalBankRoll += hid.getAmt(); 
+        LOG.info("vivek: hid.getAmt(): " + hid.getAmt() + "  | totalBankroll: " + totalBankRoll);
+      }
     }
     
     if(message instanceof Loose) { 
          Hid hid = ((Outcome) message).getHid(); 
-         if(hid.getSeat() == Seat.YOU) 
+         if(hid.getSeat() == Seat.YOU) {
            youLose++; 
+           totalBankRoll -= hid.getAmt();
+         }
     }
     if(message instanceof Push) { 
          Hid hid = ((Outcome) message).getHid(); 
@@ -54,8 +57,10 @@ public class Trap implements ITrap {
     }
     if(message instanceof Bust) { 
          Hid hid = ((Outcome) message).getHid(); 
-         if(hid.getSeat() == Seat.YOU) 
+         if(hid.getSeat() == Seat.YOU) {
            youBreaks++; 
+           totalBankRoll -= hid.getAmt();
+         }
     }    
     if(message instanceof Blackjack) { 
          Hid hid = ((Outcome) message).getHid(); 
@@ -71,14 +76,21 @@ public class Trap implements ITrap {
          Hid hid = ((Outcome) message).getHid(); 
          if(hid.getSeat() == Seat.YOU) 
            youSplits++; 
-    }    
+    }
+    
+    // calculating total hands value
+    int handsPlayer = youWin + youLose + youPush;
+    int handsDealer = handsPlayer - youSplits;
     
     LOG.info("Wins: " + youWin 
                 + " | Lose: " + youLose 
                 + " | Push: " + youPush 
                 + " | Breaks: " + youBreaks 
                 + " | Blackjacks: " + youBlackjacks
+                + " | Charlies: " + youCharlies
                 + " | Splits: " + youSplits
+                + " | Total Hands: " + handsDealer 
+                + " | Bankroll: " + totalBankRoll
     );
   }   
   @Override 
