@@ -1,0 +1,30 @@
+Kindly review the answer to the Lab 5 questions: Part - I - Validation Design
+
+However, a well-behaved advisor tests these assumptions. There are several exceptional conditions
+advisor needs to validate.
+Can you think of five (5) of them?
+1. myHand being null
+2. myHand value greater than or equal to 21
+3. upCard being null
+4. upCard value greater than or equal to 21
+5.
+
+What are two reasonable things advisor can do when it encounters these exceptions? (Hint: one of them is NOT to throw the exception)
+1. using null check
+2. using value check
+
+Handled 1,2,3 and 4 above using the following code:
+
+if(myHand == null) {
+    System.out.println("myHand value is null!");
+    play = Play.NONE;
+}else if(myHand.getValue() >= 21){
+    System.out.println("myHand value should be less than 21");
+    play = Play.NONE;
+}else if(upCard == null) {
+    System.out.println("upcard value is null!");
+    play = Play.NONE;
+}else if(upCard.value() >= 21){
+    System.out.println("upcard value should be less than 21");
+    play = Play.NONE;
+}
