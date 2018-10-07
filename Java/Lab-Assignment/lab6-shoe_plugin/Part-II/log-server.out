@@ -1,0 +1,508 @@
+16:42:40 INFO  main 0 GameServer:62 - game server started
+16:42:40 INFO  main 0 GameServer:73 - house started
+16:42:40 INFO  Thread-0 15 Actor:185 - House waiting for connection on port 1235
+16:42:50 INFO  main 9135 Actor:75 - got login
+16:42:50 INFO  main 9135 Actor:80 - validated ticket BB20B45FD4D95138 login successful!
+16:42:50 INFO  main 9135 Actor:185 - ServerAuthenticator sent ticket to client
+16:42:50 INFO  Thread-0 9151 Actor:185 - House accepted connection on port 1235
+16:42:50 INFO  Thread-0 9166 Actor:185 - House received message Arrival
+16:42:50 INFO  Thread-0 9166 Actor:185 - House invoking listener for Arrival
+16:42:50 INFO  Thread-0 9166 House:101 - validated ticket = BB20B45FD4D95138
+16:42:50 INFO  Thread-0 9166 House:105 - arrival from kev/192.168.99.1
+16:42:50 INFO  Thread-0 9173 Dealer:91 - using scenario = 'mycharlie.plugin.MyShoe01'
+16:42:50 INFO  Thread-0 9173 Shoe:102 - shuffling burn index = 39
+16:42:50 INFO  Thread-0 9173 Dealer:97 - shoe = mycharlie.plugin.MyShoe01: C6 D6 CK D8 D5 SQ C9 HQ H9 S9 H10 HK H6 H4 D3 
+16:42:50 INFO  Thread-0 9188 Actor:185 - RealPlayer sending Ready to 192.168.99.1:8001
+16:42:50 INFO  Thread-1 9188 Actor:185 - RealPlayer waiting for connection on port 8501
+16:42:50 INFO  Thread-0 9204 Actor:185 - RealPlayer sent successfully Ready to 192.168.99.1:8001
+16:42:50 INFO  Thread-0 9204 Actor:185 - House waiting for connection on port 1235
+16:46:14 INFO  Thread-1 213366 Actor:185 - RealPlayer accepted connection on port 8501
+16:46:14 INFO  Thread-1 213383 Actor:185 - RealPlayer received message Bet
+16:46:14 INFO  Thread-1 213386 Actor:185 - RealPlayer invoking listener for Bet
+16:46:14 INFO  Thread-1 213386 Actor:185 - RealPlayer received bet = 100.0
+16:46:14 INFO  Thread-1 213386 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:2AFC0D605A5CFD6
+16:46:14 INFO  Thread-1 213386 Dealer:164 - no bot configured for charlie.bot.huey
+16:46:14 INFO  Thread-1 213386 Dealer:164 - no bot configured for charlie.bot.dewey
+16:46:14 INFO  Thread-1 213386 Dealer:258 - starting a game
+16:46:14 INFO  Thread-1 213386 Dealer:273 - hands at table + dealer = 2
+16:46:14 INFO  Thread-1 213386 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:46:14 INFO  Thread-1 213393 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:46:14 INFO  Thread-1 213653 Shoe:111 - cards size = 52 burn index = 39 index = 0
+16:46:14 INFO  Thread-1 213653 Shoe:135 - index = 1 burnIndex = 39 shuffle needed = false
+16:46:14 INFO  Thread-1 213653 Dealer:352 - dealing to kev/192.168.99.1 card 1 = C6
+16:46:15 INFO  Thread-1 214413 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:46:15 INFO  Thread-1 214417 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:46:15 INFO  Thread-1 214417 Shoe:111 - cards size = 52 burn index = 39 index = 1
+16:46:15 INFO  Thread-1 214417 Shoe:135 - index = 2 burnIndex = 39 shuffle needed = false
+16:46:16 INFO  Thread-1 215173 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:46:16 INFO  Thread-1 215176 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:46:16 INFO  Thread-1 215176 Shoe:111 - cards size = 52 burn index = 39 index = 2
+16:46:16 INFO  Thread-1 215176 Shoe:135 - index = 3 burnIndex = 39 shuffle needed = false
+16:46:16 INFO  Thread-1 215176 Dealer:352 - dealing to kev/192.168.99.1 card 1 = CK
+16:46:16 INFO  Thread-1 215931 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:46:16 INFO  Thread-1 215931 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:46:16 INFO  Thread-1 215931 Shoe:111 - cards size = 52 burn index = 39 index = 3
+16:46:16 INFO  Thread-1 215931 Shoe:135 - index = 4 burnIndex = 39 shuffle needed = false
+16:46:17 INFO  Thread-1 216683 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:46:17 INFO  Thread-1 216683 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:46:17 INFO  Thread-1 216683 Dealer:555 - going to next hand
+16:46:17 INFO  Thread-1 216683 Dealer:565 - active player = kev/192.168.99.1
+16:46:17 INFO  Thread-1 216683 Dealer:605 - sending turn kev:YOU:2AFC0D605A5CFD6 to kev/192.168.99.1
+16:46:17 INFO  Thread-1 216683 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:46:17 INFO  Thread-1 216715 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:46:17 INFO  Thread-1 216716 Actor:185 - RealPlayer waiting for connection on port 8501
+16:47:44 INFO  Thread-1 304076 Actor:185 - RealPlayer accepted connection on port 8501
+16:47:44 INFO  Thread-1 304086 Actor:185 - RealPlayer received message Stay
+16:47:44 INFO  Thread-1 304086 Actor:185 - RealPlayer invoking listener for Stay
+16:47:44 INFO  Thread-1 304087 Actor:185 - RealPlayer received request = Stay
+16:47:44 INFO  Thread-1 304087 Dealer:449 - got STAY for kev:YOU:2AFC0D605A5CFD6
+16:47:44 INFO  Thread-1 304087 Dealer:555 - going to next hand
+16:47:44 INFO  Thread-1 304087 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:47:44 INFO  Thread-1 304096 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:47:44 INFO  Thread-1 304096 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:47:44 INFO  Thread-1 304100 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:47:44 INFO  Thread-1 304101 Shoe:111 - cards size = 52 burn index = 39 index = 4
+16:47:44 INFO  Thread-1 304101 Shoe:135 - index = 5 burnIndex = 39 shuffle needed = false
+16:47:45 INFO  Thread-1 304852 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:47:45 INFO  Thread-1 304855 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:47:45 INFO  Thread-1 304855 Actor:185 - RealPlayer sending Loose to 192.168.99.1:8001
+16:47:45 INFO  Thread-1 304855 Actor:185 - RealPlayer sent successfully Loose to 192.168.99.1:8001
+16:47:45 INFO  Thread-1 304855 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:47:45 INFO  Thread-1 304886 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:47:45 INFO  Thread-1 304886 Actor:185 - RealPlayer waiting for connection on port 8501
+16:48:53 INFO  Thread-1 372823 Actor:185 - RealPlayer accepted connection on port 8501
+16:48:53 INFO  Thread-1 372823 Actor:185 - RealPlayer received message Bet
+16:48:53 INFO  Thread-1 372823 Actor:185 - RealPlayer invoking listener for Bet
+16:48:53 INFO  Thread-1 372823 Actor:185 - RealPlayer received bet = 100.0
+16:48:53 INFO  Thread-1 372832 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:471DCDCF41E7C161
+16:48:53 INFO  Thread-1 372832 Dealer:164 - no bot configured for charlie.bot.huey
+16:48:53 INFO  Thread-1 372832 Dealer:164 - no bot configured for charlie.bot.dewey
+16:48:53 INFO  Thread-1 372832 Dealer:258 - starting a game
+16:48:53 INFO  Thread-1 372832 Dealer:273 - hands at table + dealer = 2
+16:48:53 INFO  Thread-1 372832 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:48:53 INFO  Thread-1 372832 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:48:53 INFO  Thread-1 373092 Shoe:111 - cards size = 52 burn index = 39 index = 5
+16:48:53 INFO  Thread-1 373092 Shoe:135 - index = 6 burnIndex = 39 shuffle needed = false
+16:48:53 INFO  Thread-1 373092 Dealer:352 - dealing to kev/192.168.99.1 card 1 = SQ
+16:48:54 INFO  Thread-1 373853 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:48:54 INFO  Thread-1 373853 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:48:54 INFO  Thread-1 373853 Shoe:111 - cards size = 52 burn index = 39 index = 6
+16:48:54 INFO  Thread-1 373853 Shoe:135 - index = 7 burnIndex = 39 shuffle needed = false
+16:48:55 INFO  Thread-1 374622 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:48:55 INFO  Thread-1 374626 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:48:55 INFO  Thread-1 374626 Shoe:111 - cards size = 52 burn index = 39 index = 7
+16:48:55 INFO  Thread-1 374626 Shoe:135 - index = 8 burnIndex = 39 shuffle needed = false
+16:48:55 INFO  Thread-1 374626 Dealer:352 - dealing to kev/192.168.99.1 card 1 = HQ
+16:48:56 INFO  Thread-1 375377 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:48:56 INFO  Thread-1 375378 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:48:56 INFO  Thread-1 375379 Shoe:111 - cards size = 52 burn index = 39 index = 8
+16:48:56 INFO  Thread-1 375380 Shoe:135 - index = 9 burnIndex = 39 shuffle needed = false
+16:48:57 INFO  Thread-1 376143 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:48:57 INFO  Thread-1 376145 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:48:57 INFO  Thread-1 376146 Dealer:555 - going to next hand
+16:48:57 INFO  Thread-1 376147 Dealer:565 - active player = kev/192.168.99.1
+16:48:57 INFO  Thread-1 376148 Dealer:605 - sending turn kev:YOU:471DCDCF41E7C161 to kev/192.168.99.1
+16:48:57 INFO  Thread-1 376148 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:48:57 INFO  Thread-1 376150 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:48:57 INFO  Thread-1 376151 Actor:185 - RealPlayer waiting for connection on port 8501
+16:49:11 INFO  Thread-1 391022 Actor:185 - RealPlayer accepted connection on port 8501
+16:49:11 INFO  Thread-1 391022 Actor:185 - RealPlayer received message Stay
+16:49:11 INFO  Thread-1 391022 Actor:185 - RealPlayer invoking listener for Stay
+16:49:11 INFO  Thread-1 391022 Actor:185 - RealPlayer received request = Stay
+16:49:11 INFO  Thread-1 391022 Dealer:449 - got STAY for kev:YOU:471DCDCF41E7C161
+16:49:11 INFO  Thread-1 391022 Dealer:555 - going to next hand
+16:49:11 INFO  Thread-1 391022 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391022 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391022 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391032 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391032 Actor:185 - RealPlayer sending Win to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391036 Actor:185 - RealPlayer sent successfully Win to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391036 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391036 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:49:11 INFO  Thread-1 391036 Actor:185 - RealPlayer waiting for connection on port 8501
+16:49:24 INFO  Thread-1 403393 Actor:185 - RealPlayer accepted connection on port 8501
+16:49:24 INFO  Thread-1 403395 Actor:185 - RealPlayer received message Bet
+16:49:24 INFO  Thread-1 403395 Actor:185 - RealPlayer invoking listener for Bet
+16:49:24 INFO  Thread-1 403395 Actor:185 - RealPlayer received bet = 100.0
+16:49:24 INFO  Thread-1 403395 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:4B525C2F1E3F6853
+16:49:24 INFO  Thread-1 403395 Dealer:164 - no bot configured for charlie.bot.huey
+16:49:24 INFO  Thread-1 403395 Dealer:164 - no bot configured for charlie.bot.dewey
+16:49:24 INFO  Thread-1 403395 Dealer:258 - starting a game
+16:49:24 INFO  Thread-1 403395 Dealer:273 - hands at table + dealer = 2
+16:49:24 INFO  Thread-1 403395 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:49:24 INFO  Thread-1 403395 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:49:24 INFO  Thread-1 403652 Shoe:111 - cards size = 52 burn index = 39 index = 9
+16:49:24 INFO  Thread-1 403652 Shoe:135 - index = 10 burnIndex = 39 shuffle needed = false
+16:49:24 INFO  Thread-1 403653 Dealer:352 - dealing to kev/192.168.99.1 card 1 = S9
+16:49:25 INFO  Thread-1 404422 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:49:25 INFO  Thread-1 404422 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:49:25 INFO  Thread-1 404422 Shoe:111 - cards size = 52 burn index = 39 index = 10
+16:49:25 INFO  Thread-1 404422 Shoe:135 - index = 11 burnIndex = 39 shuffle needed = false
+16:49:26 INFO  Thread-1 405193 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:49:26 INFO  Thread-1 405193 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:49:26 INFO  Thread-1 405196 Shoe:111 - cards size = 52 burn index = 39 index = 11
+16:49:26 INFO  Thread-1 405196 Shoe:135 - index = 12 burnIndex = 39 shuffle needed = false
+16:49:26 INFO  Thread-1 405196 Dealer:352 - dealing to kev/192.168.99.1 card 1 = HK
+16:49:26 INFO  Thread-1 405952 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:49:26 INFO  Thread-1 405952 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:49:26 INFO  Thread-1 405956 Shoe:111 - cards size = 52 burn index = 39 index = 12
+16:49:26 INFO  Thread-1 405956 Shoe:135 - index = 13 burnIndex = 39 shuffle needed = false
+16:49:27 INFO  Thread-1 406712 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:49:27 INFO  Thread-1 406712 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:49:27 INFO  Thread-1 406715 Dealer:555 - going to next hand
+16:49:27 INFO  Thread-1 406715 Dealer:565 - active player = kev/192.168.99.1
+16:49:27 INFO  Thread-1 406715 Dealer:605 - sending turn kev:YOU:4B525C2F1E3F6853 to kev/192.168.99.1
+16:49:27 INFO  Thread-1 406715 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:49:27 INFO  Thread-1 406722 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:49:27 INFO  Thread-1 406725 Actor:185 - RealPlayer waiting for connection on port 8501
+16:49:53 INFO  Thread-1 433072 Actor:185 - RealPlayer accepted connection on port 8501
+16:49:53 INFO  Thread-1 433072 Actor:185 - RealPlayer received message Stay
+16:49:53 INFO  Thread-1 433072 Actor:185 - RealPlayer invoking listener for Stay
+16:49:53 INFO  Thread-1 433072 Actor:185 - RealPlayer received request = Stay
+16:49:53 INFO  Thread-1 433076 Dealer:449 - got STAY for kev:YOU:4B525C2F1E3F6853
+16:49:53 INFO  Thread-1 433076 Dealer:555 - going to next hand
+16:49:53 INFO  Thread-1 433076 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:49:53 INFO  Thread-1 433076 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:49:53 INFO  Thread-1 433076 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:49:53 INFO  Thread-1 433082 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:49:53 INFO  Thread-1 433082 Shoe:111 - cards size = 52 burn index = 39 index = 13
+16:49:53 INFO  Thread-1 433082 Shoe:135 - index = 14 burnIndex = 39 shuffle needed = false
+16:49:54 INFO  Thread-1 433842 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:49:54 INFO  Thread-1 433842 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:49:54 INFO  Thread-1 433842 Actor:185 - RealPlayer sending Loose to 192.168.99.1:8001
+16:49:54 INFO  Thread-1 433842 Actor:185 - RealPlayer sent successfully Loose to 192.168.99.1:8001
+16:49:54 INFO  Thread-1 433846 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:49:54 INFO  Thread-1 433846 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:49:54 INFO  Thread-1 433846 Actor:185 - RealPlayer waiting for connection on port 8501
+16:50:21 INFO  Thread-1 460722 Actor:185 - RealPlayer accepted connection on port 8501
+16:50:21 INFO  Thread-1 460732 Actor:185 - RealPlayer received message Bet
+16:50:21 INFO  Thread-1 460732 Actor:185 - RealPlayer invoking listener for Bet
+16:50:21 INFO  Thread-1 460732 Actor:185 - RealPlayer received bet = 100.0
+16:50:21 INFO  Thread-1 460732 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:3A6409C02D48FEDC
+16:50:21 INFO  Thread-1 460732 Dealer:164 - no bot configured for charlie.bot.huey
+16:50:21 INFO  Thread-1 460732 Dealer:164 - no bot configured for charlie.bot.dewey
+16:50:21 INFO  Thread-1 460736 Dealer:258 - starting a game
+16:50:21 INFO  Thread-1 460736 Dealer:273 - hands at table + dealer = 2
+16:50:21 INFO  Thread-1 460736 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:50:21 INFO  Thread-1 460736 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:50:21 INFO  Thread-1 461002 Shoe:111 - cards size = 52 burn index = 39 index = 14
+16:50:21 INFO  Thread-1 461002 Shoe:135 - index = 15 burnIndex = 39 shuffle needed = false
+16:50:21 INFO  Thread-1 461002 Dealer:352 - dealing to kev/192.168.99.1 card 1 = D3
+16:50:22 INFO  Thread-1 461762 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:22 INFO  Thread-1 461766 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:22 INFO  Thread-1 461766 Shoe:111 - cards size = 52 burn index = 39 index = 15
+16:50:22 INFO  Thread-1 461766 Shoe:135 - index = 16 burnIndex = 39 shuffle needed = false
+16:50:23 INFO  Thread-1 462532 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:23 INFO  Thread-1 462534 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:23 INFO  Thread-1 462535 Shoe:111 - cards size = 52 burn index = 39 index = 16
+16:50:23 INFO  Thread-1 462535 Shoe:135 - index = 17 burnIndex = 39 shuffle needed = false
+16:50:23 INFO  Thread-1 462536 Dealer:352 - dealing to kev/192.168.99.1 card 1 = D4
+16:50:24 INFO  Thread-1 463302 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:24 INFO  Thread-1 463304 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:24 INFO  Thread-1 463304 Shoe:111 - cards size = 52 burn index = 39 index = 17
+16:50:24 INFO  Thread-1 463304 Shoe:135 - index = 18 burnIndex = 39 shuffle needed = false
+16:50:24 INFO  Thread-1 464072 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:24 INFO  Thread-1 464072 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:24 INFO  Thread-1 464076 Dealer:555 - going to next hand
+16:50:24 INFO  Thread-1 464076 Dealer:565 - active player = kev/192.168.99.1
+16:50:24 INFO  Thread-1 464076 Dealer:605 - sending turn kev:YOU:3A6409C02D48FEDC to kev/192.168.99.1
+16:50:24 INFO  Thread-1 464076 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:50:24 INFO  Thread-1 464082 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:50:24 INFO  Thread-1 464082 Actor:185 - RealPlayer waiting for connection on port 8501
+16:50:37 INFO  Thread-1 476372 Actor:185 - RealPlayer accepted connection on port 8501
+16:50:37 INFO  Thread-1 476372 Actor:185 - RealPlayer received message Hit
+16:50:37 INFO  Thread-1 476372 Actor:185 - RealPlayer invoking listener for Hit
+16:50:37 INFO  Thread-1 476372 Actor:185 - RealPlayer received request = Hit
+16:50:37 INFO  Thread-1 476372 Shoe:111 - cards size = 52 burn index = 39 index = 18
+16:50:37 INFO  Thread-1 476372 Shoe:135 - index = 19 burnIndex = 39 shuffle needed = false
+16:50:37 INFO  Thread-1 476372 Dealer:400 - hit hid = kev:YOU:3A6409C02D48FEDC with S4
+16:50:37 INFO  Thread-1 476372 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:37 INFO  Thread-1 476382 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:37 INFO  Thread-1 476382 Actor:185 - RealPlayer waiting for connection on port 8501
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer accepted connection on port 8501
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer received message Hit
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer invoking listener for Hit
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer received request = Hit
+16:50:41 INFO  Thread-1 480766 Shoe:111 - cards size = 52 burn index = 39 index = 19
+16:50:41 INFO  Thread-1 480766 Shoe:135 - index = 20 burnIndex = 39 shuffle needed = false
+16:50:41 INFO  Thread-1 480766 Dealer:400 - hit hid = kev:YOU:3A6409C02D48FEDC with C10
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:41 INFO  Thread-1 480766 Dealer:555 - going to next hand
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:50:41 INFO  Thread-1 480766 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:41 INFO  Thread-1 480772 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:41 INFO  Thread-1 480772 Shoe:111 - cards size = 52 burn index = 39 index = 20
+16:50:41 INFO  Thread-1 480772 Shoe:135 - index = 21 burnIndex = 39 shuffle needed = false
+16:50:42 INFO  Thread-1 481532 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:42 INFO  Thread-1 481532 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:42 INFO  Thread-1 481532 Shoe:111 - cards size = 52 burn index = 39 index = 21
+16:50:42 INFO  Thread-1 481532 Shoe:135 - index = 22 burnIndex = 39 shuffle needed = false
+16:50:43 INFO  Thread-1 482302 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:50:43 INFO  Thread-1 482302 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:50:43 INFO  Thread-1 482302 Actor:185 - RealPlayer sending Win to 192.168.99.1:8001
+16:50:43 INFO  Thread-1 482305 Actor:185 - RealPlayer sent successfully Win to 192.168.99.1:8001
+16:50:43 INFO  Thread-1 482305 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:50:43 INFO  Thread-1 482305 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:50:43 INFO  Thread-1 482305 Actor:185 - RealPlayer waiting for connection on port 8501
+16:51:33 INFO  Thread-1 533055 Actor:185 - RealPlayer accepted connection on port 8501
+16:51:33 INFO  Thread-1 533062 Actor:185 - RealPlayer received message Bet
+16:51:33 INFO  Thread-1 533062 Actor:185 - RealPlayer invoking listener for Bet
+16:51:33 INFO  Thread-1 533062 Actor:185 - RealPlayer received bet = 100.0
+16:51:33 INFO  Thread-1 533062 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:7B0B460A7A42D8CA
+16:51:33 INFO  Thread-1 533062 Dealer:164 - no bot configured for charlie.bot.huey
+16:51:33 INFO  Thread-1 533062 Dealer:164 - no bot configured for charlie.bot.dewey
+16:51:33 INFO  Thread-1 533062 Dealer:258 - starting a game
+16:51:33 INFO  Thread-1 533062 Dealer:273 - hands at table + dealer = 2
+16:51:33 INFO  Thread-1 533062 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:51:33 INFO  Thread-1 533062 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:51:34 INFO  Thread-1 533332 Shoe:111 - cards size = 52 burn index = 39 index = 22
+16:51:34 INFO  Thread-1 533332 Shoe:135 - index = 23 burnIndex = 39 shuffle needed = false
+16:51:34 INFO  Thread-1 533332 Dealer:352 - dealing to kev/192.168.99.1 card 1 = CA
+16:51:34 INFO  Thread-1 534083 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:51:34 INFO  Thread-1 534084 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:51:34 INFO  Thread-1 534087 Shoe:111 - cards size = 52 burn index = 39 index = 23
+16:51:34 INFO  Thread-1 534087 Shoe:135 - index = 24 burnIndex = 39 shuffle needed = false
+16:51:35 INFO  Thread-1 534852 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:51:35 INFO  Thread-1 534856 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:51:35 INFO  Thread-1 534856 Shoe:111 - cards size = 52 burn index = 39 index = 24
+16:51:35 INFO  Thread-1 534856 Shoe:135 - index = 25 burnIndex = 39 shuffle needed = false
+16:51:35 INFO  Thread-1 534856 Dealer:352 - dealing to kev/192.168.99.1 card 1 = S10
+16:51:36 INFO  Thread-1 535612 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:51:36 INFO  Thread-1 535615 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:51:36 INFO  Thread-1 535615 Actor:185 - RealPlayer sending Blackjack to 192.168.99.1:8001
+16:51:36 INFO  Thread-1 535615 Actor:185 - RealPlayer sent successfully Blackjack to 192.168.99.1:8001
+16:51:36 INFO  Thread-1 535622 Shoe:111 - cards size = 52 burn index = 39 index = 25
+16:51:36 INFO  Thread-1 535622 Shoe:135 - index = 26 burnIndex = 39 shuffle needed = false
+16:51:37 INFO  Thread-1 536392 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536394 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536394 Dealer:555 - going to next hand
+16:51:37 INFO  Thread-1 536394 Dealer:565 - active player = kev/192.168.99.1
+16:51:37 INFO  Thread-1 536394 Dealer:555 - going to next hand
+16:51:37 INFO  Thread-1 536394 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536407 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536407 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536415 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536415 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536422 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:51:37 INFO  Thread-1 536425 Actor:185 - RealPlayer waiting for connection on port 8501
+16:52:02 INFO  Thread-1 561382 Actor:185 - RealPlayer accepted connection on port 8501
+16:52:02 INFO  Thread-1 561386 Actor:185 - RealPlayer received message Bet
+16:52:02 INFO  Thread-1 561386 Actor:185 - RealPlayer invoking listener for Bet
+16:52:02 INFO  Thread-1 561386 Actor:185 - RealPlayer received bet = 100.0
+16:52:02 INFO  Thread-1 561386 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:3B0245AFD2172079
+16:52:02 INFO  Thread-1 561386 Dealer:164 - no bot configured for charlie.bot.huey
+16:52:02 INFO  Thread-1 561386 Dealer:164 - no bot configured for charlie.bot.dewey
+16:52:02 INFO  Thread-1 561386 Dealer:258 - starting a game
+16:52:02 INFO  Thread-1 561386 Dealer:273 - hands at table + dealer = 2
+16:52:02 INFO  Thread-1 561386 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:52:02 INFO  Thread-1 561386 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:52:02 INFO  Thread-1 561637 Shoe:111 - cards size = 52 burn index = 39 index = 26
+16:52:02 INFO  Thread-1 561637 Shoe:135 - index = 27 burnIndex = 39 shuffle needed = false
+16:52:02 INFO  Thread-1 561637 Dealer:352 - dealing to kev/192.168.99.1 card 1 = S7
+16:52:03 INFO  Thread-1 562402 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:52:03 INFO  Thread-1 562402 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:52:03 INFO  Thread-1 562402 Shoe:111 - cards size = 52 burn index = 39 index = 27
+16:52:03 INFO  Thread-1 562402 Shoe:135 - index = 28 burnIndex = 39 shuffle needed = false
+16:52:04 INFO  Thread-1 563152 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:52:04 INFO  Thread-1 563153 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:52:04 INFO  Thread-1 563153 Shoe:111 - cards size = 52 burn index = 39 index = 28
+16:52:04 INFO  Thread-1 563153 Shoe:135 - index = 29 burnIndex = 39 shuffle needed = false
+16:52:04 INFO  Thread-1 563156 Dealer:352 - dealing to kev/192.168.99.1 card 1 = S8
+16:52:04 INFO  Thread-1 563922 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:52:04 INFO  Thread-1 563922 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:52:04 INFO  Thread-1 563922 Shoe:111 - cards size = 52 burn index = 39 index = 29
+16:52:04 INFO  Thread-1 563922 Shoe:135 - index = 30 burnIndex = 39 shuffle needed = false
+16:52:05 INFO  Thread-1 564672 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:52:05 INFO  Thread-1 564672 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:52:05 INFO  Thread-1 564672 Dealer:555 - going to next hand
+16:52:05 INFO  Thread-1 564672 Dealer:565 - active player = kev/192.168.99.1
+16:52:05 INFO  Thread-1 564672 Dealer:605 - sending turn kev:YOU:3B0245AFD2172079 to kev/192.168.99.1
+16:52:05 INFO  Thread-1 564672 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:52:05 INFO  Thread-1 564672 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:52:05 INFO  Thread-1 564672 Actor:185 - RealPlayer waiting for connection on port 8501
+16:52:46 INFO  Thread-1 605659 Actor:185 - RealPlayer accepted connection on port 8501
+16:52:46 INFO  Thread-1 605662 Actor:185 - RealPlayer received message Hit
+16:52:46 INFO  Thread-1 605662 Actor:185 - RealPlayer invoking listener for Hit
+16:52:46 INFO  Thread-1 605662 Actor:185 - RealPlayer received request = Hit
+16:52:46 INFO  Thread-1 605662 Shoe:111 - cards size = 52 burn index = 39 index = 30
+16:52:46 INFO  Thread-1 605662 Shoe:135 - index = 31 burnIndex = 39 shuffle needed = false
+16:52:46 INFO  Thread-1 605662 Dealer:400 - hit hid = kev:YOU:3B0245AFD2172079 with C2
+16:52:46 INFO  Thread-1 605662 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:52:46 INFO  Thread-1 605667 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:52:46 INFO  Thread-1 605667 Actor:185 - RealPlayer waiting for connection on port 8501
+16:52:52 INFO  Thread-1 611672 Actor:185 - RealPlayer accepted connection on port 8501
+16:52:52 INFO  Thread-1 611682 Actor:185 - RealPlayer received message Stay
+16:52:52 INFO  Thread-1 611682 Actor:185 - RealPlayer invoking listener for Stay
+16:52:52 INFO  Thread-1 611682 Actor:185 - RealPlayer received request = Stay
+16:52:52 INFO  Thread-1 611682 Dealer:449 - got STAY for kev:YOU:3B0245AFD2172079
+16:52:52 INFO  Thread-1 611682 Dealer:555 - going to next hand
+16:52:52 INFO  Thread-1 611682 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611682 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611685 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611685 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611685 Actor:185 - RealPlayer sending Push to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611695 Actor:185 - RealPlayer sent successfully Push to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611696 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611696 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:52:52 INFO  Thread-1 611700 Actor:185 - RealPlayer waiting for connection on port 8501
+16:53:04 INFO  Thread-1 623444 Actor:185 - RealPlayer accepted connection on port 8501
+16:53:04 INFO  Thread-1 623444 Actor:185 - RealPlayer received message Bet
+16:53:04 INFO  Thread-1 623444 Actor:185 - RealPlayer invoking listener for Bet
+16:53:04 INFO  Thread-1 623444 Actor:185 - RealPlayer received bet = 100.0
+16:53:04 INFO  Thread-1 623444 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:2E0FA5EA4715F37C
+16:53:04 INFO  Thread-1 623444 Dealer:164 - no bot configured for charlie.bot.huey
+16:53:04 INFO  Thread-1 623444 Dealer:164 - no bot configured for charlie.bot.dewey
+16:53:04 INFO  Thread-1 623444 Dealer:258 - starting a game
+16:53:04 INFO  Thread-1 623444 Dealer:273 - hands at table + dealer = 2
+16:53:04 INFO  Thread-1 623444 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:53:04 INFO  Thread-1 623444 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:53:04 INFO  Thread-1 623712 Shoe:111 - cards size = 52 burn index = 39 index = 31
+16:53:04 INFO  Thread-1 623712 Shoe:135 - index = 32 burnIndex = 39 shuffle needed = false
+16:53:04 INFO  Thread-1 623712 Dealer:352 - dealing to kev/192.168.99.1 card 1 = SJ
+16:53:05 INFO  Thread-1 624462 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:05 INFO  Thread-1 624466 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:05 INFO  Thread-1 624466 Shoe:111 - cards size = 52 burn index = 39 index = 32
+16:53:05 INFO  Thread-1 624466 Shoe:135 - index = 33 burnIndex = 39 shuffle needed = false
+16:53:06 INFO  Thread-1 625222 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:06 INFO  Thread-1 625222 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:06 INFO  Thread-1 625222 Shoe:111 - cards size = 52 burn index = 39 index = 33
+16:53:06 INFO  Thread-1 625222 Shoe:135 - index = 34 burnIndex = 39 shuffle needed = false
+16:53:06 INFO  Thread-1 625222 Dealer:352 - dealing to kev/192.168.99.1 card 1 = DQ
+16:53:06 INFO  Thread-1 625982 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:06 INFO  Thread-1 625982 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:06 INFO  Thread-1 625985 Shoe:111 - cards size = 52 burn index = 39 index = 34
+16:53:06 INFO  Thread-1 625985 Shoe:135 - index = 35 burnIndex = 39 shuffle needed = false
+16:53:07 INFO  Thread-1 626740 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:07 INFO  Thread-1 626740 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:07 INFO  Thread-1 626740 Dealer:555 - going to next hand
+16:53:07 INFO  Thread-1 626740 Dealer:565 - active player = kev/192.168.99.1
+16:53:07 INFO  Thread-1 626745 Dealer:605 - sending turn kev:YOU:2E0FA5EA4715F37C to kev/192.168.99.1
+16:53:07 INFO  Thread-1 626745 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:53:07 INFO  Thread-1 626745 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:53:07 INFO  Thread-1 626745 Actor:185 - RealPlayer waiting for connection on port 8501
+16:53:24 INFO  Thread-1 643862 Actor:185 - RealPlayer accepted connection on port 8501
+16:53:24 INFO  Thread-1 643862 Actor:185 - RealPlayer received message Stay
+16:53:24 INFO  Thread-1 643862 Actor:185 - RealPlayer invoking listener for Stay
+16:53:24 INFO  Thread-1 643862 Actor:185 - RealPlayer received request = Stay
+16:53:24 INFO  Thread-1 643862 Dealer:449 - got STAY for kev:YOU:2E0FA5EA4715F37C
+16:53:24 INFO  Thread-1 643862 Dealer:555 - going to next hand
+16:53:24 INFO  Thread-1 643862 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:53:24 INFO  Thread-1 643862 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:53:24 INFO  Thread-1 643862 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:24 INFO  Thread-1 643872 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:24 INFO  Thread-1 643874 Shoe:111 - cards size = 52 burn index = 39 index = 35
+16:53:24 INFO  Thread-1 643874 Shoe:135 - index = 36 burnIndex = 39 shuffle needed = false
+16:53:25 INFO  Thread-1 644632 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:25 INFO  Thread-1 644632 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:25 INFO  Thread-1 644632 Shoe:111 - cards size = 52 burn index = 39 index = 36
+16:53:25 INFO  Thread-1 644632 Shoe:135 - index = 37 burnIndex = 39 shuffle needed = false
+16:53:26 INFO  Thread-1 645382 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:26 INFO  Thread-1 645383 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:26 INFO  Thread-1 645383 Actor:185 - RealPlayer sending Win to 192.168.99.1:8001
+16:53:26 INFO  Thread-1 645385 Actor:185 - RealPlayer sent successfully Win to 192.168.99.1:8001
+16:53:26 INFO  Thread-1 645386 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:53:26 INFO  Thread-1 645387 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:53:26 INFO  Thread-1 645388 Actor:185 - RealPlayer waiting for connection on port 8501
+16:53:38 INFO  Thread-1 657152 Actor:185 - RealPlayer accepted connection on port 8501
+16:53:38 INFO  Thread-1 657159 Actor:185 - RealPlayer received message Bet
+16:53:38 INFO  Thread-1 657159 Actor:185 - RealPlayer invoking listener for Bet
+16:53:38 INFO  Thread-1 657159 Actor:185 - RealPlayer received bet = 100.0
+16:53:38 INFO  Thread-1 657159 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:102BDADBA714C182
+16:53:38 INFO  Thread-1 657159 Dealer:164 - no bot configured for charlie.bot.huey
+16:53:38 INFO  Thread-1 657159 Dealer:164 - no bot configured for charlie.bot.dewey
+16:53:38 INFO  Thread-1 657159 Dealer:258 - starting a game
+16:53:38 INFO  Thread-1 657159 Dealer:273 - hands at table + dealer = 2
+16:53:38 INFO  Thread-1 657162 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:53:38 INFO  Thread-1 657162 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:53:38 INFO  Thread-1 657432 Shoe:111 - cards size = 52 burn index = 39 index = 37
+16:53:38 INFO  Thread-1 657432 Shoe:135 - index = 38 burnIndex = 39 shuffle needed = false
+16:53:38 INFO  Thread-1 657432 Dealer:352 - dealing to kev/192.168.99.1 card 1 = S3
+16:53:39 INFO  Thread-1 658192 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:39 INFO  Thread-1 658192 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:39 INFO  Thread-1 658195 Shoe:111 - cards size = 52 burn index = 39 index = 38
+16:53:39 INFO  Thread-1 658195 Shoe:135 - index = 39 burnIndex = 39 shuffle needed = true
+16:53:39 INFO  Thread-1 658195 Actor:185 - RealPlayer sending Shuffle to 192.168.99.1:8001
+16:53:39 INFO  Thread-1 658195 Actor:185 - RealPlayer sent successfully Shuffle to 192.168.99.1:8001
+16:53:39 INFO  Thread-1 658952 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:39 INFO  Thread-1 658952 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:39 INFO  Thread-1 658952 Shoe:111 - cards size = 52 burn index = 39 index = 39
+16:53:39 INFO  Thread-1 658952 Dealer:352 - dealing to kev/192.168.99.1 card 1 = CQ
+16:53:40 INFO  Thread-1 659720 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:40 INFO  Thread-1 659720 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:40 INFO  Thread-1 659720 Shoe:111 - cards size = 52 burn index = 39 index = 40
+16:53:41 INFO  Thread-1 660472 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:53:41 INFO  Thread-1 660475 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:53:41 INFO  Thread-1 660475 Dealer:555 - going to next hand
+16:53:41 INFO  Thread-1 660475 Dealer:565 - active player = kev/192.168.99.1
+16:53:41 INFO  Thread-1 660475 Dealer:605 - sending turn kev:YOU:102BDADBA714C182 to kev/192.168.99.1
+16:53:41 INFO  Thread-1 660475 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:53:41 INFO  Thread-1 660475 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:53:41 INFO  Thread-1 660475 Actor:185 - RealPlayer waiting for connection on port 8501
+16:54:05 INFO  Thread-1 684251 Actor:185 - RealPlayer accepted connection on port 8501
+16:54:05 INFO  Thread-1 684255 Actor:185 - RealPlayer received message Hit
+16:54:05 INFO  Thread-1 684255 Actor:185 - RealPlayer invoking listener for Hit
+16:54:05 INFO  Thread-1 684255 Actor:185 - RealPlayer received request = Hit
+16:54:05 INFO  Thread-1 684255 Shoe:111 - cards size = 52 burn index = 39 index = 41
+16:54:05 INFO  Thread-1 684255 Dealer:400 - hit hid = kev:YOU:102BDADBA714C182 with C4
+16:54:05 INFO  Thread-1 684255 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:54:05 INFO  Thread-1 684255 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:54:05 INFO  Thread-1 684255 Actor:185 - RealPlayer waiting for connection on port 8501
+16:54:12 INFO  Thread-1 691352 Actor:185 - RealPlayer accepted connection on port 8501
+16:54:12 INFO  Thread-1 691361 Actor:185 - RealPlayer received message Stay
+16:54:12 INFO  Thread-1 691361 Actor:185 - RealPlayer invoking listener for Stay
+16:54:12 INFO  Thread-1 691361 Actor:185 - RealPlayer received request = Stay
+16:54:12 INFO  Thread-1 691361 Dealer:449 - got STAY for kev:YOU:102BDADBA714C182
+16:54:12 INFO  Thread-1 691361 Dealer:555 - going to next hand
+16:54:12 INFO  Thread-1 691361 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691361 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691364 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691364 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691364 Actor:185 - RealPlayer sending Push to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691364 Actor:185 - RealPlayer sent successfully Push to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691364 Shoe:102 - shuffling burn index = 35
+16:54:12 INFO  Thread-1 691364 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691364 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:54:12 INFO  Thread-1 691364 Actor:185 - RealPlayer waiting for connection on port 8501
+16:54:26 INFO  Thread-1 705462 Actor:185 - RealPlayer accepted connection on port 8501
+16:54:26 INFO  Thread-1 705462 Actor:185 - RealPlayer received message Bet
+16:54:26 INFO  Thread-1 705462 Actor:185 - RealPlayer invoking listener for Bet
+16:54:26 INFO  Thread-1 705462 Actor:185 - RealPlayer received bet = 100.0
+16:54:26 INFO  Thread-1 705462 Dealer:109 - got new bet = 100.0 side bet = 0.0 from kev/192.168.99.1 for hid = kev:YOU:7B9DC03EF470CC2C
+16:54:26 INFO  Thread-1 705462 Dealer:164 - no bot configured for charlie.bot.huey
+16:54:26 INFO  Thread-1 705465 Dealer:164 - no bot configured for charlie.bot.dewey
+16:54:26 INFO  Thread-1 705465 Dealer:258 - starting a game
+16:54:26 INFO  Thread-1 705465 Dealer:273 - hands at table + dealer = 2
+16:54:26 INFO  Thread-1 705465 Actor:185 - RealPlayer sending GameStart to 192.168.99.1:8001
+16:54:26 INFO  Thread-1 705465 Actor:185 - RealPlayer sent successfully GameStart to 192.168.99.1:8001
+16:54:26 INFO  Thread-1 705721 Shoe:111 - cards size = 52 burn index = 35 index = 0
+16:54:26 INFO  Thread-1 705721 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+16:54:26 INFO  Thread-1 705721 Dealer:352 - dealing to kev/192.168.99.1 card 1 = SA
+16:54:27 INFO  Thread-1 706482 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:54:27 INFO  Thread-1 706482 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:54:27 INFO  Thread-1 706482 Shoe:111 - cards size = 52 burn index = 35 index = 1
+16:54:27 INFO  Thread-1 706482 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+16:54:28 INFO  Thread-1 707252 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:54:28 INFO  Thread-1 707255 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:54:28 INFO  Thread-1 707255 Shoe:111 - cards size = 52 burn index = 35 index = 2
+16:54:28 INFO  Thread-1 707255 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+16:54:28 INFO  Thread-1 707255 Dealer:352 - dealing to kev/192.168.99.1 card 1 = SK
+16:54:28 INFO  Thread-1 708022 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:54:28 INFO  Thread-1 708022 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:54:28 INFO  Thread-1 708022 Actor:185 - RealPlayer sending Blackjack to 192.168.99.1:8001
+16:54:28 INFO  Thread-1 708025 Actor:185 - RealPlayer sent successfully Blackjack to 192.168.99.1:8001
+16:54:28 INFO  Thread-1 708025 Shoe:111 - cards size = 52 burn index = 35 index = 3
+16:54:28 INFO  Thread-1 708025 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+16:54:29 INFO  Thread-1 708791 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708791 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708791 Dealer:555 - going to next hand
+16:54:29 INFO  Thread-1 708791 Dealer:565 - active player = kev/192.168.99.1
+16:54:29 INFO  Thread-1 708791 Dealer:555 - going to next hand
+16:54:29 INFO  Thread-1 708791 Actor:185 - RealPlayer sending Play to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708795 Actor:185 - RealPlayer sent successfully Play to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708795 Actor:185 - RealPlayer sending Deal to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708795 Actor:185 - RealPlayer sent successfully Deal to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708795 Actor:185 - RealPlayer sending GameOver to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708795 Actor:185 - RealPlayer sent successfully GameOver to 192.168.99.1:8001
+16:54:29 INFO  Thread-1 708795 Actor:185 - RealPlayer waiting for connection on port 8501

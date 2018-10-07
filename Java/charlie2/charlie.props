@@ -4,11 +4,16 @@ charlie.server.realplayer 127.0.0.1:8501
 charlie.client.courier -1:8001
 charlie.debug true
 charlie.shoe charlie.card.Shoe01
+
+# shoe plugin | if this to be used, comment above charlie.shoe charlie.card.Shoe01
+# charlie.shoe mycharlie.plugin.MyShoe01
+
 #charlie.bot.huey charlie.bot.server.Huey
 #charlie.bot.dewey charlie.bot.server.Dewey
 
 # to get the statistics of blackjack game using trap plugin
-#charlie.trap charlie.client.Trap
+# charlie.trap charlie.client.Trap
 
 # to implement advisor feature using bot
 # charlie.advisor charlie.plugin.SimpleAdvisor
+

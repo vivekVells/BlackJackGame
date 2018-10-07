@@ -1,0 +1,65 @@
+Part - II
+
+Note:
+Symbol notation:
+>>   means for Part II
+
+Total Cards(including You alone): 	
+1st: 5 >> 2
+2nd: 2 >> 2 
+3rd: 4 >> 2 
+4th: 4 >> 4 
+5th: 4 >> 2
+6th:   >> 3 
+7th:   >> 2 
+8th:   >> 3
+
+Burn Card Occurrence when total card count reached: 
+Part I : Total: 19
+Part II: Total: 20
+
+Cards:
+1st round                   : You: S4, H2, D8, HA, D5  >> You: C6, CK          
+2nd round                   : You: S9, H9 						 >> You: HQ, SQ           
+3rd round                   : You: CA, C4, CJ, S8      >> You: S9, HK           
+4th round                   : You: D7, C9, D4, S6      >> You: D3, D4, S4, C10  
+5th round (BurnCardPartI)   : You: H4, C2, C3, HK 		 >> You: CA, S10          
+6th round                   :                          >> You: S7, S8, C2       
+7th round (BurnCardPartIII) :                          >> You: SJ, DQ          
+8th round (BurnCardPartII)  :                          >> You: S3, CQ, C4     
+
+Part I: 
+- 19 Cards: S4, H2, D8, HA, D5, S9, H9, CA, C4, CJ, S8, D7, C9, D4, S6, H4, C2, C3, HK
+Part II:
+- 20 Cards: C6, CK, HQ, SQ, S9, HK, D3, D4, S4, C10, CA, S10, S7, S8, C2, SJ, DQ, S3, CQ, C4
+
+Total Cards(including Dealer & You): 
+1st: 5 + 2 >> 2 + 3
+2nd: 2 + 2 >> 2 + 2
+3rd: 4 + 2 >> 2 + 3
+4th: 4 + 2 >> 4 + 4
+5th: 4 + 2 >> 2 + 2
+6th: 			 >> 3 + 2 
+7th: 			 >> 2 + 4
+8th: 			 >> 3 + 2
+
+Burn Card Occurrence when total card count reached: 
+- Part I    : Total: 29
+- Part II   : Total: 42
+
+
+Cards: 
+1st round                 : You: S4, H2, D8, HA, D5 | Dealer: HJ, CQ  >> You: C6, CK          | Dealer: D8, D5, D6     
+2nd round                 : You: S9, H9 | Dealer: H10, SK             >> You: HQ, SQ          | Dealer: H9, C9         
+3rd round                 : You: CA, C4, CJ, S8 | Dealer: C7, D10     >> You: S9, HK          | Dealer: H6, H10, H4    
+4th round                 : You: D7, C9, D4, S6 | Dealer: DQ, S7      >> You: D3, D4, S4, C10 | Dealer: D2, H7, S5, HJ 
+5th round (BurnCardPartI) : You: H4, C2, C3, HK | Dealer: DK, D7      >> You: CA, S10         | Dealer: DK, D9         
+6th round                 :                                           >> You: S7, S8, C2      | Dealer: C7, DJ         
+7th round                 :                                           >> You: SJ, DQ          | Dealer: D7, C5, H2, H8 
+8th round (BurnCardPartII):                                           >> You: S3, CQ, C4      | Dealer: S6, DA	
+
+Part I:
+- 29 Cards: S4, H2, D8, HA, D5, HJ, CQ, S9, H9, H10, SK, CA, C4, CJ, S8, C7, D10, D7, C9, D4, S6, DQ, S7, H4, C2, C3, HK, DK, D7 
+Part II:
+- 42 Cards: S4, H2, D8, HA, D5, HJ, CQ, C6, CK, D8, D5, D6, S9, H9, H10, SK, HQ, SQ, H9, C9, CA, C4, CJ, S8, C7, D10, S9, HK, H6, H10, H4, D7, C9, D4, S6, DQ, S7, D3, D4, S4, C10, D2, H7, S5, HJ, H4, C2, C3, HK, DK, D7, CA, S10, DK, D9, S7, S8, C2, C7, DJ, SJ, DQ, D7, C5, H2, H8, S3, CQ, C4, S6, DA
+

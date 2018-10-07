@@ -1,0 +1,35 @@
+Part - I
+
+Total Cards(including You alone): 	
+1st: 5 
+2nd: 2 
+3rd: 4 
+4th: 4 
+5th: 4 
+Total: 19
+Cards:
+1st round: You: S4, H2, D8, HA, D5 
+2nd round: You: S9, H9 
+3rd round: You: CA, C4, CJ, S8 
+4th round: You: D7, C9, D4, S6 
+5th round: You: H4, C2, C3, HK - burn card came
+
+19 Cards: S4, H2, D8, HA, D5, S9, H9, CA, C4, CJ, S8, D7, C9, D4, S6, H4, C2, C3, HK
+
+Total Cards(including Dealer & You): 
+1st: 5 + 2
+2nd: 2 + 2
+3rd: 4 + 2
+4th: 4 + 2
+5th: 4 + 2
+Total: 29
+Cards: 
+1st round: You: S4, H2, D8, HA, D5 | Dealer: HJ, CQ
+2nd round: You: S9, H9             | Dealer: H10, SK
+3rd round: You: CA, C4, CJ, S8     | Dealer: C7, D10
+4th round: You: D7, C9, D4, S6     | Dealer: DQ, S7
+5th round: You: H4, C2, C3, HK     | Dealer: DK, D7 
+BurnCardOn5thRound
+
+29 Cards: S4, H2, D8, HA, D5, HJ, CQ, S9, H9, H10, SK, CA, C4, CJ, S8, C7, D10, D7, C9, D4, S6, DQ, S7, H4, C2, C3, HK, DK, D7 
+

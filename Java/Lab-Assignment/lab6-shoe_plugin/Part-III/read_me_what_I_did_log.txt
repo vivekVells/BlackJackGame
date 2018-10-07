@@ -1,0 +1,3 @@
+- generated javadoc
+- saw the constructors of Shoe
+- MyShoe01 -> super(1) -> "1" means number of decks in the javadoc as Shoe parameterized constuctor have an integer variable numDecks
