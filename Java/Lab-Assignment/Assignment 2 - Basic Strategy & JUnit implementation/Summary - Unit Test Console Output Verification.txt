@@ -1,25 +1,35 @@
 Tests passed: 100.00%
-All 27 tests passed. (0.203s)
+All 29 tests passed. (0.281s)
+
+Boundary Condition (Hand vs Up Card = advice): (10 + 9) vs 7 = STAY
+Unit Testing for Section 1 to be executed...
+hand: 19
+advise received for above condition: STAY
 
 Boundary Condition (Hand vs Up Card = advice): (10 + 4) vs 6 = STAY
 Unit Testing for Section 1 to be executed...
 hand: 14
 advise received for above condition: STAY
 
-Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 2 = HIT
-Unit Testing for Section 1 to be executed...
-hand: 12
-advise received for above condition: HIT
-
 Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 7 = HIT
 Unit Testing for Section 1 to be executed...
 hand: 12
 advise received for above condition: HIT
 
-Boundary Condition (Hand vs Up Card = advice): (10 + 9) vs 7 = STAY
+Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 6 = STAY
 Unit Testing for Section 1 to be executed...
-hand: 19
+hand: 12
 advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 4 = STAY
+Unit Testing for Section 1 to be executed...
+hand: 12
+advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 2 = HIT
+Unit Testing for Section 1 to be executed...
+hand: 12
+advise received for above condition: HIT
 
 Boundary Condition (Hand vs Up Card = advice): (7+3) vs 10 = HIT
 Unit Testing for Section 2 to be executed...
