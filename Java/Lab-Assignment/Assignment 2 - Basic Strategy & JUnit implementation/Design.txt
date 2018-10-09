@@ -1,0 +1,31 @@
+All the test cases are being performed such that the boundary conditions are well tested.
+(Kindly open the basic strategy file on side with this file to compare easily.)
+
+27 Tests:
+ 1) Boundary Condition (Hand vs Up Card = advice): (10 + 4) vs 6   = STAY
+ 2) Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 2   = HIT
+ 3) Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 7   = HIT
+ 4) Boundary Condition (Hand vs Up Card = advice): (10 + 9) vs 7   = STAY
+ 5) Boundary Condition (Hand vs Up Card = advice): ( 7 + 3) vs 10  = HIT
+ 6) Boundary Condition (Hand vs Up Card = advice): ( 9 + 2) vs 10  = DOUBLE_DOWN
+ 7) Boundary Condition (Hand vs Up Card = advice): ( 9 + 2) vs ACE = HIT
+ 8) Boundary Condition (Hand vs Up Card = advice): ( 7 + 2) vs 7   = HIT
+ 9) Boundary Condition (Hand vs Up Card = advice): ( 7 + 2) vs 3   = DOUBLE_DOWN
+10) Boundary Condition (Hand vs Up Card = advice): (7+2) vs 2 = HIT
+11) Boundary Condition (Hand vs Up Card = advice): (3+2) vs 7 = HIT
+12) Boundary Condition (Hand vs Up Card = advice): (3+2) vs 2 = HIT
+13) Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 2 = HIT
+14) Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 4 = HIT
+15) Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 5 = DOUBLE_DOWN
+16) Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 7 = HIT
+17) Boundary Condition (Hand vs Up Card = advice): (ACE + 3) vs 4 = HIT
+18) Boundary Condition (Hand vs Up Card = advice): (ACE + 3) vs 5 = DOUBLE_DOWN
+19) Boundary Condition (Hand vs Up Card = advice): (ACE + 7) vs 2 = STAY
+20) Boundary Condition (Hand vs Up Card = advice): (ACE + 7) vs 2 = DOUBLE_DOWN
+21) Boundary Condition (Hand vs Up Card = advice): (ACE + 7) vs 7 = STAY
+22) Boundary Condition (Hand vs Up Card = advice): (ACE + 8) vs 7 = STAY
+23) Boundary Condition (Hand vs Up Card = advice): (ACE + ACE) vs 6 = STAY
+24) Boundary Condition (Hand vs Up Card = advice): (2 + 2) vs 7 = SPLIT
+25) Boundary Condition (Hand vs Up Card = advice): (2 + 2) vs 2 = SPLIT
+26) Boundary Condition (Hand vs Up Card = advice): (10 + 9) vs 7 = STAY
+27) Boundary Condition (Hand vs Up Card = advice): (10+10) vs 7 = SPLIT

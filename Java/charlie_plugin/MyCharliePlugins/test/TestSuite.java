@@ -9,7 +9,10 @@ import org.junit.runners.Suite;
 import charlie.bs.section1.Test00_19_7;
 import charlie.bs.section1.Test00_12_2;
 import charlie.bs.section1.Test00_12_7;
+import charlie.bs.section1.Test00_12_6;
+import charlie.bs.section1.Test00_12_4;
 import charlie.bs.section1.Test00_14_6;
+
 
 // section 2 imports 5 to 11
 import charlie.bs.section2.Test00_10_10;
@@ -48,10 +51,12 @@ import charlie.bs.section4.Test00_10_7;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
     // Section 1 Test Cases from 12 to 21
+    Test00_19_7.class,    
     Test00_14_6.class,
-    Test00_12_2.class,
     Test00_12_7.class,    
-    Test00_19_7.class,
+    Test00_12_6.class,    
+    Test00_12_4.class,        
+    Test00_12_2.class,
     
     // Section 2 Test Cases from 5 to 11
     Test00_10_10.class,     
