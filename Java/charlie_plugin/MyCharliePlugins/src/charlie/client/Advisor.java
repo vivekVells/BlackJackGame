@@ -15,7 +15,5 @@ public class Advisor implements IAdvisor {
     @Override
     public Play advise(Hand myHand, Card upCard) {
         return bs.getPlay(myHand, upCard);
-    }
-    
-   
+    }   
 }

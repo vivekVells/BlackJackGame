@@ -6,14 +6,17 @@ import charlie.util.Play;
 
 /**
  * This class is an implementation of the Basic Strategy rules.
- * @author Vivek Vellaiyappan Surulimuthu
+ * @author Vivek Vellaiyappan Surulimuthu | vivekvellaiyappans@gmail.com
  */
 public class BasicStrategy {
+    
+    // to read the Play types in readable format in the table below
     public final static Play P = Play.SPLIT;
     public final static Play H = Play.HIT;
     public final static Play S = Play.STAY;
     public final static Play D = Play.DOUBLE_DOWN;
     
+    // section 1 rules table from 12 to 21
     Play[][] section1Rules = {
                 // 2  3  4  5  6  7  8  9  T  A
         /* 21 */ { S, S, S, S, S, S, S, S, S, S  },
@@ -28,6 +31,7 @@ public class BasicStrategy {
         /* 12 */ { H, H, S, S, S, H, H, H, H, H  }
     };
 
+    // section 2 rules table from 5 to 11
     Play[][] section2Rules = {
                 // 2  3  4  5  6  7  8  9  T  A
         /* 11 */ { D, D, D, D, D, D, D, D, D, H  },
@@ -39,6 +43,7 @@ public class BasicStrategy {
         /*  5 */ { H, H, H, H, H, H, H, H, H, H  },
     };
     
+    // section 3 rules table from A,2 to A,10
     Play[][] section3Rules = {
                   // 2  3  4  5  6  7  8  9  T  A
         /* A,10 */ { S, S, S, S, S, S, S, S, S, S  },
@@ -52,6 +57,7 @@ public class BasicStrategy {
         /* A, 2 */ { H, H, H, D, D, H, H, H, H, H  },        
     };
 
+    // section 4 rules table from 2,2 to A,A pairs
     Play[][] section4Rules = {
                     // 2  3  4  5  6  7  8  9  T  A
         /*  A,  A */ { P, P, P, P, P, P, P, P, P, P  },
@@ -70,27 +76,27 @@ public class BasicStrategy {
      * Helps to choose the correct section to execute the test cases
      * @param hand
      * @param upCard
-     * @return play
+     * @return play ENUM values 
      */
     public Play getPlay(Hand hand, Card upCard) {
         Card card1 = hand.getCard(0);
         Card card2 = hand.getCard(1);
         
         if(hand.isPair()) {
-            System.out.println("doSection4 executed...");            
+            System.out.println("Unit Testing for Section 4 to be executed...");            
             return doSection4(hand,upCard);
         }
         else if(hand.size() == 2 && 
                 (card1.getRank() == Card.ACE || card2.getRank() == Card.ACE)) {
-            System.out.println("doSection3 executed...");
+            System.out.println("Unit Testing for Section 3 to be executed...");            
             return doSection3(hand,upCard);
         }
         else if(hand.getValue() >=5 && hand.getValue() < 12) {
-            System.out.println("doSection2 executed...");            
+            System.out.println("Unit Testing for Section 2 to be executed...");            
             return doSection2(hand,upCard);
         }
         else if(hand.getValue() >= 12) {
-            System.out.println("doSection1 executed...");
+            System.out.println("Unit Testing for Section 1 to be executed...");            
             return doSection1(hand,upCard);
         }
         
@@ -101,7 +107,7 @@ public class BasicStrategy {
      * Does section 1 processing of the basic strategy, 12-21 (player) vs. 2-A (dealer)
      * @param hand Player's hand
      * @param upCard Dealer's up-card
-     * @return play
+     * @return play ENUM values 
      */
     protected Play doSection1(Hand hand, Card upCard) {
         int value = hand.getValue();
@@ -132,7 +138,7 @@ public class BasicStrategy {
      * Does section 2 processing of the basic strategy, 5-11 (player) vs. 2-A (dealer)
      * @param hand Player's hand
      * @param upCard Dealer's up-card
-     * @return play 
+     * @return play ENUM values 
      */
     protected Play doSection2(Hand hand, Card upCard) {
         int value = hand.getValue();
@@ -167,7 +173,7 @@ public class BasicStrategy {
      * Does section 3 processing of the basic strategy, A,2 - A,10 (player) vs. 2-A (dealer)
      * @param hand Player's hand
      * @param upCard Dealer's up-card
-     * @return play
+     * @return play ENUM values 
      */
     protected Play doSection3(Hand hand, Card upCard) {
         int value = hand.getValue();
@@ -198,7 +204,7 @@ public class BasicStrategy {
      * Does section 4 processing of the basic strategy, 2,2-A,A (player) vs. 2-A (dealer)
      * @param hand Player's hand
      * @param upCard Dealer's up-card
-     * @return play
+     * @return play ENUM values 
      */
     protected Play doSection4(Hand hand, Card upCard) {
         int value = hand.getValue();

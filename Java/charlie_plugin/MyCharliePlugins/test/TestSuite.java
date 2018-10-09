@@ -41,8 +41,9 @@ import charlie.bs.section4.Test00_10_7;
 
 
 /**
- *
- * @author Vivek Vellaiyappan Surulimuthu
+ * Test Suite class that consists of all 
+ *      individual sections of test unit classes
+ * @author Vivek Vellaiyappan Surulimuthu | vivekvellaiyappans@gmail.com
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
