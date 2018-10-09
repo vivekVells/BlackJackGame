@@ -1,0 +1,140 @@
+Boundary Condition (Hand vs Up Card = advice): (10 + 4) vs 6 = STAY
+doSection1 executed...
+hand: 14
+advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 2 = HIT
+doSection1 executed...
+hand: 12
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 7 = HIT
+doSection1 executed...
+hand: 12
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (10 + 9) vs 7 = STAY
+doSection1 executed...
+hand: 19
+advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (7+3) vs 10 = HIT
+doSection2 executed...
+hand: 10
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (9+2) vs 10 = DOUBLE_DOWN
+doSection2 executed...
+hand: 11
+advise received for above condition: DOUBLE_DOWN
+
+Boundary Condition (Hand vs Up Card = advice): (9+2) vs ACE = HIT
+doSection2 executed...
+hand: 11
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (7+2) vs 7 = HIT
+doSection2 executed...
+hand: 9
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (7+2) vs 3 = DOUBLE_DOWN
+doSection2 executed...
+hand: 9
+advise received for above condition: DOUBLE_DOWN
+
+Boundary Condition (Hand vs Up Card = advice): (7+2) vs 2 = HIT
+doSection2 executed...
+hand: 9
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (3+2) vs 7 = HIT
+doSection2 executed...
+hand: 5
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (3+2) vs 2 = HIT
+doSection2 executed...
+hand: 5
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 2 = HIT
+doSection3 executed...
+hand: 13
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 4 = HIT
+doSection3 executed...
+hand: 13
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 5 = DOUBLE_DOWN
+doSection3 executed...
+hand: 13
+advise received for above condition: DOUBLE_DOWN
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 2) vs 7 = HIT
+doSection3 executed...
+hand: 13
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 3) vs 4 = HIT
+doSection3 executed...
+hand: 14
+advise received for above condition: HIT
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 3) vs 5 = DOUBLE_DOWN
+doSection3 executed...
+hand: 14
+advise received for above condition: DOUBLE_DOWN
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 7) vs 2 = STAY
+doSection3 executed...
+hand: 18
+advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 7) vs 2 = DOUBLE_DOWN
+doSection3 executed...
+hand: 18
+advise received for above condition: DOUBLE_DOWN
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 7) vs 7 = STAY
+doSection3 executed...
+hand: 18
+advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + 8) vs 7 = STAY
+doSection3 executed...
+hand: 19
+advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (ACE + ACE) vs 6 = STAY
+doSection4 executed...
+hand: 12
+rowIndex: 1
+advise received for above condition: STAY
+Boundary Condition (Hand vs Up Card = advice): (2 + 2) vs 7 = SPLIT
+doSection4 executed...
+hand: 4
+rowIndex: 9
+advise received for above condition: SPLIT
+Unit test is success. but as SPLIT unimplemented; 
+	for 4 value we can change the basic strategy table to advice HIT
+
+Boundary Condition (Hand vs Up Card = advice): (2 + 2) vs 2 = SPLIT
+doSection4 executed...
+hand: 4
+rowIndex: 9
+advise received for above condition: SPLIT
+Unit test is success. but as SPLIT unimplemented; for 4 value we can change the basic strategy table to advice HIT
+
+Boundary Condition (Hand vs Up Card = advice): (10 + 9) vs 7 = STAY
+doSection1 executed...
+hand: 19
+advise received for above condition: STAY
+
+Boundary Condition (Hand vs Up Card = advice): (10+10) vs 7 = SPLIT
+doSection4 executed...
+hand: 20
+rowIndex: 1
+advise received for above condition: STAY

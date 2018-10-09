@@ -33,6 +33,13 @@ import charlie.bs.section3.Test00_A7_6;
 import charlie.bs.section3.Test00_A7_7;
 import charlie.bs.section3.Test00_A8_7;
 
+// section 4 imports 2,2 to 8,8
+import charlie.bs.section4.Test00_AA_6;
+import charlie.bs.section4.Test00_22_7;
+import charlie.bs.section4.Test00_22_2;
+import charlie.bs.section4.Test00_10_7;
+
+
 /**
  *
  * @author Vivek Vellaiyappan Surulimuthu
@@ -65,7 +72,15 @@ import charlie.bs.section3.Test00_A8_7;
     Test00_A7_2.class,
     Test00_A7_6.class,
     Test00_A7_7.class,
-    Test00_A8_7.class,    
+    Test00_A8_7.class, 
+ 
+    // Section 4 Test Cases from 2,2 to 8,8
+    Test00_AA_6.class,   
+    Test00_22_7.class,   
+    Test00_22_2.class,   
+    Test00_19_7.class,   
+    Test00_10_7.class,   
+    
 })
 
 public class TestSuite {
