@@ -21,11 +21,11 @@ public class BasicStrategy {
         /* 19 */ { S, S, S, S, S, S, S, S, S, S  },
         /* 18 */ { S, S, S, S, S, S, S, S, S, S  },
         /* 17 */ { S, S, S, S, S, S, S, S, S, S  },
-        /* 16 */ { S, S, S, S, H, H, H, H, H, H  },
-        /* 15 */ { S, S, S, S, H, H, H, H, H, H  },
-        /* 14 */ { S, S, S, S, H, H, H, H, H, H  },
-        /* 13 */ { S, S, S, S, H, H, H, H, H, H  },
-        /* 12 */ { H, H, S, S, H, H, H, H, H, H  }
+        /* 16 */ { S, S, S, S, S, H, H, H, H, H  },
+        /* 15 */ { S, S, S, S, S, H, H, H, H, H  },
+        /* 14 */ { S, S, S, S, S, H, H, H, H, H  },
+        /* 13 */ { S, S, S, S, S, H, H, H, H, H  },
+        /* 12 */ { H, H, S, S, S, H, H, H, H, H  }
     };
 
     Play[][] section2Rules = {
@@ -71,23 +71,34 @@ public class BasicStrategy {
     
     
     
-    
+    /**
+     * Helps to choose the correct section to execute the test cases
+     * @param hand
+     * @param upCard
+     * @return play
+     */
     public Play getPlay(Hand hand, Card upCard) {
         Card card1 = hand.getCard(0);
         Card card2 = hand.getCard(1);
+        // System.out.println("hand size: " + hand.size());
         
         if(hand.isPair()) {
-            // TODO: return doSection4(hand,upCard)
+            System.out.println("doSection4 executed...");            
+            return doSection4(hand,upCard);
         }
         else if(hand.size() == 2 && 
                 (card1.getRank() == Card.ACE || card2.getRank() == Card.ACE)) {
-            // TODO: return doSection3(hand,upCard)
+            System.out.println("doSection3 executed...");
+            return doSection3(hand,upCard);
         }
-        else if(hand.getValue() >=5 && hand.getValue() <= 12) {
-            // TODO: return doSection2(hand,upCard)
+        else if(hand.getValue() >=5 && hand.getValue() < 12) {
+            System.out.println("doSection2 executed...");            
+            return doSection2(hand,upCard);
         }
-        else if(hand.getValue() >= 12)
+        else if(hand.getValue() >= 12) {
+            System.out.println("doSection1 executed...");
             return doSection1(hand,upCard);
+        }
         
         return Play.NONE;
     }
@@ -96,13 +107,14 @@ public class BasicStrategy {
      * Does section 1 processing of the basic strategy, 12-21 (player) vs. 2-A (dealer)
      * @param hand Player's hand
      * @param upCard Dealer's up-card
+     * @return play
      */
     protected Play doSection1(Hand hand, Card upCard) {
         int value = hand.getValue();
         
         // Section one table built only for hand values >= 20 (see above).
-        if(value < 20)
-            return Play.NONE;
+//        if(value < 20)
+//            return Play.NONE;
         
         // Subtract 21 since the player's hand starts at 21 and we're working
         // our way down through section 1
@@ -124,4 +136,104 @@ public class BasicStrategy {
         
         return play;
     }
+
+    /**
+     * Does section 2 processing of the basic strategy, 12-21 (player) vs. 2-A (dealer)
+     * @param hand Player's hand
+     * @param upCard Dealer's up-card
+     * @return play 
+     */
+    protected Play doSection2(Hand hand, Card upCard) {
+        int value = hand.getValue();
+        
+        // Section one table built only for hand values >= 12 (see above).
+        if(value >= 12)
+            return Play.NONE;
+        
+        // Subtract 11 since the player's hand starts at 21 and we're working
+        // our way down through section 1
+        int rowIndex = 11 - value;
+        
+        Play[] row = section2Rules[rowIndex];
+        
+        // Subtract 2 since the dealer's up-card start at 2
+        int colIndex = upCard.getRank() - 2;
+         
+        if(upCard.isFace())
+            colIndex = 10 - 2;
+
+        // Ace is the 10th card (index 9)
+        else if(upCard.isAce())
+            colIndex = 9;
+        
+        Play play = row[colIndex];
+        
+        return play;
+    } 
+
+    /**
+     * Does section 3 processing of the basic strategy, 12-21 (player) vs. 2-A (dealer)
+     * @param hand Player's hand
+     * @param upCard Dealer's up-card
+     */
+    protected Play doSection3(Hand hand, Card upCard) {
+        int value = hand.getValue();
+        
+        // Section one table built only for hand values >= 20 (see above).
+//        if(value < 20)
+//            return Play.NONE;
+        
+        // Subtract 21 since the player's hand starts at 21 and we're working
+        // our way down through section 1
+        int rowIndex = 21 - value;
+        
+        Play[] row = section3Rules[rowIndex];
+        
+        // Subtract 2 since the dealer's up-card start at 2
+        int colIndex = upCard.getRank() - 2;
+         
+        if(upCard.isFace())
+            colIndex = 10 - 2;
+
+        // Ace is the 10th card (index 9)
+        else if(upCard.isAce())
+            colIndex = 9;
+        
+        Play play = row[colIndex];
+        
+        return play;
+    }  
+
+    /**
+     * Does section 4 processing of the basic strategy, 12-21 (player) vs. 2-A (dealer)
+     * @param hand Player's hand
+     * @param upCard Dealer's up-card
+     */
+    protected Play doSection4(Hand hand, Card upCard) {
+        int value = hand.getValue();
+        
+        // Section one table built only for hand values >= 20 (see above).
+//        if(value < 20)
+//            return Play.NONE;
+        
+        // Subtract 21 since the player's hand starts at 21 and we're working
+        // our way down through section 1
+        int rowIndex = 21 - value;
+        
+        Play[] row = section4Rules[rowIndex];
+        
+        // Subtract 2 since the dealer's up-card start at 2
+        int colIndex = upCard.getRank() - 2;
+         
+        if(upCard.isFace())
+            colIndex = 10 - 2;
+
+        // Ace is the 10th card (index 9)
+        else if(upCard.isAce())
+            colIndex = 9;
+        
+        Play play = row[colIndex];
+        
+        return play;
+    }    
 }

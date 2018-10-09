@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  * Tests my 12 vs dealer 2 which should be HIT.
  */
-public class Test00_12_2 {
+public class Test00_12_7 {
     @Test
     public void test() {
         // Generate an initially empty hand
@@ -25,9 +25,9 @@ public class Test00_12_2 {
         myHand.hit(card1);
         myHand.hit(card2);
         
-        // Create dealer up card: 2
-        System.out.println("Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 2 = HIT");
-        Card upCard = new Card(2,Card.Suit.HEARTS);
+        // Create dealer up card: 7
+        System.out.println("Boundary Condition (Hand vs Up Card = advice): (10 + 2) vs 7 = HIT");
+        Card upCard = new Card(7,Card.Suit.HEARTS);
         
         // Construct advisor and test it
         Advisor advisor = new Advisor();
