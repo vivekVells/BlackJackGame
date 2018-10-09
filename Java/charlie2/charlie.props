@@ -17,3 +17,4 @@ charlie.shoe charlie.card.Shoe01
 # to implement advisor feature using bot
 # charlie.advisor charlie.plugin.SimpleAdvisor
 
+charlie.advisor charlie.client.Advisor
