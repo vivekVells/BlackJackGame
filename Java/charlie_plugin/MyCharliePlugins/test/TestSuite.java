@@ -21,6 +21,18 @@ import charlie.bs.section2.Test00_9_2;
 import charlie.bs.section2.Test00_5_7;
 import charlie.bs.section2.Test00_5_2;
 
+// section 3 imports A,2 to A,10
+import charlie.bs.section3.Test00_A2_2;
+import charlie.bs.section3.Test00_A2_4;
+import charlie.bs.section3.Test00_A2_5;
+import charlie.bs.section3.Test00_A2_7;
+import charlie.bs.section3.Test00_A3_4;
+import charlie.bs.section3.Test00_A3_5;
+import charlie.bs.section3.Test00_A7_2;
+import charlie.bs.section3.Test00_A7_6;
+import charlie.bs.section3.Test00_A7_7;
+import charlie.bs.section3.Test00_A8_7;
+
 /**
  *
  * @author Vivek Vellaiyappan Surulimuthu
@@ -43,7 +55,19 @@ import charlie.bs.section2.Test00_5_2;
     Test00_5_7.class,
     Test00_5_2.class,    
     
+    // Section 3 Test Cases from A,2 to A,10
+    Test00_A2_2.class,
+    Test00_A2_4.class,
+    Test00_A2_5.class,
+    Test00_A2_7.class,
+    Test00_A3_4.class,
+    Test00_A3_5.class,
+    Test00_A7_2.class,
+    Test00_A7_6.class,
+    Test00_A7_7.class,
+    Test00_A8_7.class,    
 })
+
 public class TestSuite {
 
     @BeforeClass

@@ -10,7 +10,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Tests my 12 vs dealer 2 which should be HIT.
+ * Tests my 5 vs dealer 7 which should be HIT.
  */
 public class Test00_5_7 {
     @Test

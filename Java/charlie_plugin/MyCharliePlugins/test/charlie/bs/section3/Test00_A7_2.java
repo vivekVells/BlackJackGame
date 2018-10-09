@@ -1,4 +1,4 @@
-package charlie.bs.section2;
+package charlie.bs.section3;
 
 import charlie.client.Advisor;
 import charlie.card.Card;
@@ -10,24 +10,24 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Tests my 11 vs dealer ACE which should be HIT.
+ * Tests my ACE,7 vs dealer 2 which should be STAY.
  */
-public class Test00_11_A {
+public class Test00_A7_2 {
     @Test
     public void test() {
         // Generate an initially empty hand
         Hand myHand = new Hand(new Hid(Seat.YOU));
         
-        // Put two cards in hand: 9+2
-        Card card1 = new Card(9,Card.Suit.CLUBS);
-        Card card2 = new Card(2,Card.Suit.DIAMONDS);
+        // Put two cards in hand: A+7
+        Card card1 = new Card(Card.ACE,Card.Suit.CLUBS);
+        Card card2 = new Card(7,Card.Suit.DIAMONDS);
         
         myHand.hit(card1);
         myHand.hit(card2);
         
-        // Create dealer up card: A
-        System.out.println("Boundary Condition (Hand vs Up Card = advice): (9+2) vs ACE = HIT");
-        Card upCard = new Card(Card.ACE,Card.Suit.HEARTS);
+        // Create dealer up card: 2
+        System.out.println("Boundary Condition (Hand vs Up Card = advice): (ACE + 7) vs 2 = STAY");
+        Card upCard = new Card(2,Card.Suit.HEARTS);
         
         // Construct advisor and test it
         Advisor advisor = new Advisor();
@@ -36,6 +36,6 @@ public class Test00_11_A {
         System.out.println("advise received for above condition: " + advice + "\n");
 
         // Validate the advise
-        assertEquals(advice, Play.HIT);
+        assertEquals(advice, Play.STAY);
     }
 }
