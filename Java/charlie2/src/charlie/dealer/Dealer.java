@@ -446,7 +446,8 @@ public class Dealer implements Serializable {
             return;
         }
         
-        LOG.info("got STAY for "+hid);
+        LOG.info("got STAY for Hid: "+hid);
+        LOG.info("got STAY for Player: "+player);
         
         // Since player stayed, we're done with hand
         goNextHand();

@@ -12,7 +12,7 @@ charlie.shoe charlie.card.Shoe01
 #charlie.bot.dewey charlie.bot.server.Dewey
 
 # to implement server side bot
-# charlie.bot.huey charlie.bot.server.HueyStay
+charlie.bot.huey charlie.bot.server.HueyStay
 
 # to get the statistics of blackjack game using trap plugin
 # charlie.trap charlie.client.Trap

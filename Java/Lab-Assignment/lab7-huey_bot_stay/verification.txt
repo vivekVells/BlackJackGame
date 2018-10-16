@@ -1,0 +1,9 @@
+How I verified whether I am receving stay for Huey Bot?
+
+Dealer.java
+- Line 448 LOG.info("got STAY for Hid: "+hid);
+- Line 449 LOG.info("got STAY for Player: "+player); 
+
+Output received in server log file:
+got STAY for Hid: HC0004-09:RIGHT:19372584A97DD72
+got STAY for Player: charlie.bot.server.HueyStay@5c6f910d

@@ -1,0 +1,68 @@
+21:06:50 INFO  AWT-EventQueue-0 0 GameFrame:93 - client started
+21:06:50 INFO  AWT-EventQueue-0 266 GameFrame:157 - advisor plugin detected: charlie.client.Advisor
+21:06:50 ERROR AWT-EventQueue-0 266 GameFrame:165 - java.lang.ClassNotFoundException: charlie.client.Advisor
+21:06:50 INFO  AWT-EventQueue-0 266 GameFrame:99 - init done
+21:07:05 INFO  AWT-EventQueue-0 14953 Actor:63 - sent login request
+21:07:05 INFO  AWT-EventQueue-0 14999 Actor:70 - received ticket BB20B45FD4D95138
+21:07:05 INFO  AWT-EventQueue-0 14999 GameFrame:221 - login successful
+21:07:05 INFO  Thread-5 14999 Actor:185 - Courier waiting for connection on port 8001
+21:07:05 INFO  AWT-EventQueue-0 15015 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+21:07:05 INFO  AWT-EventQueue-0 15015 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+21:07:05 INFO  AWT-EventQueue-0 15015 Actor:185 - Arriver sent arrival message
+21:07:05 INFO  Thread-5 15046 Actor:185 - Courier accepted connection on port 8001
+21:07:05 INFO  Thread-5 15046 Actor:185 - Courier received message Ready
+21:07:05 INFO  Thread-5 15046 Actor:185 - Courier invoking listener for Ready
+21:07:05 INFO  Thread-5 15046 Actor:232 - received Ready from HC0004-09/10.128.145.165
+21:07:05 INFO  AWT-EventQueue-0 15046 GameFrame:240 - connected to courier with bankroll = 1000.0
+21:07:05 INFO  Thread-5 15046 Actor:185 - Courier waiting for connection on port 8001
+21:07:19 INFO  Thread-7 29590 ATable:206 - side bet = 0
+21:07:19 INFO  Thread-7 29590 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+21:07:19 INFO  Thread-7 29600 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+21:07:19 INFO  Thread-5 29610 Actor:185 - Courier accepted connection on port 8001
+21:07:19 INFO  Thread-5 29610 Actor:185 - Courier received message GameStart
+21:07:19 INFO  Thread-5 29610 Actor:185 - Courier invoking listener for GameStart
+21:07:19 INFO  Thread-5 29610 Actor:244 - receive starting shoe size = 52
+21:07:19 INFO  Thread-5 29610 Actor:247 - starting hand: HC0004-09:RIGHT:19372584A97DD72
+21:07:19 INFO  Thread-5 29610 Actor:247 - starting hand: HC0004-09:YOU:1B3996B611459C39
+21:07:19 INFO  Thread-5 29610 Actor:247 - starting hand: HC0004-09:DEALER:2FC11B4B9CBDD37B
+21:07:19 INFO  Thread-5 29610 Actor:185 - Courier waiting for connection on port 8001
+21:07:20 INFO  Thread-5 30640 Actor:185 - Courier accepted connection on port 8001
+21:07:20 INFO  Thread-5 30640 Actor:185 - Courier received message Deal
+21:07:20 INFO  Thread-5 30640 Actor:185 - Courier invoking listener for Deal
+21:07:20 INFO  Thread-5 30640 Actor:266 - received card = S3 values = 3/3 hid = HC0004-09:RIGHT:19372584A97DD72
+21:07:20 INFO  Thread-5 30640 Actor:185 - Courier waiting for connection on port 8001
+21:07:21 INFO  Thread-5 31400 Actor:185 - Courier accepted connection on port 8001
+21:07:21 INFO  Thread-5 31400 Actor:185 - Courier received message Deal
+21:07:21 INFO  Thread-5 31400 Actor:185 - Courier invoking listener for Deal
+21:07:21 INFO  Thread-5 31400 Actor:266 - received card = D4 values = 4/4 hid = HC0004-09:YOU:1B3996B611459C39
+21:07:21 INFO  Thread-5 31400 Actor:185 - Courier waiting for connection on port 8001
+21:07:22 INFO  Thread-5 32160 Actor:185 - Courier accepted connection on port 8001
+21:07:22 INFO  Thread-5 32160 Actor:185 - Courier received message Deal
+21:07:22 INFO  Thread-5 32160 Actor:185 - Courier invoking listener for Deal
+21:07:22 INFO  Thread-5 32160 Actor:266 - received card = D3 values = 0/0 hid = HC0004-09:DEALER:2FC11B4B9CBDD37B
+21:07:22 INFO  Thread-5 32164 Actor:185 - Courier waiting for connection on port 8001
+21:07:23 INFO  Thread-5 32920 Actor:185 - Courier accepted connection on port 8001
+21:07:23 INFO  Thread-5 32920 Actor:185 - Courier received message Deal
+21:07:23 INFO  Thread-5 32920 Actor:185 - Courier invoking listener for Deal
+21:07:23 INFO  Thread-5 32920 Actor:266 - received card = C7 values = 10/10 hid = HC0004-09:RIGHT:19372584A97DD72
+21:07:23 INFO  Thread-5 32920 Actor:185 - Courier waiting for connection on port 8001
+21:07:23 INFO  Thread-5 33680 Actor:185 - Courier accepted connection on port 8001
+21:07:23 INFO  Thread-5 33680 Actor:185 - Courier received message Deal
+21:07:23 INFO  Thread-5 33680 Actor:185 - Courier invoking listener for Deal
+21:07:23 INFO  Thread-5 33680 Actor:266 - received card = C10 values = 14/14 hid = HC0004-09:YOU:1B3996B611459C39
+21:07:23 INFO  Thread-5 33680 Actor:185 - Courier waiting for connection on port 8001
+21:07:24 INFO  Thread-5 34440 Actor:185 - Courier accepted connection on port 8001
+21:07:24 INFO  Thread-5 34440 Actor:185 - Courier received message Deal
+21:07:24 INFO  Thread-5 34440 Actor:185 - Courier invoking listener for Deal
+21:07:24 INFO  Thread-5 34440 Actor:266 - received card = S8 values = 8/8 hid = HC0004-09:DEALER:2FC11B4B9CBDD37B
+21:07:24 INFO  Thread-5 34445 Actor:185 - Courier waiting for connection on port 8001
+21:07:24 INFO  Thread-5 34446 Actor:185 - Courier accepted connection on port 8001
+21:07:24 INFO  Thread-5 34448 Actor:185 - Courier received message Play
+21:07:24 INFO  Thread-5 34448 Actor:185 - Courier invoking listener for Play
+21:07:24 INFO  Thread-5 34448 Actor:276 - got turn = HC0004-09:RIGHT:19372584A97DD72
+21:07:25 INFO  Thread-5 35131 Actor:185 - Courier waiting for connection on port 8001
+21:07:27 INFO  Thread-5 36923 Actor:185 - Courier accepted connection on port 8001
+21:07:27 INFO  Thread-5 36923 Actor:185 - Courier received message Play
+21:07:27 INFO  Thread-5 36923 Actor:185 - Courier invoking listener for Play
+21:07:27 INFO  Thread-5 36923 Actor:276 - got turn = HC0004-09:YOU:1B3996B611459C39
+21:07:27 INFO  Thread-5 37630 Actor:185 - Courier waiting for connection on port 8001
