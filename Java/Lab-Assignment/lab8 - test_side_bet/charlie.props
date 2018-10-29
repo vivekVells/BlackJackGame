@@ -21,4 +21,4 @@ charlie.shoe charlie.card.Shoe01
 # charlie.advisor charlie.plugin.SimpleAdvisor
 
 # to test side bets
-# charlie.shoe charlie.sidebet.test.Super7Shoe
+charlie.shoe charlie.sidebet.test.Super7Shoe
