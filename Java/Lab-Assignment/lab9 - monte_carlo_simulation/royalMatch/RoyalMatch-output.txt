@@ -1,0 +1,3 @@
+run:
+Royal Match prob = 0.003020 odds = 330:1
+BUILD SUCCESSFUL (total time: 12 seconds)

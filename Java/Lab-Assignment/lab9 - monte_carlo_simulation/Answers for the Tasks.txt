@@ -1,0 +1,33 @@
+Tasks
+Part I - Answer these questions.
+  1. Using the Wizard of Odds, what are the odds?
+     - The Wizard of Odds gives the exact probability,p as 0.00302
+     - odds = ( 1 - P ) / P, so odds => odds = ((1-0.00302)/0.0302) = 321.13
+     - The odds using the wizard of odds is 321.13
+     
+  2. Is the Royal Match a fair bet?
+     - No. because they are paying by the odds of 10:1 instead of 321.13:1
+     
+  3. If yes, why? If no, why not and what is appropriate payout for a $5 using the Wizard of Odds?
+     - for the odds of 321:1, (5 * 321) = $1,605.65 is the actual payout for $5 using the wizard of Odds. But they are paying in odds of 10:1 by paying $50 instead of $1,605
+
+  4. If you estimate the probability to the accuracy of the Wizard of Odds except using Monte Carlo simulation, what’s the minimum number of games you will need to play?
+     - Probablity, P of Wizard of Odds => P = 4/52 * (1 - 1/51) * (1/ 50) * 2 = 0.00302
+     - Probablity, P of Monte Carlo simulation of odds => P=(1/sqrt(N))
+     - equating, 0.00302 = (1/sqrt(N))
+     - so, N = (1/ (0.00302)^2) = 109,644.31 
+
+  5. If you wanted to get an extra digit of accuracy, how many simulations would you need to run? Write your answer in the assignment shell
+     - The more the number of samples being ran, the more accurate the extra digit would be. So, to get an extra next digit of accuracy, you  have to run (100,000 * 100,000) times
+
+Part II - Estimate the Super 7 odds using Monte Carlo simulation.
+  d. If Super 7 pays 3:1, is it a fair bet?
+     - No, its not fair since the actual resopnse for Super 7 odds is 12:1
+
+Part III - Estimate the Royal Match odds using Monte Carlo simulation.
+
+  d. Assuming the Wizard of Odds is correct, do the combinatorial and Monte Carlo approaches look accurate?
+     - Yes
+
+  e. How can you improve the Monte Carlo estimate? Try it. What result do you get?
+     - Change the number of simulations to 109,644 to improve the Monte Carlo Simulation
