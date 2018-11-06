@@ -1,0 +1,83 @@
+Dissecting the following from the log:
+  - Kindly reveiw all of the following
+
+
+Desired bet amount calculation log:
+>>>
+14:54:16 INFO  Thread-5 6247 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:16 INFO  Thread-5 6248 Actor:185 - Courier waiting for connection on port 8001
+14:54:17 INFO  Thread-5 7247 Actor:185 - Courier accepted connection on port 8001
+14:54:17 INFO  Thread-5 7252 Actor:185 - Courier received message Deal
+14:54:17 INFO  Thread-5 7252 Actor:185 - Courier invoking listener for Deal
+14:54:17 INFO  Thread-5 7252 Actor:266 - received card = H6 values = 6/6 hid = LB305-12:YOU:4F24CCC01BFAF03D
+14:54:17 INFO  Thread-5 7258 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:17 INFO  Thread-5 7258 CountingTrap:49 - increment runningCount: 1
+14:54:17 INFO  Thread-5 7258 CountingTrap:56 - shoeSize: 51| runningCount: 1| numDecks: 0.9807692307692307| trueCount: 1| bet amount: 2
+14:54:17 INFO  Thread-5 7259 Actor:185 - Courier waiting for connection on port 8001
+14:54:18 INFO  Thread-5 8002 Actor:185 - Courier accepted connection on port 8001
+14:54:18 INFO  Thread-5 8005 Actor:185 - Courier received message Deal
+14:54:18 INFO  Thread-5 8005 Actor:185 - Courier invoking listener for Deal
+14:54:18 INFO  Thread-5 8005 Actor:266 - received card = DA values = 0/0 hid = LB305-12:DEALER:98D158B3314C3B6
+14:54:18 INFO  Thread-5 8010 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:18 INFO  Thread-5 8010 CountingTrap:46 - decrement runningCount: 0
+14:54:18 INFO  Thread-5 8010 CountingTrap:56 - shoeSize: 50| runningCount: 0| numDecks: 0.9615384615384616| trueCount: 0| bet amount: 1
+14:54:18 INFO  Thread-5 8011 Actor:185 - Courier waiting for connection on port 8001
+14:54:19 INFO  Thread-5 8755 Actor:185 - Courier accepted connection on port 8001
+14:54:19 INFO  Thread-5 8757 Actor:185 - Courier received message Deal
+14:54:19 INFO  Thread-5 8757 Actor:185 - Courier invoking listener for Deal
+14:54:19 INFO  Thread-5 8757 Actor:266 - received card = DK values = 16/16 hid = LB305-12:YOU:4F24CCC01BFAF03D
+14:54:19 INFO  Thread-5 8761 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:19 INFO  Thread-5 8762 CountingTrap:46 - decrement runningCount: -1
+14:54:19 INFO  Thread-5 8762 CountingTrap:56 - shoeSize: 49| runningCount: -1| numDecks: 0.9423076923076923| trueCount: -1| bet amount: 1
+14:54:19 INFO  Thread-5 8762 Actor:185 - Courier waiting for connection on port 8001
+14:54:20 INFO  Thread-5 9507 Actor:185 - Courier accepted connection on port 8001
+14:54:20 INFO  Thread-5 9509 Actor:185 - Courier received message Deal
+14:54:20 INFO  Thread-5 9509 Actor:185 - Courier invoking listener for Deal
+14:54:20 INFO  Thread-5 9509 Actor:266 - received card = H4 values = 4/4 hid = LB305-12:DEALER:98D158B3314C3B6
+14:54:20 INFO  Thread-5 9513 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:20 INFO  Thread-5 9513 CountingTrap:49 - increment runningCount: 0
+14:54:20 INFO  Thread-5 9513 CountingTrap:56 - shoeSize: 48| runningCount: 0| numDecks: 0.9230769230769231| trueCount: 0| bet amount: 1
+14:54:20 INFO  Thread-5 9513 Actor:185 - Courier waiting for connection on port 8001
+14:54:20 INFO  Thread-5 9514 Actor:185 - Courier accepted connection on port 8001
+14:54:20 INFO  Thread-5 9517 Actor:185 - Courier received message Play
+14:54:20 INFO  Thread-5 9517 Actor:185 - Courier invoking listener for Play
+14:54:20 INFO  Thread-5 9518 Actor:276 - got turn = LB305-12:YOU:4F24CCC01BFAF03D
+14:54:20 INFO  Thread-5 10228 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:20 INFO  Thread-5 10228 Actor:185 - Courier waiting for connection on port 8001
+>>>
+
+Looking closer & considering only the received cards & shoe values:
+  4 Cards received: H6, DA, DK, H4 
+  Values associated with it according to the Hi-Low: 
+    H6 -> +1, DA -> -1, DK -> -1, H4 -> +1
+  Running count = 1 - 1 - 1 + 1 = 0
+  Shoe size = 48 (as 4 cards being drawn out)
+  numDecks = shoesize / 52.0 = 0.9230769230769231
+  trueCount = (int) Math.round((runningCount / numDecks)) = 0
+  betAmt = Math.max(1,(trueCount + 1)) = max(1, (0+1)) = 1
+  
+  refer log output:
+    14:54:20 INFO  Thread-5 9513 CountingTrap:56 - shoeSize: 48| runningCount: 0| numDecks: 0.9230769230769231| trueCount: 0| bet amount: 1
+  
+
+From Log:
+14:54:17 INFO  Thread-5 7252 Actor:266 - received card = H6 values = 6/6 hid = LB305-12:YOU:4F24CCC01BFAF03D
+14:54:17 INFO  Thread-5 7258 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:17 INFO  Thread-5 7258 CountingTrap:49 - increment runningCount: 1
+14:54:17 INFO  Thread-5 7258 CountingTrap:56 - shoeSize: 51| runningCount: 1| numDecks: 0.9807692307692307| trueCount: 1| bet amount: 2
+
+14:54:18 INFO  Thread-5 8005 Actor:266 - received card = DA values = 0/0 hid = LB305-12:DEALER:98D158B3314C3B6
+14:54:18 INFO  Thread-5 8010 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:18 INFO  Thread-5 8010 CountingTrap:46 - decrement runningCount: 0
+14:54:18 INFO  Thread-5 8010 CountingTrap:56 - shoeSize: 50| runningCount: 0| numDecks: 0.9615384615384616| trueCount: 0| bet amount: 1
+
+14:54:19 INFO  Thread-5 8757 Actor:266 - received card = DK values = 16/16 hid = LB305-12:YOU:4F24CCC01BFAF03D
+14:54:19 INFO  Thread-5 8761 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:19 INFO  Thread-5 8762 CountingTrap:46 - decrement runningCount: -1
+14:54:19 INFO  Thread-5 8762 CountingTrap:56 - shoeSize: 49| runningCount: -1| numDecks: 0.9423076923076923| trueCount: -1| bet amount: 1
+
+14:54:20 INFO  Thread-5 9509 Actor:266 - received card = H4 values = 4/4 hid = LB305-12:DEALER:98D158B3314C3B6
+14:54:20 INFO  Thread-5 9513 CountingTrap:30 - onReceive overriding function from CountingTrap.java file
+14:54:20 INFO  Thread-5 9513 CountingTrap:49 - increment runningCount: 0
+14:54:20 INFO  Thread-5 9513 CountingTrap:56 - shoeSize: 48| runningCount: 0| numDecks: 0.9230769230769231| trueCount: 0| bet amount: 1
+
