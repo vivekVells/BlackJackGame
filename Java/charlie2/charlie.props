@@ -22,3 +22,6 @@ charlie.shoe charlie.card.Shoe01
 
 # to test side bets
 # charlie.shoe charlie.sidebet.test.Super7Shoe
+
+# to count cards and calculate the bet amount
+charlie.trap charlie.client.CountingTrap

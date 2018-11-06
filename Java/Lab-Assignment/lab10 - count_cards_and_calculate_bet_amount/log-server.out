@@ -1,0 +1,118 @@
+22:27:45 INFO  main 0 GameServer:62 - game server started
+22:27:45 INFO  main 0 GameServer:73 - house started
+22:27:45 INFO  Thread-0 16 Actor:185 - House waiting for connection on port 1235
+22:27:57 INFO  main 12212 Actor:75 - got login
+22:27:57 INFO  main 12212 Actor:80 - validated ticket BB20B45FD4D95138 login successful!
+22:27:57 INFO  main 12212 Actor:185 - ServerAuthenticator sent ticket to client
+22:27:57 INFO  Thread-0 12228 Actor:185 - House accepted connection on port 1235
+22:27:57 INFO  Thread-0 12228 Actor:185 - House received message Arrival
+22:27:57 INFO  Thread-0 12228 Actor:185 - House invoking listener for Arrival
+22:27:57 INFO  Thread-0 12228 House:101 - validated ticket = BB20B45FD4D95138
+22:27:57 INFO  Thread-0 12228 House:105 - arrival from HC0004-09/10.128.145.165
+22:27:58 INFO  Thread-0 12243 Dealer:91 - using scenario = 'charlie.card.Shoe01'
+22:27:58 INFO  Thread-0 12243 Shoe:102 - shuffling burn index = 35
+22:27:58 INFO  Thread-0 12243 Dealer:97 - shoe = charlie.card.Shoe01: S10 H4 S9 H8 SA S6 CJ C5 C4 S2 DA D5 H3 H5 C8 
+22:27:58 INFO  Thread-0 12259 Actor:185 - RealPlayer sending Ready to 10.128.145.165:8001
+22:27:58 INFO  Thread-1 12259 Actor:185 - RealPlayer waiting for connection on port 8501
+22:27:58 INFO  Thread-0 12259 Actor:185 - RealPlayer sent successfully Ready to 10.128.145.165:8001
+22:27:58 INFO  Thread-0 12259 Actor:185 - House waiting for connection on port 1235
+22:28:02 INFO  Thread-1 16706 Actor:185 - RealPlayer accepted connection on port 8501
+22:28:02 INFO  Thread-1 16716 Actor:185 - RealPlayer received message Bet
+22:28:02 INFO  Thread-1 16716 Actor:185 - RealPlayer invoking listener for Bet
+22:28:02 INFO  Thread-1 16716 Actor:185 - RealPlayer received bet = 5.0
+22:28:02 INFO  Thread-1 16716 Dealer:109 - got new bet = 5.0 side bet = 0.0 from HC0004-09/10.128.145.165 for hid = HC0004-09:YOU:7248BCFAD52D81E5
+22:28:02 INFO  Thread-1 16716 Dealer:164 - no bot configured for charlie.bot.huey
+22:28:02 INFO  Thread-1 16716 Dealer:164 - no bot configured for charlie.bot.dewey
+22:28:02 INFO  Thread-1 16716 Dealer:258 - starting a game
+22:28:02 INFO  Thread-1 16716 Dealer:273 - hands at table + dealer = 2
+22:28:02 INFO  Thread-1 16716 Actor:185 - RealPlayer sending GameStart to 10.128.145.165:8001
+22:28:02 INFO  Thread-1 16716 Actor:185 - RealPlayer sent successfully GameStart to 10.128.145.165:8001
+22:28:02 INFO  Thread-1 16966 Shoe:111 - cards size = 52 burn index = 35 index = 0
+22:28:02 INFO  Thread-1 16966 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+22:28:02 INFO  Thread-1 16966 Dealer:352 - dealing to HC0004-09/10.128.145.165 card 1 = S10
+22:28:03 INFO  Thread-1 17726 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:28:03 INFO  Thread-1 17726 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:28:03 INFO  Thread-1 17726 Shoe:111 - cards size = 52 burn index = 35 index = 1
+22:28:03 INFO  Thread-1 17726 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+22:28:04 INFO  Thread-1 18486 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:28:04 INFO  Thread-1 18486 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:28:04 INFO  Thread-1 18486 Shoe:111 - cards size = 52 burn index = 35 index = 2
+22:28:04 INFO  Thread-1 18486 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+22:28:04 INFO  Thread-1 18486 Dealer:352 - dealing to HC0004-09/10.128.145.165 card 1 = S9
+22:28:05 INFO  Thread-1 19246 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:28:05 INFO  Thread-1 19246 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:28:05 INFO  Thread-1 19246 Shoe:111 - cards size = 52 burn index = 35 index = 3
+22:28:05 INFO  Thread-1 19246 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+22:28:05 INFO  Thread-1 20006 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:28:05 INFO  Thread-1 20006 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:28:05 INFO  Thread-1 20006 Dealer:556 - going to next hand
+22:28:05 INFO  Thread-1 20006 Dealer:566 - active player = HC0004-09/10.128.145.165
+22:28:05 INFO  Thread-1 20006 Dealer:606 - sending turn HC0004-09:YOU:7248BCFAD52D81E5 to HC0004-09/10.128.145.165
+22:28:05 INFO  Thread-1 20006 Actor:185 - RealPlayer sending Play to 10.128.145.165:8001
+22:28:05 INFO  Thread-1 20010 Actor:185 - RealPlayer sent successfully Play to 10.128.145.165:8001
+22:28:05 INFO  Thread-1 20010 Actor:185 - RealPlayer waiting for connection on port 8501
+22:29:07 INFO  Thread-1 81707 Actor:185 - RealPlayer accepted connection on port 8501
+22:29:07 INFO  Thread-1 81707 Actor:185 - RealPlayer received message Hit
+22:29:07 INFO  Thread-1 81707 Actor:185 - RealPlayer invoking listener for Hit
+22:29:07 INFO  Thread-1 81707 Actor:185 - RealPlayer received request = Hit
+22:29:07 INFO  Thread-1 81707 Shoe:111 - cards size = 52 burn index = 35 index = 4
+22:29:07 INFO  Thread-1 81707 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+22:29:07 INFO  Thread-1 81707 Dealer:400 - hit hid = HC0004-09:YOU:7248BCFAD52D81E5 with SA
+22:29:07 INFO  Thread-1 81707 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:29:07 INFO  Thread-1 81717 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:29:07 INFO  Thread-1 81717 Actor:185 - RealPlayer waiting for connection on port 8501
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer accepted connection on port 8501
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer received message Stay
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer invoking listener for Stay
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer received request = Stay
+22:29:08 INFO  Thread-1 83227 Dealer:449 - got STAY for Hid: HC0004-09:YOU:7248BCFAD52D81E5
+22:29:08 INFO  Thread-1 83227 Dealer:450 - got STAY for Player: HC0004-09/10.128.145.165
+22:29:08 INFO  Thread-1 83227 Dealer:556 - going to next hand
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer sending Play to 10.128.145.165:8001
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer sent successfully Play to 10.128.145.165:8001
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:29:08 INFO  Thread-1 83227 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:29:09 INFO  Thread-1 83237 Shoe:111 - cards size = 52 burn index = 35 index = 5
+22:29:09 INFO  Thread-1 83237 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+22:29:09 INFO  Thread-1 84007 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:29:09 INFO  Thread-1 84007 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:29:09 INFO  Thread-1 84007 Actor:185 - RealPlayer sending Win to 10.128.145.165:8001
+22:29:09 INFO  Thread-1 84007 Actor:185 - RealPlayer sent successfully Win to 10.128.145.165:8001
+22:29:09 INFO  Thread-1 84007 Actor:185 - RealPlayer sending GameOver to 10.128.145.165:8001
+22:29:09 INFO  Thread-1 84007 Actor:185 - RealPlayer sent successfully GameOver to 10.128.145.165:8001
+22:29:09 INFO  Thread-1 84007 Actor:185 - RealPlayer waiting for connection on port 8501
+22:29:11 INFO  Thread-1 85657 Actor:185 - RealPlayer accepted connection on port 8501
+22:29:11 INFO  Thread-1 85657 Actor:185 - RealPlayer received message Bet
+22:29:11 INFO  Thread-1 85657 Actor:185 - RealPlayer invoking listener for Bet
+22:29:11 INFO  Thread-1 85657 Actor:185 - RealPlayer received bet = 5.0
+22:29:11 INFO  Thread-1 85657 Dealer:109 - got new bet = 5.0 side bet = 0.0 from HC0004-09/10.128.145.165 for hid = HC0004-09:YOU:38D413B3067F161C
+22:29:11 INFO  Thread-1 85657 Dealer:164 - no bot configured for charlie.bot.huey
+22:29:11 INFO  Thread-1 85657 Dealer:164 - no bot configured for charlie.bot.dewey
+22:29:11 INFO  Thread-1 85657 Dealer:258 - starting a game
+22:29:11 INFO  Thread-1 85667 Dealer:273 - hands at table + dealer = 2
+22:29:11 INFO  Thread-1 85667 Actor:185 - RealPlayer sending GameStart to 10.128.145.165:8001
+22:29:11 INFO  Thread-1 85667 Actor:185 - RealPlayer sent successfully GameStart to 10.128.145.165:8001
+22:29:11 INFO  Thread-1 85927 Shoe:111 - cards size = 52 burn index = 35 index = 6
+22:29:11 INFO  Thread-1 85927 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+22:29:11 INFO  Thread-1 85927 Dealer:352 - dealing to HC0004-09/10.128.145.165 card 1 = CJ
+22:29:12 INFO  Thread-1 86697 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:29:12 INFO  Thread-1 86697 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:29:12 INFO  Thread-1 86697 Shoe:111 - cards size = 52 burn index = 35 index = 7
+22:29:12 INFO  Thread-1 86697 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+22:29:13 INFO  Thread-1 87457 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:29:13 INFO  Thread-1 87457 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:29:13 INFO  Thread-1 87457 Shoe:111 - cards size = 52 burn index = 35 index = 8
+22:29:13 INFO  Thread-1 87457 Shoe:135 - index = 9 burnIndex = 35 shuffle needed = false
+22:29:13 INFO  Thread-1 87457 Dealer:352 - dealing to HC0004-09/10.128.145.165 card 1 = C4
+22:29:13 INFO  Thread-1 88217 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:29:13 INFO  Thread-1 88217 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:29:13 INFO  Thread-1 88217 Shoe:111 - cards size = 52 burn index = 35 index = 9
+22:29:13 INFO  Thread-1 88217 Shoe:135 - index = 10 burnIndex = 35 shuffle needed = false
+22:29:14 INFO  Thread-1 88977 Actor:185 - RealPlayer sending Deal to 10.128.145.165:8001
+22:29:14 INFO  Thread-1 88977 Actor:185 - RealPlayer sent successfully Deal to 10.128.145.165:8001
+22:29:14 INFO  Thread-1 88977 Dealer:556 - going to next hand
+22:29:14 INFO  Thread-1 88977 Dealer:566 - active player = HC0004-09/10.128.145.165
+22:29:14 INFO  Thread-1 88977 Dealer:606 - sending turn HC0004-09:YOU:38D413B3067F161C to HC0004-09/10.128.145.165
+22:29:14 INFO  Thread-1 88977 Actor:185 - RealPlayer sending Play to 10.128.145.165:8001
+22:29:14 INFO  Thread-1 88977 Actor:185 - RealPlayer sent successfully Play to 10.128.145.165:8001
+22:29:14 INFO  Thread-1 88977 Actor:185 - RealPlayer waiting for connection on port 8501

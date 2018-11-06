@@ -1,0 +1,155 @@
+22:27:56 INFO  AWT-EventQueue-0 0 GameFrame:93 - client started
+22:27:56 INFO  AWT-EventQueue-0 281 GameFrame:99 - init done
+22:27:57 INFO  AWT-EventQueue-0 1578 Actor:63 - sent login request
+22:27:57 INFO  AWT-EventQueue-0 1625 Actor:70 - received ticket BB20B45FD4D95138
+22:27:57 INFO  AWT-EventQueue-0 1625 GameFrame:221 - login successful
+22:27:57 INFO  AWT-EventQueue-0 1625 Actor:185 - Courier monitor installed successfully: CountingTrap
+22:27:57 INFO  Thread-5 1625 Actor:185 - Courier waiting for connection on port 8001
+22:27:57 INFO  AWT-EventQueue-0 1641 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+22:27:57 INFO  AWT-EventQueue-0 1641 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+22:27:57 INFO  AWT-EventQueue-0 1641 Actor:185 - Arriver sent arrival message
+22:27:58 INFO  Thread-5 1672 Actor:185 - Courier accepted connection on port 8001
+22:27:58 INFO  Thread-5 1672 Actor:185 - Courier received message Ready
+22:27:58 INFO  Thread-5 1672 Actor:185 - Courier invoking listener for Ready
+22:27:58 INFO  Thread-5 1672 Actor:232 - received Ready from HC0004-09/10.128.145.165
+22:27:58 INFO  Thread-5 1672 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:27:58 INFO  AWT-EventQueue-0 1672 GameFrame:240 - connected to courier with bankroll = 1000.0
+22:27:58 INFO  Thread-5 1672 Actor:185 - Courier waiting for connection on port 8001
+22:28:02 INFO  Thread-7 6119 ATable:206 - side bet = 0
+22:28:02 INFO  Thread-7 6119 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+22:28:02 INFO  Thread-7 6119 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+22:28:02 INFO  Thread-7 6119 CountingTrap:20 - onSend overriding function from CountingTrap.java file
+22:28:02 INFO  Thread-5 6129 Actor:185 - Courier accepted connection on port 8001
+22:28:02 INFO  Thread-5 6139 Actor:185 - Courier received message GameStart
+22:28:02 INFO  Thread-5 6139 Actor:185 - Courier invoking listener for GameStart
+22:28:02 INFO  Thread-5 6139 Actor:244 - receive starting shoe size = 52
+22:28:02 INFO  Thread-5 6139 Actor:247 - starting hand: HC0004-09:YOU:7248BCFAD52D81E5
+22:28:02 INFO  Thread-5 6139 Actor:247 - starting hand: HC0004-09:DEALER:49B08D2A1D8EEA19
+22:28:02 INFO  Thread-5 6139 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:28:02 INFO  Thread-5 6139 Actor:185 - Courier waiting for connection on port 8001
+22:28:03 INFO  Thread-5 7139 Actor:185 - Courier accepted connection on port 8001
+22:28:03 INFO  Thread-5 7139 Actor:185 - Courier received message Deal
+22:28:03 INFO  Thread-5 7139 Actor:185 - Courier invoking listener for Deal
+22:28:03 INFO  Thread-5 7139 Actor:266 - received card = S10 values = 10/10 hid = HC0004-09:YOU:7248BCFAD52D81E5
+22:28:03 INFO  Thread-5 7139 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:28:03 INFO  Thread-5 7139 CountingTrap:55 - shoeSize: -1| runningCount: -1| numDecks: -0.019230769230769232| trueCount: 52| bet amount: 53
+22:28:03 INFO  Thread-5 7139 Actor:185 - Courier waiting for connection on port 8001
+22:28:04 INFO  Thread-5 7899 Actor:185 - Courier accepted connection on port 8001
+22:28:04 INFO  Thread-5 7899 Actor:185 - Courier received message Deal
+22:28:04 INFO  Thread-5 7899 Actor:185 - Courier invoking listener for Deal
+22:28:04 INFO  Thread-5 7899 Actor:266 - received card = H4 values = 0/0 hid = HC0004-09:DEALER:49B08D2A1D8EEA19
+22:28:04 INFO  Thread-5 7899 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:28:04 INFO  Thread-5 7899 CountingTrap:55 - shoeSize: -1| runningCount: 1| numDecks: -0.019230769230769232| trueCount: -52| bet amount: 1
+22:28:04 INFO  Thread-5 7899 Actor:185 - Courier waiting for connection on port 8001
+22:28:05 INFO  Thread-5 8659 Actor:185 - Courier accepted connection on port 8001
+22:28:05 INFO  Thread-5 8659 Actor:185 - Courier received message Deal
+22:28:05 INFO  Thread-5 8659 Actor:185 - Courier invoking listener for Deal
+22:28:05 INFO  Thread-5 8659 Actor:266 - received card = S9 values = 19/19 hid = HC0004-09:YOU:7248BCFAD52D81E5
+22:28:05 INFO  Thread-5 8662 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:28:05 INFO  Thread-5 8662 CountingTrap:55 - shoeSize: -1| runningCount: 0| numDecks: -0.019230769230769232| trueCount: 0| bet amount: 1
+22:28:05 INFO  Thread-5 8662 Actor:185 - Courier waiting for connection on port 8001
+22:28:05 INFO  Thread-5 9419 Actor:185 - Courier accepted connection on port 8001
+22:28:05 INFO  Thread-5 9419 Actor:185 - Courier received message Deal
+22:28:05 INFO  Thread-5 9419 Actor:185 - Courier invoking listener for Deal
+22:28:05 INFO  Thread-5 9419 Actor:266 - received card = H8 values = 8/8 hid = HC0004-09:DEALER:49B08D2A1D8EEA19
+22:28:05 INFO  Thread-5 9423 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:28:05 INFO  Thread-5 9423 CountingTrap:55 - shoeSize: -1| runningCount: 0| numDecks: -0.019230769230769232| trueCount: 0| bet amount: 1
+22:28:05 INFO  Thread-5 9423 Actor:185 - Courier waiting for connection on port 8001
+22:28:05 INFO  Thread-5 9423 Actor:185 - Courier accepted connection on port 8001
+22:28:05 INFO  Thread-5 9423 Actor:185 - Courier received message Play
+22:28:05 INFO  Thread-5 9423 Actor:185 - Courier invoking listener for Play
+22:28:05 INFO  Thread-5 9423 Actor:276 - got turn = HC0004-09:YOU:7248BCFAD52D81E5
+22:28:06 INFO  Thread-5 10119 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:28:06 INFO  Thread-5 10119 Actor:185 - Courier waiting for connection on port 8001
+22:29:07 INFO  AWT-EventQueue-0 71120 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+22:29:07 INFO  AWT-EventQueue-0 71120 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+22:29:07 INFO  AWT-EventQueue-0 71120 CountingTrap:20 - onSend overriding function from CountingTrap.java file
+22:29:07 INFO  Thread-5 71120 Actor:185 - Courier accepted connection on port 8001
+22:29:07 INFO  Thread-5 71130 Actor:185 - Courier received message Deal
+22:29:07 INFO  Thread-5 71130 Actor:185 - Courier invoking listener for Deal
+22:29:07 INFO  Thread-5 71130 Actor:266 - received card = SA values = 20/20 hid = HC0004-09:YOU:7248BCFAD52D81E5
+22:29:07 INFO  Thread-5 71130 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:07 INFO  Thread-5 71130 CountingTrap:55 - shoeSize: -1| runningCount: -1| numDecks: -0.019230769230769232| trueCount: 52| bet amount: 53
+22:29:07 INFO  Thread-5 71130 Actor:185 - Courier waiting for connection on port 8001
+22:29:08 INFO  AWT-EventQueue-0 72640 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+22:29:08 INFO  AWT-EventQueue-0 72640 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+22:29:08 INFO  AWT-EventQueue-0 72640 CountingTrap:20 - onSend overriding function from CountingTrap.java file
+22:29:08 INFO  Thread-5 72640 Actor:185 - Courier accepted connection on port 8001
+22:29:08 INFO  Thread-5 72640 Actor:185 - Courier received message Play
+22:29:08 INFO  Thread-5 72640 Actor:185 - Courier invoking listener for Play
+22:29:08 INFO  Thread-5 72640 Actor:276 - got turn = HC0004-09:DEALER:49B08D2A1D8EEA19
+22:29:08 INFO  Thread-5 72640 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:08 INFO  Thread-5 72640 Actor:185 - Courier waiting for connection on port 8001
+22:29:08 INFO  Thread-5 72640 Actor:185 - Courier accepted connection on port 8001
+22:29:08 INFO  Thread-5 72640 Actor:185 - Courier received message Deal
+22:29:09 INFO  Thread-5 72650 Actor:185 - Courier invoking listener for Deal
+22:29:09 INFO  Thread-5 72650 Actor:266 - received card = null values = 12/12 hid = HC0004-09:DEALER:49B08D2A1D8EEA19
+22:29:09 INFO  Thread-5 72650 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:09 INFO  Thread-5 72650 Actor:185 - Courier waiting for connection on port 8001
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier accepted connection on port 8001
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier received message Deal
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier invoking listener for Deal
+22:29:09 INFO  Thread-5 73420 Actor:266 - received card = S6 values = 18/18 hid = HC0004-09:DEALER:49B08D2A1D8EEA19
+22:29:09 INFO  Thread-5 73420 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:09 INFO  Thread-5 73420 CountingTrap:55 - shoeSize: -1| runningCount: 1| numDecks: -0.019230769230769232| trueCount: -52| bet amount: 1
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier waiting for connection on port 8001
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier accepted connection on port 8001
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier received message Win
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier invoking listener for Win
+22:29:09 INFO  Thread-5 73420 Actor:207 - received outcome = Win
+22:29:09 INFO  Thread-5 73420 ATable:511 - WIN for hid = HC0004-09:YOU:7248BCFAD52D81E5 amt = 5.0
+22:29:09 INFO  Thread-5 73420 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier waiting for connection on port 8001
+22:29:09 INFO  Thread-5 73420 Actor:185 - Courier accepted connection on port 8001
+22:29:09 INFO  Thread-5 73430 Actor:185 - Courier received message GameOver
+22:29:09 INFO  Thread-5 73430 Actor:185 - Courier invoking listener for GameOver
+22:29:09 INFO  Thread-5 73430 Actor:287 - received ending shoe size = 46
+22:29:09 INFO  Thread-5 73430 ATable:681 - num hands = 2 wins = 1 loses = 0 pushes = 0
+22:29:10 INFO  Thread-5 74480 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:10 INFO  Thread-5 74480 Actor:185 - Courier waiting for connection on port 8001
+22:29:11 INFO  Thread-15 75070 ATable:206 - side bet = 0
+22:29:11 INFO  Thread-15 75070 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+22:29:11 INFO  Thread-15 75070 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+22:29:11 INFO  Thread-15 75070 CountingTrap:20 - onSend overriding function from CountingTrap.java file
+22:29:11 INFO  Thread-5 75080 Actor:185 - Courier accepted connection on port 8001
+22:29:11 INFO  Thread-5 75080 Actor:185 - Courier received message GameStart
+22:29:11 INFO  Thread-5 75080 Actor:185 - Courier invoking listener for GameStart
+22:29:11 INFO  Thread-5 75080 Actor:244 - receive starting shoe size = 46
+22:29:11 INFO  Thread-5 75084 Actor:247 - starting hand: HC0004-09:YOU:38D413B3067F161C
+22:29:11 INFO  Thread-5 75084 Actor:247 - starting hand: HC0004-09:DEALER:751817A81D978EDA
+22:29:11 INFO  Thread-5 75084 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:11 INFO  Thread-5 75084 Actor:185 - Courier waiting for connection on port 8001
+22:29:12 INFO  Thread-5 76110 Actor:185 - Courier accepted connection on port 8001
+22:29:12 INFO  Thread-5 76110 Actor:185 - Courier received message Deal
+22:29:12 INFO  Thread-5 76110 Actor:185 - Courier invoking listener for Deal
+22:29:12 INFO  Thread-5 76110 Actor:266 - received card = CJ values = 10/10 hid = HC0004-09:YOU:38D413B3067F161C
+22:29:12 INFO  Thread-5 76110 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:12 INFO  Thread-5 76110 CountingTrap:55 - shoeSize: -1| runningCount: -1| numDecks: -0.019230769230769232| trueCount: 52| bet amount: 53
+22:29:12 INFO  Thread-5 76110 Actor:185 - Courier waiting for connection on port 8001
+22:29:13 INFO  Thread-5 76870 Actor:185 - Courier accepted connection on port 8001
+22:29:13 INFO  Thread-5 76870 Actor:185 - Courier received message Deal
+22:29:13 INFO  Thread-5 76870 Actor:185 - Courier invoking listener for Deal
+22:29:13 INFO  Thread-5 76870 Actor:266 - received card = C5 values = 0/0 hid = HC0004-09:DEALER:751817A81D978EDA
+22:29:13 INFO  Thread-5 76870 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:13 INFO  Thread-5 76870 CountingTrap:55 - shoeSize: -1| runningCount: 1| numDecks: -0.019230769230769232| trueCount: -52| bet amount: 1
+22:29:13 INFO  Thread-5 76870 Actor:185 - Courier waiting for connection on port 8001
+22:29:13 INFO  Thread-5 77630 Actor:185 - Courier accepted connection on port 8001
+22:29:13 INFO  Thread-5 77630 Actor:185 - Courier received message Deal
+22:29:13 INFO  Thread-5 77630 Actor:185 - Courier invoking listener for Deal
+22:29:13 INFO  Thread-5 77630 Actor:266 - received card = C4 values = 14/14 hid = HC0004-09:YOU:38D413B3067F161C
+22:29:13 INFO  Thread-5 77630 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:13 INFO  Thread-5 77630 CountingTrap:55 - shoeSize: -1| runningCount: 1| numDecks: -0.019230769230769232| trueCount: -52| bet amount: 1
+22:29:13 INFO  Thread-5 77630 Actor:185 - Courier waiting for connection on port 8001
+22:29:14 INFO  Thread-5 78390 Actor:185 - Courier accepted connection on port 8001
+22:29:14 INFO  Thread-5 78390 Actor:185 - Courier received message Deal
+22:29:14 INFO  Thread-5 78390 Actor:185 - Courier invoking listener for Deal
+22:29:14 INFO  Thread-5 78390 Actor:266 - received card = S2 values = 2/2 hid = HC0004-09:DEALER:751817A81D978EDA
+22:29:14 INFO  Thread-5 78390 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:14 INFO  Thread-5 78390 CountingTrap:55 - shoeSize: -1| runningCount: 1| numDecks: -0.019230769230769232| trueCount: -52| bet amount: 1
+22:29:14 INFO  Thread-5 78390 Actor:185 - Courier waiting for connection on port 8001
+22:29:14 INFO  Thread-5 78390 Actor:185 - Courier accepted connection on port 8001
+22:29:14 INFO  Thread-5 78390 Actor:185 - Courier received message Play
+22:29:14 INFO  Thread-5 78390 Actor:185 - Courier invoking listener for Play
+22:29:14 INFO  Thread-5 78390 Actor:276 - got turn = HC0004-09:YOU:38D413B3067F161C
+22:29:15 INFO  Thread-5 79090 CountingTrap:31 - onReceive overriding function from CountingTrap.java file
+22:29:15 INFO  Thread-5 79090 Actor:185 - Courier waiting for connection on port 8001

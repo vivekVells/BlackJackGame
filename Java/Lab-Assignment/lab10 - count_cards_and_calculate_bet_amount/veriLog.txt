@@ -1,0 +1,25 @@
+Part I: implementing ITrap plugin CountingTrap.java (verification)
+  What I did: used log output inside CountingTrap.java
+  Output:
+  in log-client.out
+****************************
+21:04:29 INFO  AWT-EventQueue-0 1906 Actor:185 - Courier monitor installed successfully: CountingTrap
+...
+21:04:29 INFO  Thread-5 1953 CountingTrap:22 - onReceive overriding function from CountingTrap.java file
+...
+21:04:34 INFO  Thread-7 6803 CountingTrap:17 - onSend overriding function from CountingTrap.java file
+...
+*****************************
+
+Part II: 
+
+
+Verified:
+- Avail Cards: 2, J, 4
+- Running Count: hi-low calc
+  2 => +1
+  J => -1
+  4 => +1
+  runnintCount = 1 - 1 + 1 = 1
+  
+ 22:29:13 INFO  Thread-5 77630 CountingTrap:55 - shoeSize: -1| runningCount: 1| numDecks: -0.019230769230769232| trueCount: -52| bet amount: 1
