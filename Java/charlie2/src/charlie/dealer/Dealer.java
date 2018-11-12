@@ -399,6 +399,9 @@ public class Dealer implements Serializable {
         hand.hit(card);
         LOG.info("hit hid = "+hid+" with "+card);
         
+        LOG.info("^got HIT for Hid: "+hid);
+        LOG.info("^got HIT for Player: "+player);        
+        
         for (IPlayer _player : playerSequence)
             _player.deal(hid, card, hand.getValues());
         
@@ -446,8 +449,8 @@ public class Dealer implements Serializable {
             return;
         }
         
-        LOG.info("got STAY for Hid: "+hid);
-        LOG.info("got STAY for Player: "+player);
+        LOG.info("^got STAY for Hid: "+hid);
+        LOG.info("^got STAY for Player: "+player);        
         
         // Since player stayed, we're done with hand
         goNextHand();
@@ -461,6 +464,9 @@ public class Dealer implements Serializable {
     public void doubleDown(IPlayer player, Hid hid) {
         // Validate the request
         Hand hand = validate(hid);
+
+        LOG.info("^got DOUBLE_DOWN for Hid: "+hid);
+        LOG.info("^got DOUBLE_DOWN for Player: "+player);        
         
         if(hand == null) {
             LOG.error("got invalide DOUBLE DOWN player = "+player);
@@ -503,6 +509,9 @@ public class Dealer implements Serializable {
         
         // First we need to validate original hand
         Hand origHand = validate(hid);
+
+        LOG.info("^got SPLIT for Hid: "+hid);
+        LOG.info("^got SPLIT for Player: "+player);                
         
         // Log any errors
         if(origHand == null) {

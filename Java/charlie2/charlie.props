@@ -25,3 +25,7 @@ charlie.shoe charlie.card.Shoe01
 
 # to count cards and calculate the bet amount
 # charlie.trap charlie.client.CountingTrap
+
+# assgn3 - Huey & Dewey Bot
+charlie.bot.huey charlie.bot.server.HueyAutoBot
+charlie.bot.dewey charlie.bot.server.DeweyAutoBot

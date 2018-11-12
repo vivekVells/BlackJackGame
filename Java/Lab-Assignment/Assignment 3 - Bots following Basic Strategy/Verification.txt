@@ -1,0 +1,9 @@
+Part I & II: Huey & DeweyBot Setup
+  17:48:29 INFO  Thread-1 7115 Dealer:109 - got new bet = 100.0 side bet = 0.0 from LBESCRIP-36/10.128.151.177 for hid = LBESCRIP-36:YOU:1DB82B4F0325DD13
+  17:48:29 INFO  Thread-1 7115 Dealer:168 - attempting to spawn bot huey class = charlie.bot.server.HueyAutoBot
+  17:48:29 INFO  Thread-1 7119 Dealer:191 - successfully spawned bot = huey
+  17:48:29 INFO  Thread-1 7119 Dealer:168 - attempting to spawn bot dewey class = charlie.bot.server.DeweyAutoBot
+  17:48:29 INFO  Thread-1 7119 Dealer:191 - successfully spawned bot = dewey
+  17:48:29 INFO  Thread-1 7119 Dealer:258 - starting a game
+  
+Part III: Charlie Bot Test Package Setup
