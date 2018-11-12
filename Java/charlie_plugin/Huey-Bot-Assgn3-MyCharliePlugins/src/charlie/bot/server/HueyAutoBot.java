@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import charlie.client.AdvisorPlugin;
 
 /**
  * This class helps to make the HueyAutoBot that uses Basic Strategy during its turn
@@ -93,8 +94,10 @@ public class HueyAutoBot implements IBot, Runnable {
             Logger.getLogger(HueyAutoBot.class.getName()).log(Level.SEVERE, null, ex);
         }
         // dealer.stay(this, myHand.getHid());
-        dealer.hit(this, myHand.getHid());
-        
+        dealer.hit(this, myHand.getHid());   
+        Hand hand = new Hand(myHand.getHid());
+        AdvisorPlugin adv = new AdvisorPlugin();
+        adv.advise(myHand, hand.getCard());
     }
     
 }
