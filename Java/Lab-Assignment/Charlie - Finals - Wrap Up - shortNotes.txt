@@ -1,0 +1,49 @@
+
+
+Callbacks of function
+  perform low latency & return
+  span worker thread & return
+  wake worker thread & return
+
+Complexity
+  (i) M = E - N + 2 * P ==> E=> #Edges, N=> #Nodes, P=> #Exit points
+  (ii) M = PI + 1 ==> PI => #decision points in pgm
+
+Bet Amount Calculation
+  numOfDecks = shoeSize / 52.0
+  runningCount = sum of Hi-Low count scenario
+  trueCount = runningCount + numOfDecks
+  Bet Amount = Max(1, (1 + trueCount))
+
+  Note:
+    shoeSize => new GameStart.getShoeSize()
+    runningCount => rules
+      A 10 J K Q => -1
+      2 3 4 5 6 => +1
+      7 8 9 => 0
+        get Card info by using new Deal().getCard().x
+          .x => isRank(), isAce(), isFace()
+
+
+Software Bugs detect
+  Peer Reviews
+    Inspections, Walkthroughs, Desk checks
+  Test case design
+    Equivalence partitioning (Eliminate cases that fail with same input)
+      8 vs 3 => vs 4 vs 7
+    Boundary value analysis (Tests software at boundaries)
+    Error guessing (Cases experience say are problematic)
+    Invalid input cases
+    Fault tolerance
+
+jUnit
+  Runs a test case
+    @BeforeClass
+    @AfterClass
+    @Before
+    @After
+    @Test
+  Runs a “suite” or collection of unit tests
+    @Suite.SuiteClasses
+  
+
