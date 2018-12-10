@@ -342,6 +342,7 @@ public class GameFrame extends javax.swing.JFrame {
         ddownButton = new javax.swing.JButton();
         splitButton = new javax.swing.JButton();
         adviseCheckBox = new javax.swing.JCheckBox();
+        countCheckbox = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -408,6 +409,14 @@ public class GameFrame extends javax.swing.JFrame {
             }
         });
 
+        countCheckbox.setText("Count");
+        countCheckbox.setEnabled(false);
+        countCheckbox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                countCheckboxActionPerformed(evt);
+            }
+        });
+
         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -418,7 +427,9 @@ public class GameFrame extends javax.swing.JFrame {
                     .add(surface, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .add(layout.createSequentialGroup()
                         .add(adviseCheckBox)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 244, Short.MAX_VALUE)
+                        .add(18, 18, 18)
+                        .add(countCheckbox)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 171, Short.MAX_VALUE)
                         .add(splitButton)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                         .add(ddownButton)
@@ -438,16 +449,20 @@ public class GameFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .add(surface, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
-                    .add(accessButton)
-                    .add(dealButton)
-                    .add(hitButton)
-                    .add(stayButton)
-                    .add(ddownButton)
-                    .add(splitButton)
-                    .add(adviseCheckBox))
+                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                        .add(accessButton)
+                        .add(dealButton)
+                        .add(hitButton)
+                        .add(stayButton)
+                        .add(ddownButton)
+                        .add(splitButton)
+                        .add(adviseCheckBox))
+                    .add(org.jdesktop.layout.GroupLayout.TRAILING, countCheckbox))
                 .addContainerGap())
         );
+
+        countCheckbox.getAccessibleContext().setAccessibleName("countCheckbox");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -684,12 +699,14 @@ public class GameFrame extends javax.swing.JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-
+                // get active hand
+                Hid hid = hids.get(frame.handIndex);
+                
+                if (!confirmed(hid, Play.SPLIT))
+                    return;
                 // no more splits this go.
                 splitButton.setEnabled(false);
 
-                // get active hand
-                Hid hid = hids.get(frame.handIndex);
 
                 // tell the dealer we requested a split and provide an HID
                 courier.split(hid);
@@ -697,6 +714,26 @@ public class GameFrame extends javax.swing.JFrame {
         });
     }//GEN-LAST:event_splitButtonActionPerformed
 
+    private void countCheckboxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_countCheckboxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_countCheckboxActionPerformed
+
+    public void enableCounting() {
+        countCheckbox.enable();
+    }
+    
+    /**
+     * 
+     * @return 
+     */
+    public boolean isCounting() {
+        if(countCheckbox.isSelected()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
     /**
      * A helper function to determine if a hand can be split
      * @param hid
@@ -795,6 +832,7 @@ public class GameFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton accessButton;
     private javax.swing.JCheckBox adviseCheckBox;
+    private javax.swing.JCheckBox countCheckbox;
     private javax.swing.JButton ddownButton;
     private javax.swing.JButton dealButton;
     private javax.swing.JButton hitButton;
