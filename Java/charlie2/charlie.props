@@ -4,6 +4,8 @@ charlie.server.realplayer 127.0.0.1:8501
 charlie.client.courier -1:8001
 charlie.debug true
 charlie.shoe charlie.card.Shoe01
+#charlie.bot.huey charlie.bot.server.Huey
+#charlie.bot.dewey charlie.bot.server.Dewey
 
 # shoe plugin | if this to be used, comment above charlie.shoe charlie.card.Shoe01
 # charlie.shoe mycharlie.plugin.MyShoe01
@@ -29,3 +31,8 @@ charlie.shoe charlie.card.Shoe01
 # assgn3 - Huey & Dewey Bot
 # charlie.bot.huey charlie.bot.server.HueyAutoBot
 # charlie.bot.dewey charlie.bot.server.DeweyAutoBot
+
+# assgn4 - side bet plugin
+charlie.sidebet.rule charlie.sidebet.rule.SideBetRule
+charlie.sidebet.view charlie.sidebet.view.SideBetView
+
