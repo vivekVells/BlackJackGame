@@ -727,7 +727,7 @@ public class GameFrame extends javax.swing.JFrame {
     
     public void enableCounting() {
         if(!countCheckbox.isSelected()) {
-            countCheckbox.enable();
+            countCheckbox.setEnabled(true);
         }
     }
     

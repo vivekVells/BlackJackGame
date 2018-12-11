@@ -38,6 +38,7 @@ import java.awt.Toolkit;
 import javax.swing.JPanel;
 import charlie.util.Point;
 import charlie.dealer.Seat;
+import charlie.plugin.ICardCounter;
 import charlie.plugin.ISideBetView;
 import charlie.util.Constant;
 import java.awt.Image;
@@ -60,6 +61,7 @@ import charlie.plugin.ILogan;
  * @author Ron Coleman
  */
 public final class ATable extends JPanel implements Runnable, IUi, MouseListener {
+    protected ICardCounter cardCounter;
     private final Logger LOG = Logger.getLogger(ATable.class);
     protected Random ran = new Random();
     protected String[] huey = {"Huey"};
@@ -112,6 +114,7 @@ public final class ATable extends JPanel implements Runnable, IUi, MouseListener
     private Card holeCard;
     private int[] holeValues;
     protected Courier courier;
+    protected ICardCounter cardcounter;
 
     /**
      * Constructor
@@ -827,10 +830,46 @@ public final class ATable extends JPanel implements Runnable, IUi, MouseListener
         }
     }
     
+    protected void loadCardCounter() {
+        frame.enableCounting();
+        try {
+            // Open the configuration file
+            props = new Properties();
+            props.load(new FileInputStream("charlie.props"));
+            LOG.info("loading charlie.props in loadCardCounter() function");
+        } catch (IOException ex) {
+            LOG.error("failed to open charlie.props: "+ex + "\nIn loadCardCounter() function");
+            return;
+        }   
+        
+        loadCountSystem();
+    } 
+
+    protected void loadCountSystem() {
+        try {
+            String className = props.getProperty(Constant.PLUGIN_COUNT);
+            
+            if (className == null)
+                return;
+            
+            Class<?> clazz;
+            
+            clazz = Class.forName(className);
+            
+            this.cardcounter = (ICardCounter)clazz.newInstance();
+            
+            
+            LOG.info("successfully loaded count plugin");
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException ex) {
+            LOG.error("failed to load count plugin: "+ex);
+        }
+    }
+    
     /**
      * Loads the plug-ins.
      */
     protected void loadConfig() { 
+        loadCardCounter();
         try {
             // Open the configuration file
             props = new Properties();
