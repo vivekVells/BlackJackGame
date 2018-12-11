@@ -29,7 +29,9 @@
                   <Component id="surface" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="adviseCheckBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="244" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="countCheckbox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="171" max="32767" attributes="0"/>
                       <Component id="splitButton" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="ddownButton" min="-2" max="-2" attributes="0"/>
@@ -61,6 +63,7 @@
                   <Component id="ddownButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="splitButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="adviseCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="countCheckbox" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -140,6 +143,18 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adviseCheckBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="countCheckbox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Count"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="countCheckBox"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="countCheckboxActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
