@@ -369,6 +369,10 @@ public final class ATable extends JPanel implements Runnable, IUi, MouseListener
     public void turn(final Hid hid) {
         AHand hand = manos.get(hid);
 
+        if(cardCounter != null) {
+            this.cardCounter.update(new Card(null));
+        }        
+        
         if (hid.getSeat() == Seat.DEALER) {
             // Reveal dealer's hole card
             hand.get(0).flip();
@@ -473,6 +477,10 @@ public final class ATable extends JPanel implements Runnable, IUi, MouseListener
                 }
             }).start();
         }
+        
+        if(cardCounter != null) {
+            this.cardcounter.update(card);
+        }        
     }
 
     /**
