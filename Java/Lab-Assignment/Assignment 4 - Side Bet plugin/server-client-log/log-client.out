@@ -1,0 +1,154 @@
+22:55:43 INFO  AWT-EventQueue-0 0 GameFrame:93 - client started
+22:55:44 INFO  AWT-EventQueue-0 187 ATable:847 - loading charlie.props in loadCardCounter() function
+22:55:44 INFO  AWT-EventQueue-0 187 SideBetView:56 - side bet view constructed
+22:55:44 INFO  AWT-EventQueue-0 187 ATable:913 - successfully loaded side bet view
+22:55:44 INFO  AWT-EventQueue-0 437 GameFrame:99 - init done
+22:55:47 INFO  AWT-EventQueue-0 3671 Actor:63 - sent login request
+22:55:47 INFO  AWT-EventQueue-0 3671 Actor:70 - received ticket 3D93CB799B3970BE
+22:55:47 INFO  AWT-EventQueue-0 3671 GameFrame:221 - login successful
+22:55:47 INFO  Thread-5 3687 Actor:185 - Courier waiting for connection on port 8001
+22:55:47 INFO  AWT-EventQueue-0 3687 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+22:55:47 INFO  AWT-EventQueue-0 3687 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+22:55:47 INFO  AWT-EventQueue-0 3687 Actor:185 - Arriver sent arrival message
+22:55:47 INFO  Thread-5 3703 Actor:185 - Courier accepted connection on port 8001
+22:55:47 INFO  Thread-5 3703 Actor:185 - Courier received message Ready
+22:55:47 INFO  Thread-5 3703 Actor:185 - Courier invoking listener for Ready
+22:55:47 INFO  Thread-5 3703 Actor:232 - received Ready from kev/192.168.99.1
+22:55:47 INFO  AWT-EventQueue-0 3703 GameFrame:240 - connected to courier with bankroll = 1000.0
+22:55:47 INFO  Thread-5 3703 Actor:185 - Courier waiting for connection on port 8001
+22:55:54 INFO  AWT-EventQueue-0 10924 SideBetView:89 - B. side bet amount cleared
+22:55:57 INFO  AWT-EventQueue-0 13811 SideBetView:89 - B. side bet amount cleared
+22:55:58 INFO  AWT-EventQueue-0 14850 SideBetView:89 - B. side bet amount cleared
+22:56:05 INFO  Thread-7 21971 ATable:209 - side bet = 0
+22:56:05 INFO  Thread-7 21983 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+22:56:05 INFO  Thread-7 21994 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+22:56:05 INFO  Thread-5 22015 Actor:185 - Courier accepted connection on port 8001
+22:56:05 INFO  Thread-5 22022 Actor:185 - Courier received message GameStart
+22:56:05 INFO  Thread-5 22022 Actor:185 - Courier invoking listener for GameStart
+22:56:05 INFO  Thread-5 22023 Actor:244 - receive starting shoe size = 52
+22:56:05 INFO  Thread-5 22023 Actor:247 - starting hand: kev:YOU:795E3D38A7C6E7FF
+22:56:05 INFO  Thread-5 22023 Actor:247 - starting hand: kev:DEALER:26580A57465A06C
+22:56:05 INFO  Thread-5 22025 Actor:185 - Courier waiting for connection on port 8001
+22:56:06 INFO  Thread-5 23021 Actor:185 - Courier accepted connection on port 8001
+22:56:06 INFO  Thread-5 23030 Actor:185 - Courier received message Deal
+22:56:06 INFO  Thread-5 23030 Actor:185 - Courier invoking listener for Deal
+22:56:06 INFO  Thread-5 23030 Actor:266 - received card = H6 values = 6/6 hid = kev:YOU:795E3D38A7C6E7FF
+22:56:06 INFO  Thread-5 23030 Actor:185 - Courier waiting for connection on port 8001
+22:56:07 INFO  Thread-5 23791 Actor:185 - Courier accepted connection on port 8001
+22:56:07 INFO  Thread-5 23791 Actor:185 - Courier received message Deal
+22:56:07 INFO  Thread-5 23791 Actor:185 - Courier invoking listener for Deal
+22:56:07 INFO  Thread-5 23791 Actor:266 - received card = S7 values = 0/0 hid = kev:DEALER:26580A57465A06C
+22:56:07 INFO  Thread-5 23801 Actor:185 - Courier waiting for connection on port 8001
+22:56:08 INFO  Thread-5 24541 Actor:185 - Courier accepted connection on port 8001
+22:56:08 INFO  Thread-5 24541 Actor:185 - Courier received message Deal
+22:56:08 INFO  Thread-5 24541 Actor:185 - Courier invoking listener for Deal
+22:56:08 INFO  Thread-5 24541 Actor:266 - received card = CQ values = 16/16 hid = kev:YOU:795E3D38A7C6E7FF
+22:56:08 INFO  Thread-5 24554 Actor:185 - Courier waiting for connection on port 8001
+22:56:09 INFO  Thread-5 25301 Actor:185 - Courier accepted connection on port 8001
+22:56:09 INFO  Thread-5 25301 Actor:185 - Courier received message Deal
+22:56:09 INFO  Thread-5 25301 Actor:185 - Courier invoking listener for Deal
+22:56:09 INFO  Thread-5 25301 Actor:266 - received card = S10 values = 10/10 hid = kev:DEALER:26580A57465A06C
+22:56:09 INFO  Thread-5 25301 Actor:185 - Courier waiting for connection on port 8001
+22:56:09 INFO  Thread-5 25301 Actor:185 - Courier accepted connection on port 8001
+22:56:09 INFO  Thread-5 25311 Actor:185 - Courier received message Play
+22:56:09 INFO  Thread-5 25311 Actor:185 - Courier invoking listener for Play
+22:56:09 INFO  Thread-5 25311 Actor:276 - got turn = kev:YOU:795E3D38A7C6E7FF
+22:56:09 INFO  Thread-5 26021 Actor:185 - Courier waiting for connection on port 8001
+22:56:12 INFO  AWT-EventQueue-0 28551 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+22:56:12 INFO  AWT-EventQueue-0 28560 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+22:56:12 INFO  Thread-5 28570 Actor:185 - Courier accepted connection on port 8001
+22:56:12 INFO  Thread-5 28574 Actor:185 - Courier received message Play
+22:56:12 INFO  Thread-5 28574 Actor:185 - Courier invoking listener for Play
+22:56:12 INFO  Thread-5 28574 Actor:276 - got turn = kev:DEALER:26580A57465A06C
+22:56:12 INFO  Thread-5 28574 Actor:185 - Courier waiting for connection on port 8001
+22:56:12 INFO  Thread-5 28574 Actor:185 - Courier accepted connection on port 8001
+22:56:12 INFO  Thread-5 28580 Actor:185 - Courier received message Deal
+22:56:12 INFO  Thread-5 28580 Actor:185 - Courier invoking listener for Deal
+22:56:12 INFO  Thread-5 28580 Actor:266 - received card = null values = 17/17 hid = kev:DEALER:26580A57465A06C
+22:56:12 INFO  Thread-5 28580 Actor:185 - Courier waiting for connection on port 8001
+22:56:12 INFO  Thread-5 28584 Actor:185 - Courier accepted connection on port 8001
+22:56:12 INFO  Thread-5 28594 Actor:185 - Courier received message Lose
+22:56:12 INFO  Thread-5 28594 Actor:185 - Courier invoking listener for Lose
+22:56:12 INFO  Thread-5 28594 Actor:207 - received outcome = Lose
+22:56:12 INFO  Thread-5 28594 ATable:548 - LOOSE for hid = kev:YOU:795E3D38A7C6E7FF amt = 25.0
+22:56:12 INFO  Thread-5 28594 Actor:185 - Courier waiting for connection on port 8001
+22:56:12 INFO  Thread-5 28598 Actor:185 - Courier accepted connection on port 8001
+22:56:12 INFO  Thread-5 28601 Actor:185 - Courier received message GameOver
+22:56:12 INFO  Thread-5 28602 Actor:185 - Courier invoking listener for GameOver
+22:56:12 INFO  Thread-5 28602 Actor:287 - received ending shoe size = 48
+22:56:12 INFO  Thread-5 28602 ATable:692 - num hands = 2 wins = 0 loses = 1 pushes = 0
+22:56:14 INFO  Thread-13 30341 ATable:209 - side bet = 0
+22:56:14 INFO  Thread-13 30341 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+22:56:14 INFO  Thread-13 30341 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+22:56:14 INFO  Thread-5 30360 Actor:185 - Courier waiting for connection on port 8001
+22:56:14 INFO  Thread-5 30360 Actor:185 - Courier accepted connection on port 8001
+22:56:14 INFO  Thread-5 30363 Actor:185 - Courier received message GameStart
+22:56:14 INFO  Thread-5 30363 Actor:185 - Courier invoking listener for GameStart
+22:56:14 INFO  Thread-5 30363 Actor:244 - receive starting shoe size = 48
+22:56:14 INFO  Thread-5 30363 Actor:247 - starting hand: kev:YOU:66C253AAD5DA6422
+22:56:14 INFO  Thread-5 30363 Actor:247 - starting hand: kev:DEALER:20DE96C68C7EEED7
+22:56:14 INFO  Thread-5 30363 Actor:185 - Courier waiting for connection on port 8001
+22:56:15 INFO  Thread-5 31390 Actor:185 - Courier accepted connection on port 8001
+22:56:15 INFO  Thread-5 31390 Actor:185 - Courier received message Deal
+22:56:15 INFO  Thread-5 31390 Actor:185 - Courier invoking listener for Deal
+22:56:15 INFO  Thread-5 31390 Actor:266 - received card = CK values = 10/10 hid = kev:YOU:66C253AAD5DA6422
+22:56:15 INFO  Thread-5 31390 Actor:185 - Courier waiting for connection on port 8001
+22:56:15 INFO  Thread-5 32141 Actor:185 - Courier accepted connection on port 8001
+22:56:15 INFO  Thread-5 32141 Actor:185 - Courier received message Deal
+22:56:15 INFO  Thread-5 32141 Actor:185 - Courier invoking listener for Deal
+22:56:15 INFO  Thread-5 32141 Actor:266 - received card = S3 values = 0/0 hid = kev:DEALER:20DE96C68C7EEED7
+22:56:15 INFO  Thread-5 32144 Actor:185 - Courier waiting for connection on port 8001
+22:56:16 INFO  Thread-5 32911 Actor:185 - Courier accepted connection on port 8001
+22:56:16 INFO  Thread-5 32911 Actor:185 - Courier received message Deal
+22:56:16 INFO  Thread-5 32911 Actor:185 - Courier invoking listener for Deal
+22:56:16 INFO  Thread-5 32911 Actor:266 - received card = H7 values = 17/17 hid = kev:YOU:66C253AAD5DA6422
+22:56:16 INFO  Thread-5 32914 Actor:185 - Courier waiting for connection on port 8001
+22:56:17 INFO  Thread-5 33679 Actor:185 - Courier accepted connection on port 8001
+22:56:17 INFO  Thread-5 33679 Actor:185 - Courier received message Deal
+22:56:17 INFO  Thread-5 33679 Actor:185 - Courier invoking listener for Deal
+22:56:17 INFO  Thread-5 33679 Actor:266 - received card = C6 values = 6/6 hid = kev:DEALER:20DE96C68C7EEED7
+22:56:17 INFO  Thread-5 33679 Actor:185 - Courier waiting for connection on port 8001
+22:56:17 INFO  Thread-5 33679 Actor:185 - Courier accepted connection on port 8001
+22:56:17 INFO  Thread-5 33679 Actor:185 - Courier received message Play
+22:56:17 INFO  Thread-5 33679 Actor:185 - Courier invoking listener for Play
+22:56:17 INFO  Thread-5 33679 Actor:276 - got turn = kev:YOU:66C253AAD5DA6422
+22:56:18 INFO  Thread-5 34376 Actor:185 - Courier waiting for connection on port 8001
+22:56:20 INFO  AWT-EventQueue-0 36989 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+22:56:20 INFO  AWT-EventQueue-0 36989 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+22:56:20 INFO  Thread-5 36989 Actor:185 - Courier accepted connection on port 8001
+22:56:20 INFO  Thread-5 37003 Actor:185 - Courier received message Play
+22:56:20 INFO  Thread-5 37003 Actor:185 - Courier invoking listener for Play
+22:56:20 INFO  Thread-5 37003 Actor:276 - got turn = kev:DEALER:20DE96C68C7EEED7
+22:56:20 INFO  Thread-5 37007 Actor:185 - Courier waiting for connection on port 8001
+22:56:20 INFO  Thread-5 37007 Actor:185 - Courier accepted connection on port 8001
+22:56:20 INFO  Thread-5 37010 Actor:185 - Courier received message Deal
+22:56:20 INFO  Thread-5 37010 Actor:185 - Courier invoking listener for Deal
+22:56:20 INFO  Thread-5 37011 Actor:266 - received card = null values = 9/9 hid = kev:DEALER:20DE96C68C7EEED7
+22:56:20 INFO  Thread-5 37012 Actor:185 - Courier waiting for connection on port 8001
+22:56:21 INFO  Thread-5 37761 Actor:185 - Courier accepted connection on port 8001
+22:56:21 INFO  Thread-5 37764 Actor:185 - Courier received message Deal
+22:56:21 INFO  Thread-5 37764 Actor:185 - Courier invoking listener for Deal
+22:56:21 INFO  Thread-5 37764 Actor:266 - received card = C3 values = 12/12 hid = kev:DEALER:20DE96C68C7EEED7
+22:56:21 INFO  Thread-5 37764 Actor:185 - Courier waiting for connection on port 8001
+22:56:22 INFO  Thread-5 38530 Actor:185 - Courier accepted connection on port 8001
+22:56:22 INFO  Thread-5 38530 Actor:185 - Courier received message Deal
+22:56:22 INFO  Thread-5 38530 Actor:185 - Courier invoking listener for Deal
+22:56:22 INFO  Thread-5 38530 Actor:266 - received card = D4 values = 16/16 hid = kev:DEALER:20DE96C68C7EEED7
+22:56:22 INFO  Thread-5 38530 Actor:185 - Courier waiting for connection on port 8001
+22:56:23 INFO  Thread-5 39281 Actor:185 - Courier accepted connection on port 8001
+22:56:23 INFO  Thread-5 39281 Actor:185 - Courier received message Deal
+22:56:23 INFO  Thread-5 39281 Actor:185 - Courier invoking listener for Deal
+22:56:23 INFO  Thread-5 39281 Actor:266 - received card = D6 values = 22/22 hid = kev:DEALER:20DE96C68C7EEED7
+22:56:23 INFO  Thread-5 39284 Actor:185 - Courier waiting for connection on port 8001
+22:56:23 INFO  Thread-5 39284 Actor:185 - Courier accepted connection on port 8001
+22:56:23 INFO  Thread-5 39284 Actor:185 - Courier received message Win
+22:56:23 INFO  Thread-5 39284 Actor:185 - Courier invoking listener for Win
+22:56:23 INFO  Thread-5 39284 Actor:207 - received outcome = Win
+22:56:23 INFO  Thread-5 39284 ATable:522 - WIN for hid = kev:YOU:66C253AAD5DA6422 amt = 25.0
+22:56:23 INFO  Thread-5 39290 Actor:185 - Courier waiting for connection on port 8001
+22:56:23 INFO  Thread-5 39290 Actor:185 - Courier accepted connection on port 8001
+22:56:23 INFO  Thread-5 39290 Actor:185 - Courier received message GameOver
+22:56:23 INFO  Thread-5 39290 Actor:185 - Courier invoking listener for GameOver
+22:56:23 INFO  Thread-5 39290 Actor:287 - received ending shoe size = 41
+22:56:23 INFO  Thread-5 39290 ATable:692 - num hands = 2 wins = 1 loses = 0 pushes = 0
+22:56:24 INFO  Thread-5 41161 Actor:185 - Courier waiting for connection on port 8001
